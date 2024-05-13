@@ -5,5 +5,7 @@ import { UserProvider } from './state/UserProvider';
 const container = document.getElementById("app");
 const root = createRoot(container)
 root.render(
-  <UserProvider><App /></UserProvider>
+  <UserProvider>
+    <App />
+  </UserProvider>
 );
