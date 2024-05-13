@@ -12,31 +12,9 @@
     {
       "type": "image/png",
       "sizes": "192x192",
-      "src": "./assets/icons/maskable/maskable_x192.png"
-    },
-    {
-      "type": "image/png",
-      "sizes": "512x512",
-      "src": "./assets/icons/maskable/maskable_x512.png"
-    },
-    {
-      "type": "image/png",
-      "sizes": "180x180",
-      "src": "./assets/icons/maskable/maskable_apple_touch_icon.png"
-    },
-    {
-      "type": "image/x-icon",
-      "sizes": "48x48",
-      "src": "../public/favicon.ico"
-    },
-    {
-      "type": "image/svg",
-      "sizes": "949x949",
-      "purpose": "maskable",
-      "src": "./assets/icons/maskable/safari-pinned-tab.svg",
-      "color": "#f99d1f"
+      "src": "./assets/icons/launch/huh.png"
     }
   ],
-  "start_url": "/canvas",
+  "start_url": "/",
   "scope": "/"
 }
