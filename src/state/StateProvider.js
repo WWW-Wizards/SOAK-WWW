@@ -2,10 +2,11 @@ import React, { useState, createContext, useContext, useEffect } from 'react';
 
 export const UserContext = createContext();
 
-export function UserProvider({ children }) {
+export function StateProvider({ children }) {
   // state
   const [loading, setLoading] = useState(false);
   const [filter, setFilter] = useState();
+  const [menu, setMenu] = useState();
 
   // happens on load
   useEffect(() => {
@@ -18,7 +19,9 @@ export function UserProvider({ children }) {
         loading,
         setLoading,
         filter,
-        setFilter
+        setFilter,
+        menu,
+        setMenu
       }}
     >
       {children}
