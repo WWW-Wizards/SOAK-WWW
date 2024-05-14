@@ -1,11 +1,12 @@
 import { createRoot } from "react-dom/client";
-import { App } from "./App";
-import { UserProvider } from './state/UserProvider';
+import { StateProvider } from './state/StateProvider';
+import App from "./App";
 
+console.log("index.js")
 const container = document.getElementById("app");
 const root = createRoot(container)
 root.render(
-  <UserProvider>
+  <StateProvider>
     <App />
-  </UserProvider>
+  </StateProvider>
 );

@@ -1,14 +1,13 @@
 {
-  "name": "SOAK",
+  "name": "soakwww",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "version": "1.0.0",
   "source": "src/index.js",
-  "main": "dist/main.js",
   "license": "ISC",
   "scripts": {
     "watch": "parcel watch",
     "build": "parcel build",
-    "run": "parcel src/index.js"
+    "run": "parcel src/index."
   },
   "devDependencies": {
     "parcel": "latest"
