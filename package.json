@@ -7,14 +7,17 @@
   "scripts": {
     "watch": "parcel watch",
     "build": "parcel build",
-    "run": "parcel src/index."
+    "run": "parcel src/index.html"
   },
   "devDependencies": {
-    "parcel": "latest"
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "latest",
+    "process": "^0.11.10"
   },
   "dependencies": {
     "react": "18.3.1",
     "react-dom": "18.3.1",
+    "sass": "^1.77.1",
     "workbox-cacheable-response": "^7.1.0",
     "workbox-expiration": "^7.1.0",
     "workbox-routing": "^7.1.0",
