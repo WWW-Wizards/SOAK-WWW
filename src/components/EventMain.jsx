@@ -2,6 +2,7 @@ import React from "react";
 import Menu from "./menu/Menu";
 
 import { useMenu } from "../state/StateProvider";
+import { EventList } from "./List/EventList";
 
 function EventMain() {
   // state
@@ -10,7 +11,7 @@ function EventMain() {
   return (
     <main>
       <Menu />
-      <h1>Hello World</h1>
+      <EventList />
     </main>
   );
 }
