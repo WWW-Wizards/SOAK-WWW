@@ -1,3 +1,9 @@
-.event-list { 
-    width: 450px; // TODO: Responsive width 
+.event-list {
+  width: 95vw;
+  margin: 1em auto;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow-y: auto;
 }

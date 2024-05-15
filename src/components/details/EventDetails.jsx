@@ -2,10 +2,10 @@ import React from "react";
 
 export const EventDetails = (event) => {
   const date = {
-    Thursday: "blue",
-    Friday: "purple",
-    Saturday: "orangered",
-    Sunday: "pink",
+    Thursday: "#75d4f5",
+    Friday: "#A6f9b1",
+    Saturday: "#Eff9a6",
+    Sunday: "#F9e0a6",
   };
 
   return (
