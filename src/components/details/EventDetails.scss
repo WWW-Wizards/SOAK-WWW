@@ -1,45 +1,38 @@
-.event-details { 
-    border-radius: 12px;
-    background-color: lightgrey;
-    margin: 10px;
-    padding: 10px;
-    text-wrap: wrap;
+.event-details {
+  border-radius: 12px;
+  margin: 10px auto;
+  padding: 1.5em;
+  max-width: 800px;
+  height: auto;
 
-    &-title { 
-        display: flex;
-        flex-direction: row;
-        text-emphasis: bold;
-        justify-content: space-between;
-    }
+  background-color: var(--date-color);
+  opacity: 75%;
 
-    &-pill-group { 
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+  text-wrap: wrap;
 
-        > div { 
-            border: 1px solid grey;
-            border-radius: 8px;
-            background-color: aliceblue;
-            padding: 2px;
-            margin: 2px;
-        }
-    }
+  &-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
-    // Colored strip that varies by date
-    // TODO: intended as a placeholder - please improve!
-    @extend .event-details;
+    font-weight: 500;
+    font-size: 3em;
+    padding-bottom: 0.5em;
+  }
 
-    position: relative;
-    padding-left: 20px; 
+  &-pill-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
-    &::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 10px;
-        height: 100%;
-        background-color: var(--date-color); 
-    }
+    font-size: 3em;
+    font-weight: 400;
+
+    padding-bottom: 0.5em;
+  }
+
+  &-description {
+    font-weight: 200;
+    font-size: 1.8em;
+  }
 }
