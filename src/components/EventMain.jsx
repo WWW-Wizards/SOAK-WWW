@@ -9,7 +9,7 @@ function EventMain() {
   const { menu } = useMenu();
 
   return (
-    <main>
+    <main className="app">
       <Menu />
       <EventList />
     </main>
