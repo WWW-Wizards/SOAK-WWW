@@ -3,9 +3,26 @@
     {
       "camp": "Fortunia",
       "zone": "Forest",
-      "category": "Tea, Intimate",
-      "time": "Friday 3pm",
-      "description": "Handpan Sound Bath with Nick"
+      "category": "food/beverage",
+      "time": "3:00pm - 5:00pm",
+      "day": "Friday",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi distinctio delectus error necessitatibus aperiam maiores quibusdam cum dolorum obcaecati vero commodi asperiores iure repellendus aliquam."
+    },
+    {
+      "camp": "Best Butt",
+      "zone": "Upper Bowl",
+      "category": "dance",
+      "time": "1:00pm - 4:30pm",
+      "day": "Saturday",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi distinctio delectus error necessitatibus aperiam maiores quibusdam cum dolorum obcaecati vero commodi asperiores iure repellendus aliquam."
+    },
+    {
+      "camp": "Camp Touchy Feely",
+      "zone": "Forest",
+      "category": "experience",
+      "time": "7:00pm - 11:00pm",
+      "day": "Saturday",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi distinctio delectus error necessitatibus aperiam maiores quibusdam cum dolorum obcaecati vero commodi asperiores iure repellendus aliquam."
     }
   ]
 }

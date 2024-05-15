@@ -1,0 +1,45 @@
+.event-details { 
+    border-radius: 12px;
+    background-color: lightgrey;
+    margin: 10px;
+    padding: 10px;
+    text-wrap: wrap;
+
+    &-title { 
+        display: flex;
+        flex-direction: row;
+        text-emphasis: bold;
+        justify-content: space-between;
+    }
+
+    &-pill-group { 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        > div { 
+            border: 1px solid grey;
+            border-radius: 8px;
+            background-color: aliceblue;
+            padding: 2px;
+            margin: 2px;
+        }
+    }
+
+    // Colored strip that varies by date
+    // TODO: intended as a placeholder - please improve!
+    @extend .event-details;
+
+    position: relative;
+    padding-left: 20px; 
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 10px;
+        height: 100%;
+        background-color: var(--date-color); 
+    }
+}
