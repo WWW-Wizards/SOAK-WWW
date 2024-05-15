@@ -1,7 +1,7 @@
 .event-details {
   border-radius: 12px;
   margin: 10px auto;
-  padding: 10px;
+  padding: 1.5em;
   max-width: 800px;
   height: auto;
 
@@ -9,15 +9,15 @@
   opacity: 75%;
 
   text-wrap: wrap;
-  font-size: 2.5em;
 
   &-title {
     display: flex;
     flex-direction: row;
-    text-emphasis: bold;
     justify-content: space-between;
 
-    padding-bottom: 1em;
+    font-weight: 500;
+    font-size: 3em;
+    padding-bottom: 0.5em;
   }
 
   &-pill-group {
@@ -25,12 +25,14 @@
     flex-direction: row;
     justify-content: space-between;
 
-    > div {
-      border: 1px solid grey;
-      border-radius: 8px;
-      background-color: aliceblue;
-      padding: 2px;
-      margin: 2px;
-    }
+    font-size: 3em;
+    font-weight: 400;
+
+    padding-bottom: 0.5em;
+  }
+
+  &-description {
+    font-weight: 200;
+    font-size: 1.8em;
   }
 }

@@ -14,14 +14,14 @@ export const EventDetails = (event) => {
       style={{ "--date-color": [date[event.day]] }}
     >
       <div className="event-details-title">
-        <div>{event.time}</div>
         <div>{event.camp}</div>
+        <div>{event.time}</div>
       </div>
-      <div>{event.description}</div>
       <div className="event-details-pill-group">
-        <div>{event.category}</div>
         <div>{event.zone}</div>
+        <div>{event.category}</div>
       </div>
+      <div className="event-details-description">{event.description}</div>
     </div>
   );
 };
