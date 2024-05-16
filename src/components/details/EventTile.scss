@@ -1,3 +1,9 @@
+.event-tile {
+  display: grid;
+  grid-template-columns: 3em auto;
+  grid-template-rows: 100%;
+}
+
 .event-details {
   border-radius: 12px;
   margin: 10px auto;
@@ -5,7 +11,7 @@
   max-width: 90vw;
   height: auto;
 
-  background-color: var(--date-color);
+  background-color: var(--area-color);
   opacity: 75%;
 
   text-wrap: wrap;
@@ -51,7 +57,7 @@
     font-size: 1em;
   }
 
-  &-favorites-svg { 
+  &-favorites-svg {
     width: 1em;
     height: 1em;
     font-size: 2.5rem;
@@ -64,7 +70,7 @@
   }
 }
 
-.favorited { 
+.favorited {
   fill: gold;
   color: gold;
   filter: drop-shadow(1px 2px 1px rgb(0 0 0 / 0.4));
