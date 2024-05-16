@@ -1,6 +1,6 @@
 import React from "react";
 import events from "../../../assets/data/events.json";
-import { EventDetails } from "../details/EventDetails";
+import { EventTile } from "../details/EventTile";
 
 export const EventList = () => {
   const eventList = events
@@ -13,7 +13,7 @@ export const EventList = () => {
     })
     .map((event, index) => (
       <section key={index}>
-        <EventDetails {...event} />
+        <EventTile {...event} />
       </section>
     ));
 
