@@ -11,6 +11,14 @@ const FILTERS = {
   CATEGORY: 'CATEGORY'
 }
 
+const DAYS = {
+  DAILY: "DAILY",
+  THU: "Thursday",
+  FRI: "Friday",
+  SAT: "Saturday",
+  SUN: "Sunday",
+};
+
 export function StateProvider({ children }) {
   const [loading, setLoading] = useState(false);
   const [filter, setFilter] = useState("");
@@ -21,6 +29,7 @@ export function StateProvider({ children }) {
     const cachedFavorites = localStorage.getItem('favorites');
     return cachedFavorites ? JSON.parse(cachedFavorites) : [];
   });
+  const [activeTab, setActiveTab] = useState(DAYS.DAILY);
 
   // Handles toggling the filter view between favorited events and all events
   const handleFilterFavorites = (e) => { 
@@ -66,11 +75,24 @@ export function StateProvider({ children }) {
     return isFavorited ? "favorited" : "";
   }
   
+  const handleTabClick = (day) => { 
+    setActiveTab(day);
+  }
 
   useEffect(() => {
     // Update local storage whenever favorites state changes
     localStorage.setItem('favorites', JSON.stringify(favorites));
-  }, [favorites]); 
+
+  setEvents(data.filter(event => {
+    if (filter === FILTERS.FAVORITES) {
+      // If the favorites filter is active, return only favorited events
+      return favorites.some(favorite => favorite.id === event.id) && (activeTab === DAYS.DAILY ? event.daily : event.day === DAYS[activeTab]);
+    } else {
+      // If the favorites filter is not active, return events based on the active tab
+      return activeTab === DAYS.DAILY ? event.daily : event.day === DAYS[activeTab];
+    }
+  }));
+  }, [favorites, activeTab]); 
 
   return (
     <UserContext.Provider
@@ -86,7 +108,9 @@ export function StateProvider({ children }) {
         handleFilterFavorites,
         handleToggleFavorited,
         handleFavoriteDisplay,
-        FILTERS
+        FILTERS,
+        activeTab,
+        handleTabClick
       }}
     >
       {children}
@@ -120,6 +144,11 @@ export const useEvents = () => {
       parseTimestamp(a.when) - parseTimestamp(b.when)
     );
   });
+}
+
+export const useTabs = () => { 
+  const { activeTab, handleTabClick } = useContext(UserContext);
+  return { activeTab, handleTabClick };
 }
 
 // Helper functions 
