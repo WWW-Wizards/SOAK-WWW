@@ -1,0 +1,33 @@
+name: Build
+
+permissions:
+  contents: write
+
+on:
+    workflow_dispatch:
+    push:
+        branches:
+            - develop
+
+jobs:
+    build-deploy:
+        runs-on: ubuntu-22.04
+        steps:
+        - uses: actions/checkout@v4
+        - name: Install Node.js
+          uses: actions/setup-node@v4
+          with:
+            node-version: 20.x
+        - name: install yarn
+          run: |
+            npm install -g yarn
+        - name: Build app
+          run: |
+            yarn add --dev parcel
+            yarn build
+        - run: touch dist/.nojekyll
+        - name: Deploy
+          uses: peaceiris/actions-gh-pages@v4
+          with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            publish_dir: ./dist
