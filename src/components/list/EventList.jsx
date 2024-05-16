@@ -1,5 +1,5 @@
 import React from "react";
-import { EventDetails } from "../details/EventDetails";
+import { EventTile } from "../details/EventTile";
 import { useEvents } from "../../state/StateProvider";
 
 export const EventList = () => {
@@ -7,7 +7,7 @@ export const EventList = () => {
 
   const eventList = events.map((event, index) => (
     <section key={index}>
-      <EventDetails {...event} />
+      <EventTile {...event} />
     </section>
   ));
 
