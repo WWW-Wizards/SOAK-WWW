@@ -1,13 +1,8 @@
 import React from "react";
-import Menu from "./menu/Menu";
-
-import { useMenu } from "../state/StateProvider";
+import { Menu } from "./menu/Menu";
 import { EventList } from "./List/EventList";
 
 function EventMain() {
-  // state
-  const { menu } = useMenu();
-
   return (
     <main className="app">
       <Menu />
