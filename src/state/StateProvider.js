@@ -75,16 +75,17 @@ export function StateProvider({ children }) {
     // Update local storage whenever favorites state changes
     localStorage.setItem('favorites', JSON.stringify(favorites));
 
-  setEvents(data.filter(event => {
-    if (filter === FILTERS.FAVORITES) {
-      // If the favorites filter is active, return only favorited events
-      return favorites.some(favorite => favorite.id === event.id) && (activeTab === DAYS.DAILY ? event.daily : event.day === DAYS[activeTab]);
-    } else {
-      // If the favorites filter is not active, return events based on the active tab
-      return activeTab === DAYS.DAILY ? event.daily : event.day === DAYS[activeTab];
-    }
-  }));
-  }, [favorites, activeTab]); 
+    setEvents(data.filter(event => {
+      if (filter === FILTERS.FAVORITES) {
+        // If the favorites filter is active, return only favorited events
+        return favorites.some(favorite => favorite.id === event.id) 
+          && (activeTab === DAYS.DAILY ? event.daily : event.day === DAYS[activeTab]);
+      } else {
+        // If the favorites filter is not active, return events based on the active tab
+        return activeTab === DAYS.DAILY ? event.daily : event.day === DAYS[activeTab];
+      }
+    }));
+  }, [favorites, activeTab, filter]); 
 
   return (
     <UserContext.Provider
