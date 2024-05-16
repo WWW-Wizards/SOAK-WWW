@@ -1,12 +1,13 @@
 import React, { useState, createContext, useContext, useEffect } from 'react';
+import data from "../../assets/data/events.json";
 
 export const UserContext = createContext();
 
 export function StateProvider({ children }) {
-  // state
   const [loading, setLoading] = useState(false);
   const [filter, setFilter] = useState();
   const [menu, setMenu] = useState();
+  const [events, setEvents] = useState(data);
 
   // happens on load
   useEffect(() => {
@@ -21,7 +22,9 @@ export function StateProvider({ children }) {
         filter,
         setFilter,
         menu,
-        setMenu
+        setMenu, 
+        events, 
+        setEvents,
       }}
     >
       {children}
@@ -42,3 +45,27 @@ export const useMenu = () => {
   const { menu, setMenu } = useContext(UserContext);
   return { menu, setMenu };
 }
+
+export const useEvents = () => { 
+  const { events } = useContext(UserContext)
+
+  return events.sort((a, b) => {
+    const days = ["Thursday", "Friday", "Saturday", "Sunday"];
+    return (
+      days.indexOf(a.day) - days.indexOf(b.day) ||
+      parseTimestamp(a.when) - parseTimestamp(b.when)
+    );
+  });
+}
+
+// Helper functions 
+const parseTimestamp = (str) => {
+  const [start, period] = (str ?? "").split("-")[0].split(" ");
+  const [startHour, startMinute] = start.split(":");
+
+  return (
+    (parseInt(startHour) % 12) +
+    (period === "PM" ? 12 : 0) * 60 +
+    parseInt(startMinute)
+  );
+};
