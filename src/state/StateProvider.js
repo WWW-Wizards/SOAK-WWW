@@ -11,6 +11,14 @@ const FILTERS = {
   CATEGORY: 'CATEGORY'
 }
 
+const DAYS = {
+  DAILY: "DAILY",
+  THU: "Thursday",
+  FRI: "Friday",
+  SAT: "Saturday",
+  SUN: "Sunday",
+};
+
 export function StateProvider({ children }) {
   const [loading, setLoading] = useState(false);
   const [filter, setFilter] = useState("");
@@ -21,6 +29,7 @@ export function StateProvider({ children }) {
     const cachedFavorites = localStorage.getItem('favorites');
     return cachedFavorites ? JSON.parse(cachedFavorites) : [];
   });
+  const [activeTab, setActiveTab] = useState(DAYS.DAILY);
 
   // Handles toggling the filter view between favorited events and all events
   const handleFilterFavorites = (e) => { 
@@ -30,10 +39,6 @@ export function StateProvider({ children }) {
     // If the favorites filter is already active, unset it (toggle)
     const newFilter = filter === FILTERS.FAVORITES ? "" : FILTERS.FAVORITES;
     setFilter(newFilter);
-
-    // If the favorites filter is active, return only favorited events
-    // Otherwise return all events
-    setEvents(newFilter === FILTERS.FAVORITES ? events.filter(event => favorites.some(favorite => favorite.id === event.id)) : data);
   };
   
   // Handles toggling an individual event into or out of the favorites list  
@@ -44,13 +49,9 @@ export function StateProvider({ children }) {
       // Check if the event is already favorited
       // If it is, unfavorite it
       // If it isn't, use its id to look up the corresponding event data and add it to the favorites list 
-      const newFavorites = prevIndex !== -1 ? prev.filter(favorite => favorite.id !== id) : [...prev, events.find(event => event.id === id)];
-      
-      // If the favorites filter is currently active and the user unfavorites an event, remove that event from the filtered list 
-      if (filter === FILTERS.FAVORITES) {
-        const filteredEvents = events.filter(event => event.id !== id);
-        setEvents(filteredEvents);
-      }
+      const newFavorites = prevIndex !== -1 
+      ? prev.filter(favorite => favorite.id !== id) 
+        : [...prev, events.find(event => event.id === id)];
 
       // Set favorite into local storage
       localStorage.setItem('favorites', JSON.stringify(newFavorites));
@@ -66,11 +67,25 @@ export function StateProvider({ children }) {
     return isFavorited ? "favorited" : "";
   }
   
+  const handleTabClick = (day) => { 
+    setActiveTab(day);
+  }
 
   useEffect(() => {
     // Update local storage whenever favorites state changes
     localStorage.setItem('favorites', JSON.stringify(favorites));
-  }, [favorites]); 
+
+    setEvents(data.filter(event => {
+      if (filter === FILTERS.FAVORITES) {
+        // If the favorites filter is active, return only favorited events
+        return favorites.some(favorite => favorite.id === event.id) 
+          && (activeTab === DAYS.DAILY ? event.daily : event.day === DAYS[activeTab]);
+      } else {
+        // If the favorites filter is not active, return events based on the active tab
+        return activeTab === DAYS.DAILY ? event.daily : event.day === DAYS[activeTab];
+      }
+    }));
+  }, [favorites, activeTab, filter]); 
 
   return (
     <UserContext.Provider
@@ -86,7 +101,9 @@ export function StateProvider({ children }) {
         handleFilterFavorites,
         handleToggleFavorited,
         handleFavoriteDisplay,
-        FILTERS
+        FILTERS,
+        activeTab,
+        handleTabClick
       }}
     >
       {children}
@@ -120,6 +137,11 @@ export const useEvents = () => {
       parseTimestamp(a.when) - parseTimestamp(b.when)
     );
   });
+}
+
+export const useTabs = () => { 
+  const { activeTab, handleTabClick } = useContext(UserContext);
+  return { activeTab, handleTabClick };
 }
 
 // Helper functions 

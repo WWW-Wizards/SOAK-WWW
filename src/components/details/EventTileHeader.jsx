@@ -5,7 +5,9 @@ function EventTileHeader({ event }) {
     <section className="event-details-title">
       <div className="event-details-title-left">{event.where}</div>
       <div className="event-details-title-center">X</div>
-      <div className="event-details-title-right">{event.when}</div>
+      <div className="event-details-title-right">
+        {event.when} {event.day} {event.daily}
+      </div>
     </section>
   );
 }
