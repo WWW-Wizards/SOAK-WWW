@@ -1,12 +1,11 @@
 import React from "react";
 
 function EventTileHeader({ event }) {
-  // console.log(`Event tile header event: ${event.where}`);
   return (
     <section className="event-details-title">
-      <div>{event.where}</div>
-      <div>day/night icon</div>
-      <div>{event.when}</div>
+      <div className="event-details-title-left">{event.where}</div>
+      <div className="event-details-title-center">X</div>
+      <div className="event-details-title-right">{event.when}</div>
     </section>
   );
 }
