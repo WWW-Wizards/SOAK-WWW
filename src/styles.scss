@@ -1,6 +1,12 @@
 @import "./src/components/list/EventList.scss";
 @import "./src/components/details/EventTile.scss";
-@import "/src/components/menu/Menu.scss";
+@import "./src/components/menu/Menu.scss";
+@import "./src/components/footer/Footer.scss";
+
+@font-face {
+  font-family: 'Futura Bold';
+  src: url('../assets/fonts/Futura\ Bold.otf') format('opentype');
+}
 
 * {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
