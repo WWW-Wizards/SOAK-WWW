@@ -12,9 +12,9 @@
     {
       "type": "image/png",
       "sizes": "192x192",
-      "src": "./assets/icons/launch/huh.png"
+      "src": "/assets/icons/Location_Soak_Icons.svg"
     }
   ],
-  "start_url": "/",
-  "scope": "/"
+  "start_url": "https://nickdayfsd.github.io/SOAK-WWW/",
+  "scope": "https://nickdayfsd.github.io/SOAK-WWW/"
 }
