@@ -14,14 +14,18 @@ export const EventDetails = (event) => {
       style={{ "--date-color": [date[event.day]] }}
     >
       <div className="event-details-title">
-        <div>{event.camp}</div>
-        <div>{event.time}</div>
+        {/* TODO: Display "all day" events */}
+        <div>
+          {event.when} {event.day}
+        </div>
+        <div>{event.where}</div>
       </div>
       <div className="event-details-pill-group">
-        <div>{event.zone}</div>
-        <div>{event.category}</div>
+        {/* TODO: Some events do not have an "area" (as in "The Gas Station") */}
+        <div>{event.area}</div>
+        <div>{event.eventType.toLowerCase()}</div>
       </div>
-      <div className="event-details-description">{event.description}</div>
+      <div className="event-details-description">{event.what}</div>
     </div>
   );
 };
