@@ -6,7 +6,7 @@ export const UserContext = createContext();
 export function StateProvider({ children }) {
   const [loading, setLoading] = useState(false);
   const [filter, setFilter] = useState();
-  const [menu, setMenu] = useState();
+  const [menu, setMenu] = useState(false);
   const [events, setEvents] = useState(data);
 
   // happens on load
