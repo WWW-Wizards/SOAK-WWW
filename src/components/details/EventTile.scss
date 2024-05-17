@@ -13,8 +13,6 @@
   opacity: 90%;
 
   text-wrap: wrap;
-
-  border: red 3px solid;
 }
 
 .event-details {
@@ -58,6 +56,7 @@
     border: black 3px solid;
     border-radius: 10px;
     padding: 0.7em;
+    background-color: var(--area-color);
   }
 
   &-footer-where {
