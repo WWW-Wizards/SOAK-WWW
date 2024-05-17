@@ -80,23 +80,38 @@ export function StateProvider({ children }) {
     setActiveTab(day);
   }
 
+  const handleSearch = (query) => {
+    setQuery(query);
+  };
+
   useEffect(() => {
     // Update local storage whenever favorites state changes
     localStorage.setItem('favorites', JSON.stringify(favorites));
 
     setDate(DAY_HEADINGS[activeTab]);
 
-    setEvents(data.filter(event => {
-      if (filter === FILTERS.FAVORITES) {
-        // If the favorites filter is active, return favorited events based on the active tab
-        return favorites.some(favorite => favorite.id === event.id) 
-          && (activeTab === DAYS.DAILY ? event.daily : event.day === DAYS[activeTab]);
-      } else {
-        // If the favorites filter is not active, return all events based on the active tab
-        return activeTab === DAYS.DAILY ? event.daily : event.day === DAYS[activeTab];
-      }
-    }));
-  }, [favorites, activeTab, filter]); 
+    const filteredEvents = data.filter((event) => {
+      const filterByFavorites =
+        filter === FILTERS.FAVORITES
+          ? favorites.some((favorite) => favorite.id === event.id)
+          : true;
+
+      const filterByActiveTab =
+        activeTab === DAYS.DAILY
+          ? event.daily
+          : !event.daily && event.day === DAYS[activeTab];
+
+      const filterBySearchQuery = query
+        ? [event.what, event.where, event.area].some((attr) =>
+            attr?.toLowerCase().includes(query.toLowerCase())
+          )
+        : true;
+
+      return filterByFavorites && filterByActiveTab && filterBySearchQuery;
+    });
+
+    setEvents(filteredEvents);
+  }, [favorites, activeTab, filter, query]);
 
   return (
     <UserContext.Provider
@@ -116,6 +131,9 @@ export function StateProvider({ children }) {
         activeTab,
         handleTabClick,
         date,
+        query,
+        setQuery,
+        handleSearch,
       }}
     >
       {children}
@@ -161,7 +179,12 @@ export const useDate = () => {
   return { date };
 }
 
-// Helper functions 
+export const useSearch = () => {
+  const { query, setQuery, handleSearch } = useContext(UserContext);
+  return { query, setQuery, handleSearch };
+};
+
+// Helper functions
 const parseTimestamp = (str) => {
   const [start, period] = (str ?? "").split("-")[0].split(" ");
   const [startHour, startMinute] = start.split(":");
