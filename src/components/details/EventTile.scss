@@ -2,6 +2,8 @@
   display: grid;
   grid-template-columns: 3em auto;
   grid-template-rows: 100%;
+
+  border: red;
 }
 
 .event-details {
@@ -15,6 +17,12 @@
   opacity: 75%;
 
   text-wrap: wrap;
+
+  &-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 
   &-title {
     display: grid;

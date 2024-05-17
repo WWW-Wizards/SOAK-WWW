@@ -5,14 +5,14 @@ import EventIcons from "./EventIcons";
 
 export const EventTile = (event) => {
   const area = {
-    "Main Field": "#75d4f5",
-    Mezzanine: "#A6f9b1",
-    "Forest Entry": "#Eff9a6",
-    "Upper Bowl East": "#F9e0a6",
-    "Lower Bowl": "",
-    Riverside: "",
-    "North Point Forest": "",
-    Meadow: "",
+    Mezzanine: "#E0E3EE",
+    "Lower Bowl": "#E0E3EE",
+    "Main Field": "#E7F0F4",
+    "Upper Bowl": "#E7F0F4",
+    Riverside: "#E7F0F4",
+    "North Point Forest": "#E7F0F4",
+    "Forest Entry": "#E5DAE7",
+    Meadow: "#E9F2E7",
   };
 
   // const toDo = ["calculate day/night/all day", "some events have no area"];
