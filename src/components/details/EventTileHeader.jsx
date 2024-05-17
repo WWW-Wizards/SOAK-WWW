@@ -5,7 +5,7 @@ import Saved from "./icons/Saved";
 function EventTileHeader({ event }) {
   return (
     <section className="event-details-title">
-      <div className="event-details-title-right">{event.when}</div>
+      <div className="event-details-title-left">{event.when}</div>
       <Save />
     </section>
   );
