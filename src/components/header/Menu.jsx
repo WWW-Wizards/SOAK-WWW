@@ -9,6 +9,14 @@ export const Menu = () => {
   const { date: headingText } = useDate();
   const { filter, FILTERS, handleFilterFavorites } = useFilter();
 
+  const color = {
+    DAILY: "#333333",
+    THU: "#02597F",
+    FRI: "#1FB2A3",
+    SAT: "#FAAF40",
+    SUN: "#D9533D",
+  };
+
   return (
     <div className="menu-accordion-wrapper">
       <div className="menu-accordion-content" onClick={() => setMenu(!menu)}>
