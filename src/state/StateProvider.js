@@ -179,7 +179,7 @@ export const useEvents = () => {
     const days = ["Thursday", "Friday", "Saturday", "Sunday"];
     return (
       days.indexOf(a.day) - days.indexOf(b.day) ||
-      parseTimestamp(a.when) - parseTimestamp(b.when)
+      parseStartTime(a.when) - parseStartTime(b.when)
     );
   });
 };
@@ -200,9 +200,20 @@ export const useSearch = () => {
 };
 
 // Helper functions
-const parseTimestamp = (str) => {
+export const parseStartTime = (str) => {
   const [start, period] = (str ?? "").split("-")[0].split(" ");
   const [startHour, startMinute] = start.split(":");
+
+  return (
+    (parseInt(startHour) % 12) +
+    (period === "PM" ? 12 : 0) * 60 +
+    parseInt(startMinute)
+  );
+};
+
+export const parseEndTime = (str) => {
+  const [end, period] = (str ?? "").split("-")[1].split(" ");
+  const [startHour, startMinute] = end.split(":");
 
   return (
     (parseInt(startHour) % 12) +
