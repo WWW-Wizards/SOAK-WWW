@@ -2,27 +2,36 @@
     &-accordion-wrapper { 
         position: sticky;
         top: 0;
+        box-shadow: 0px -10px 7px 7px black;
+        z-index: 1000;
     }
 
-    &-accordion-title {
+    &-accordion-content { 
         display: flex;
         flex-direction: row;
+        align-items: center;
         justify-content: space-between;
         cursor: pointer;
-        background-color: #21aeca;
+        background-color: lightgrey;
     }
 
-    &-accordion-title:hover {
-        background-color: #3ab4cc;
+    &-accordion-content:hover {
+        background-color: white;
     }
 
-    &-accordion-title,
-    &-accordion-content {
-        padding: 1rem;
+    &-accordion-content,
+    &-accordion-drawer {
+        padding: 10px;
     }
 
-    &-accordion-content {
-        background-color: #39b9d2;
+    &-accordion-drawer {
+        background-color: lightgrey;
+    }
+
+    &-accordion-heading {
+        font-family: 'Futura Bold', sans-serif;
+        font-size: 1.2em;
+        color: #005b84;
     }
 
     &-accordion-svg { 
@@ -42,10 +51,6 @@
         stroke-linecap: round;
         stroke-linejoin: round;
         cursor: pointer;
-    }
-
-    &-favorited { 
-        fill: black;
     }
 }
 
