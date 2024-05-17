@@ -1,49 +1,67 @@
-.event-details {
+.event-tile {
+  display: grid;
+  grid-template-columns: 5em auto;
+  grid-template-rows: 100%;
+
   border-radius: 12px;
   margin: 10px auto;
-  padding: 1.5em;
+  padding: 1em;
   max-width: 90vw;
   height: auto;
 
-  background-color: var(--date-color);
-  opacity: 75%;
+  background-color: var(--area-color);
+  opacity: 90%;
 
   text-wrap: wrap;
 
+  border: red 3px solid;
+}
+
+.event-details {
+  text-wrap: wrap;
+  max-width: 82vw;
+
+  &-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
   &-title {
-    display: grid;
-    grid-template-columns: 42vw 7vw 42vw;
-    grid-template-rows: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
     font-weight: 500;
-    font-size: 1.5em;
-    padding-bottom: 1.3em;
+    font-size: 1em;
+
+    height: 4em;
+    margin-bottom: 1em;
   }
 
-  &-title-center {
-    text-align: center;
-  }
-  &-title-right {
-    text-align: right;
-    text-wrap: wrap;
+  &-title-left {
+    font-size: 3em;
   }
 
   &-footer {
-    display: grid;
-    grid-template-columns: 42vw 7vw 42vw;
-    grid-template-rows: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 
-    font-size: 1em;
+    font-size: 2.5em;
     font-weight: 400;
 
-    padding-top: 1em;
+    height: 3em;
   }
-  &-footer-center {
-    padding: 1em;
-    text-align: center;
+
+  &-footer-area {
+    border: black 3px solid;
+    border-radius: 10px;
+    padding: 0.7em;
   }
-  &-footer-right {
-    text-align: right;
+
+  &-footer-where {
+    padding: 0.3em;
   }
 
   &-description {
@@ -51,7 +69,7 @@
     font-size: 1em;
   }
 
-  &-favorites-svg { 
+  &-favorites-svg {
     width: 1em;
     height: 1em;
     font-size: 2.5rem;
@@ -64,7 +82,7 @@
   }
 }
 
-.favorited { 
+.favorited {
   fill: gold;
   color: gold;
   filter: drop-shadow(1px 2px 1px rgb(0 0 0 / 0.4));
