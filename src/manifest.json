@@ -10,11 +10,11 @@
   "lang": "en",
   "icons": [
     {
-      "type": "image/png",
-      "sizes": "192x192",
-      "src": "/assets/icons/Location_Soak_Icons.svg"
+      "src": "/assets/icons/Soak_AppIcon.png",
+      "sizes": "any",
+      "type": "image/svg+xml"
     }
   ],
-  "start_url": "https://nickdayfsd.github.io/SOAK-WWW/",
-  "scope": "https://nickdayfsd.github.io/SOAK-WWW/"
+  "start_url": "/",
+  "scope": "/"
 }
