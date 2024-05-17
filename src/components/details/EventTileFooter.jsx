@@ -5,6 +5,7 @@ function EventTileFooter({ event }) {
     Mezzanine: "#6374A6",
     "Lower Bowl": "#6374A6",
     "Main Field": "#9EC4D3",
+    Barn: "#9EC4D3",
     "Upper Bowl": "#9EC4D3",
     Riverside: "#9EC4D3",
     "North Point Forest": "#9EC4D3",
