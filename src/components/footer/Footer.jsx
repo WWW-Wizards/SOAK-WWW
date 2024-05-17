@@ -13,7 +13,7 @@ export const Footer = () => {
   return (
     <div className="footer-tab-wrapper">
       {Object.keys(TABS).map((day, index) => (
-        <Tab day={day} color={TABS[day]} key={index} />
+        <Tab day={day} key={index} />
       ))}
     </div>
   );
