@@ -6,8 +6,8 @@ import Location from "./icons/Location";
 function EventIcons({ event }) {
   return (
     <section className="event-details-icons">
-      <SolarIcon />
-      <CatIcon event={event} />
+      <SolarIcon time={event.when} />
+      <CatIcon category={event.eventType} />
       <Location />
     </section>
   );
