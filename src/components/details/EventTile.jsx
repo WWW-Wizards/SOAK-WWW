@@ -8,6 +8,7 @@ export const EventTile = (event) => {
     Mezzanine: "#E0E3EE",
     "Lower Bowl": "#E0E3EE",
     "Main Field": "#E7F0F4",
+    Barn: "#E7F0F4",
     "Upper Bowl": "#E7F0F4",
     Riverside: "#E7F0F4",
     "North Point Forest": "#E7F0F4",

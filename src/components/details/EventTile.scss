@@ -1,6 +1,6 @@
 .event-tile {
   display: grid;
-  grid-template-columns: 5em auto;
+  grid-template-columns: 7em auto;
   grid-template-rows: 100%;
 
   border-radius: 12px;
@@ -23,6 +23,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    font-size: 1.3em;
+    padding-bottom: 1em;
   }
 
   &-title {
@@ -31,7 +34,7 @@
     align-items: center;
 
     font-weight: 500;
-    font-size: 1em;
+    font-size: 18;
 
     height: 4em;
     margin-bottom: 1em;
@@ -44,7 +47,7 @@
   &-footer {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 
     font-size: 2.5em;
     font-weight: 400;
@@ -55,17 +58,17 @@
   &-footer-area {
     border: black 3px solid;
     border-radius: 10px;
-    padding: 0.7em;
+    padding: 0.5em;
     background-color: var(--area-color);
   }
 
   &-footer-where {
-    padding: 0.3em;
+    max-width: 50%;
   }
 
   &-description {
     font-weight: 200;
-    font-size: 3em;
+    font-size: 16;
   }
 
   &-favorites-svg {

@@ -5,18 +5,14 @@ import CatEntertainment from "./icons/CatEntertainment";
 import CatFoodBev from "./icons/CatFoodBev";
 import CatMisc from "./icons/CatMisc";
 
-function CatIcon({ event }) {
+function CatIcon({ category }) {
   return (
     <div>
-      {event.eventType === "Experience/Interactive Art" ? <CatArt /> : ""}
-      {event.eventType === "Class/Workshop" ? <CatClass /> : ""}
-      {event.eventType === "Performance/Entertainment" ? (
-        <CatEntertainment />
-      ) : (
-        ""
-      )}
-      {event.eventType === "Food/Beverage" ? <CatFoodBev /> : ""}
-      {event.eventType === "Other" ? <CatMisc /> : ""}
+      {category === "Experience/Interactive Art" ? <CatArt /> : ""}
+      {category === "Class/Workshop" ? <CatClass /> : ""}
+      {category === "Performance/Entertainment" ? <CatEntertainment /> : ""}
+      {category === "Food/Beverage" ? <CatFoodBev /> : ""}
+      {category === "Other" ? <CatMisc /> : ""}
     </div>
   );
 }
