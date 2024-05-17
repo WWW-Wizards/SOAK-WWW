@@ -1,9 +1,10 @@
 import React from "react";
 import { EventTile } from "../details/EventTile";
-import { useEvents } from "../../state/StateProvider";
+import { useEvents, useMenu } from "../../state/StateProvider";
 
 export const EventList = () => {
   const events = useEvents();
+  const { setMenu } = useMenu();
 
   const eventList = events.map((event, index) => (
     <section key={index}>
@@ -11,5 +12,9 @@ export const EventList = () => {
     </section>
   ));
 
-  return <div className="event-list">{eventList}</div>;
+  return (
+    <div className="event-list" onClick={() => setMenu(false)}>
+      {eventList}
+    </div>
+  );
 };
