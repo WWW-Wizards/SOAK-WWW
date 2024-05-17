@@ -5,8 +5,8 @@ function Save(props) {
     <svg
       id="prefix__Layer_2"
       data-name="Layer 2"
-      width="2em"
-      height="2em"
+      width="4em"
+      height="4em"
       font-weight="300"
       viewBox="0 0 128 128"
       {...props}

@@ -5,8 +5,8 @@ function CatFoodBev(props) {
     <svg
       id="prefix__Layer_2"
       data-name="Layer 2"
-      width="1em"
-      height="1em"
+      width="4em"
+      height="4em"
       viewBox="0 0 128 128"
       {...props}
     >
