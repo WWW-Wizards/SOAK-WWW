@@ -9,9 +9,15 @@ function FavIcon({ event }) {
   return (
     <div>
       {handleFavoriteDisplay(event.id) ? (
-        <Saved onClick={() => handleToggleFavorited(event.id)} />
+        <Saved
+          className="event-details-fav"
+          onClick={() => handleToggleFavorited(event.id)}
+        />
       ) : (
-        <Save onClick={() => handleToggleFavorited(event.id)} />
+        <Save
+          className="event-details-fav"
+          onClick={() => handleToggleFavorited(event.id)}
+        />
       )}
     </div>
   );
