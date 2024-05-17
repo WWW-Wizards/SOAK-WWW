@@ -6,10 +6,17 @@ import CatFoodBev from "./icons/CatFoodBev";
 import CatMisc from "./icons/CatMisc";
 
 function CatIcon({ event }) {
-  // Figure out which icons to display based on category
   return (
     <div>
-      <CatMisc />
+      {event.eventType === "Experience/Interactive Art" ? <CatArt /> : ""}
+      {event.eventType === "Class/Workshop" ? <CatClass /> : ""}
+      {event.eventType === "Performance/Entertainment" ? (
+        <CatEntertainment />
+      ) : (
+        ""
+      )}
+      {event.eventType === "Food/Beverage" ? <CatFoodBev /> : ""}
+      {event.eventType === "Other" ? <CatMisc /> : ""}
     </div>
   );
 }

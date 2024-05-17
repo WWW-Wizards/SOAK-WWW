@@ -19,7 +19,7 @@ export const EventTile = (event) => {
   // const toDo = ["calculate day/night/all day", "some events have no area"];
   return (
     <div className="event-tile" style={{ "--area-color": [area[event.area]] }}>
-      <EventIcons />
+      <EventIcons event={event} />
       <section className="event-details">
         <EventTileHeader event={event} />
         <div className="event-details-description">{event.what}</div>
