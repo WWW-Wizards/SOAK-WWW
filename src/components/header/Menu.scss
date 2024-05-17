@@ -1,66 +1,67 @@
 .menu {
-    &-accordion-wrapper { 
-        position: sticky;
-        top: 0;
-        box-shadow: 0px -10px 7px 7px black;
-        z-index: 1000;
-    }
+  &-accordion-wrapper {
+    position: sticky;
+    top: 0;
+    box-shadow: 0px -10px 7px 7px black;
+    z-index: 1000;
+    height: 6em;
+  }
 
-    &-accordion-content { 
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        cursor: pointer;
-        background-color: lightgrey;
-    }
-
-    &-accordion-content:hover {
-        background-color: white;
-    }
-
-    &-accordion-drawer {
-        background-color: lightgrey;
-    }
-
-    &-accordion-heading {
-        font-family: 'Futura Bold', sans-serif;
-        font-size: 1.2em;
-        color: #005b84;
-    }
-
-    &-accordion-svg { 
-        font-size: 1rem;
-        transition: transform 0.3s ease;
-    }
-
-    &-favorites-svg { 
-        width: 1em;
-        height: 1em;
-        font-size: 4rem;
-        fill: none;
-        stroke: currentColor;
-        stroke-width: 2;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        cursor: pointer;
-    }
-}
-
-.expanded { 
-    transform: rotate(90deg);
-}
-
-.search-input-wrapper { 
+  &-accordion-content {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    padding: 10px;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: lightgrey;
+    height: 6em;
+  }
 
-    & > input { 
-        border-radius: 5px;
-        border: 1px solid black;
-        width: 70%;
-        height: 2em;
-    }
+  &-accordion-content:hover {
+    background-color: white;
+  }
+
+  &-accordion-drawer {
+    background-color: lightgrey;
+  }
+
+  &-accordion-heading {
+    font-family: "Futura Bold", sans-serif;
+    font-size: 3em;
+    color: var(--day-color);
+  }
+
+  &-accordion-svg {
+    font-size: 1rem;
+    transition: transform 0.3s ease;
+  }
+
+  &-favorites-svg {
+    width: 1em;
+    height: 1em;
+    font-size: 4rem;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    cursor: pointer;
+  }
+}
+
+.expanded {
+  transform: rotate(90deg);
+}
+
+.search-input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+
+  & > input {
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 3em;
+  }
 }
