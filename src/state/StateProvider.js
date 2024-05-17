@@ -74,7 +74,7 @@ export function StateProvider({ children }) {
   // Returns a string to be used as a classname for conditional styling
   const handleFavoriteDisplay = (id) => {
     const isFavorited = favorites.some((favorite) => favorite.id === id);
-    return isFavorited ? "favorited" : "";
+    return isFavorited;
   };
 
   const handleTabClick = (day) => {
