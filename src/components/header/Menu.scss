@@ -19,11 +19,6 @@
         background-color: white;
     }
 
-    &-accordion-content,
-    &-accordion-drawer {
-        padding: 10px;
-    }
-
     &-accordion-drawer {
         background-color: lightgrey;
     }
@@ -56,4 +51,18 @@
 
 .expanded { 
     transform: rotate(180deg);
+}
+
+.search-input-wrapper { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+    & > input { 
+        border-radius: 5px;
+        border: 1px solid black;
+        width: 70%;
+        height: 2em;
+    }
 }

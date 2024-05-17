@@ -1,6 +1,7 @@
 import React from "react";
 import { useMenu, useFilter, useDate } from "../../state/StateProvider";
 import Saved from "../details/icons/Saved";
+import { Search } from "./Search";
 
 export const Menu = () => {
   const { menu, setMenu } = useMenu();
@@ -30,7 +31,9 @@ export const Menu = () => {
         </div>
       </div>
       {menu && (
-        <div className="menu-accordion-drawer">Menu content placeholder</div>
+        <div className="menu-accordion-drawer">
+          <Search />
+        </div>
       )}
     </div>
   );
