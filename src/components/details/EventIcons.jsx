@@ -7,7 +7,7 @@ function EventIcons({ event }) {
   return (
     <section className="event-details-icons">
       <SolarIcon />
-      <CatIcon />
+      <CatIcon event={event} />
       <Location />
     </section>
   );
