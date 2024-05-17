@@ -13,6 +13,7 @@ export const EventTile = (event) => {
     "North Point Forest": "#E7F0F4",
     "Forest Entry": "#E5DAE7",
     Meadow: "#E9F2E7",
+    Somewhere: "#E0E0E0",
   };
 
   // const toDo = ["calculate day/night/all day", "some events have no area"];
