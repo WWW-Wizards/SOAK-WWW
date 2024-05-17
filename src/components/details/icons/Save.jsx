@@ -7,7 +7,6 @@ function Save(props) {
       data-name="Layer 2"
       width="4em"
       height="4em"
-      font-weight="300"
       viewBox="0 0 128 128"
       {...props}
     >
