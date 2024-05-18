@@ -1,4 +1,10 @@
-import React, { useState, createContext, useContext, useEffect } from "react";
+import React, {
+  useState,
+  createContext,
+  useContext,
+  useEffect,
+  useMemo,
+} from "react";
 import data from "../../assets/data/events.json";
 
 export const UserContext = createContext();
@@ -12,7 +18,6 @@ const FILTERS = {
 };
 
 const DAYS = {
-  DAILY: "DAILY",
   THU: "Thursday",
   FRI: "Friday",
   SAT: "Saturday",
@@ -20,7 +25,6 @@ const DAYS = {
 };
 
 const DAY_HEADINGS = {
-  DAILY: "Recurring events",
   THU: "Thursday, May 23rd",
   FRI: "Friday, May 24th",
   SAT: "Saturday, May 25th",
@@ -31,14 +35,12 @@ export function StateProvider({ children }) {
   const [loading, setLoading] = useState(false);
   const [filter, setFilter] = useState("");
   const [menu, setMenu] = useState(false);
-  const [events, setEvents] = useState(data);
   const [favorites, setFavorites] = useState(() => {
     // Check local storage if favorites exist, otherwise initialize an empty array
     const cachedFavorites = localStorage.getItem("favorites");
     return cachedFavorites ? JSON.parse(cachedFavorites) : [];
   });
-  const [activeTab, setActiveTab] = useState(DAYS.DAILY);
-  const [date, setDate] = useState(DAY_HEADINGS.DAILY);
+  const [activeTab, setActiveTab] = useState("THU");
   const [query, setQuery] = useState("");
 
   // Handles toggling the filter view between favorited events and all events
@@ -85,34 +87,27 @@ export function StateProvider({ children }) {
     setQuery(query);
   };
 
-  useEffect(() => {
-    // Update local storage whenever favorites state changes
-    localStorage.setItem("favorites", JSON.stringify(favorites));
+  const date = useMemo(() => DAY_HEADINGS[activeTab], [activeTab]);
 
-    setDate(DAY_HEADINGS[activeTab]);
-
-    const filteredEvents = data.filter((event) => {
+  const events = useMemo(() => {
+    return data.filter((event) => {
       const filterByFavorites =
         filter === FILTERS.FAVORITES
           ? favorites.some((favorite) => favorite.id === event.id)
           : true;
-
-      const filterByActiveTab =
-        activeTab === DAYS.DAILY
-          ? event.daily
-          : !event.daily && event.day === DAYS[activeTab];
-
+      const filterByActiveTab = event.day === DAYS[activeTab];
       const filterBySearchQuery = query
         ? [event.what, event.where, event.area].some((attr) =>
             attr?.toLowerCase().includes(query.toLowerCase())
           )
         : true;
-
       return filterByFavorites && filterByActiveTab && filterBySearchQuery;
     });
-
-    setEvents(filteredEvents);
   }, [favorites, activeTab, filter, query]);
+
+  useEffect(() => {
+    localStorage.setItem("favorites", JSON.stringify(favorites));
+  }, [favorites]);
 
   return (
     <UserContext.Provider
@@ -124,7 +119,6 @@ export function StateProvider({ children }) {
         menu,
         setMenu,
         events,
-        setEvents,
         handleFilterFavorites,
         handleToggleFavorited,
         handleFavoriteDisplay,
