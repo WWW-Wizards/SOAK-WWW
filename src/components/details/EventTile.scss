@@ -83,6 +83,13 @@
     padding-bottom: 0.4em;
   }
 
+  &-description-more {
+    font-size: 1em;
+    border: none;
+    background-color: var(--area-color);
+    color: #035980;
+  }
+
   &-favorites-svg {
     width: 1em;
     height: 1em;
