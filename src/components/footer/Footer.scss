@@ -19,10 +19,9 @@
 
     > button {
       margin: 0;
-      padding: 0;
+      padding: 1em;
       border: none;
       background: none;
-      color: var(--day-color);
       font: inherit;
       cursor: pointer;
       outline: none;
@@ -30,8 +29,23 @@
   }
 
   &-tab-active {
+    font-family: "Futura Bold", sans-serif;
+    font-variant-caps: small-caps;
+    font-size: 3em;
+
     background-color: #035980;
-    color: none;
-    text-decoration: underline 5px;
+    border-radius: 10px;
+    color: lightgrey;
+
+    > button {
+      margin: 0;
+      padding: 1em;
+      color: lightgrey;
+      border: none;
+      background: none;
+      font: inherit;
+      cursor: pointer;
+      outline: none;
+    }
   }
 }
