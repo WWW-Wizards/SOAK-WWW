@@ -89,7 +89,7 @@ export function StateProvider({ children }) {
 
   const date = useMemo(() => DAY_HEADINGS[activeTab], [activeTab]);
 
-  const filteredEvents = useMemo(() => {
+  const events = useMemo(() => {
     return data.filter((event) => {
       const filterByFavorites =
         filter === FILTERS.FAVORITES
@@ -118,8 +118,7 @@ export function StateProvider({ children }) {
         setFilter,
         menu,
         setMenu,
-        events: filteredEvents,
-        setEvents: () => {},
+        events,
         handleFilterFavorites,
         handleToggleFavorited,
         handleFavoriteDisplay,
