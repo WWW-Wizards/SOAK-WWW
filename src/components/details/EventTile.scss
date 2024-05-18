@@ -16,6 +16,9 @@
 }
 
 .event-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-wrap: wrap;
   max-width: 82vw;
 
@@ -37,7 +40,6 @@
     font-size: 18;
 
     height: 4em;
-    margin-bottom: 1em;
   }
 
   &-title-left {
@@ -53,16 +55,18 @@
     justify-content: space-between;
     align-items: center;
 
-    font-size: 2.5em;
+    font-size: 3em;
     font-weight: 400;
 
-    height: 3em;
+    min-height: 3em;
   }
 
   &-footer-area {
     border: black 3px solid;
     border-radius: 10px;
-    padding: 0.5em;
+    padding: 0.3em;
+    min-height: 1.3em;
+    text-align: center;
     background-color: var(--area-color);
   }
 
@@ -72,7 +76,11 @@
 
   &-description {
     font-weight: 200;
-    font-size: 16;
+    font-size: 2.7em;
+    min-height: 3em;
+    align-items: center;
+    padding-top: 0.7em;
+    padding-bottom: 0.4em;
   }
 
   &-favorites-svg {
