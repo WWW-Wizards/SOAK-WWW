@@ -1,5 +1,6 @@
 import React from "react";
 import EventTileHeader from "./EventTileHeader";
+import EventDescription from "./EventDescription";
 import EventTileFooter from "./EventTileFooter";
 import EventIcons from "./EventIcons";
 
@@ -23,7 +24,8 @@ export const EventTile = (event) => {
       <EventIcons event={event} />
       <section className="event-details">
         <EventTileHeader event={event} />
-        <div className="event-details-description">{event.what}</div>
+        <EventDescription description={event.what} />
+        {/* <div className="event-details-description">{event.what}</div> */}
         <EventTileFooter event={event} />
       </section>
     </div>
