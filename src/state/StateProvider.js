@@ -102,9 +102,30 @@ export function StateProvider({ children }) {
             attr?.toLowerCase().includes(query.toLowerCase())
           )
         : true;
-      const dayValue = Date.now() * 1000;
-      const filterPastEvents = dayValue + parseEndTime(event.when);
-      return filterByFavorites && filterByActiveTab && filterBySearchQuery;
+
+      // Filter Out Past Events
+      // Calculate a number based on Date and time
+      const dayDate = new Date();
+      // Give values to days of the week === to their Day/Date
+      function timeValue(date, time) {
+        let dayValue;
+        if (date.type === number) {
+          dayValue = date* 1000;
+        } else if (date === "Friday"){
+          dayValue = 24* 1000;
+        } else if (date === "Saturday") {
+          dayValue = 25* 1000;
+        } else if (date === "Sunday") {
+          dayValue = 26* 1000;
+        } else if (date === "Thursday") {
+          dayValue = 23* 1000;
+        }
+
+        return dayValue + time;
+      }
+      // Filter those out
+      const filterPastEvents = filterPast ? timeValue(event.day, parseEndTime(event.when)) > timeValue(dayDate.getDate(), (dayDate.getHours() + dayDate.getMinutes())) : true;
+      return filterByFavorites && filterByActiveTab && filterBySearchQuery && filterPastEvents;
     });
   }, [favorites, activeTab, filter, query]);
 
