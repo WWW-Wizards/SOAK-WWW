@@ -111,24 +111,24 @@ export function StateProvider({ children }) {
       function timeValue(date, time) {
         let dayValue;
         if (typeof date === 'number') {
-          dayValue = date * 1000;
+          dayValue = date * 10000;
         } else if (date === "Friday"){
-          dayValue = 24 * 1000;
+          dayValue = 20 * 10000;
         } else if (date === "Saturday") {
-          dayValue = 25 * 1000;
+          dayValue = 25 * 10000;
         } else if (date === "Sunday") {
-          dayValue = 26 * 1000;
+          dayValue = 26 * 10000;
         } else if (date === "Thursday") {
-          dayValue = 20 * 1000;
+          dayValue = 19 * 10000;
         }
 
         return dayValue + time;
       }
       // Filter those out
-      const filterPastEvents = filterPast ? timeValue(event.day, parseEndTime(event.when)) > timeValue(dayDate.getDate(), (dayDate.getHours() + dayDate.getMinutes())) : true;
+      const filterPastEvents = filterPast ? timeValue(event.day, parseEndTime(event.when)) > timeValue(dayDate.getDate(), (dayDate.getHours() * 100 + dayDate.getMinutes())) : true;
       return filterByFavorites && filterByActiveTab && filterBySearchQuery && filterPastEvents;
     });
-  }, [favorites, activeTab, filter, query]);
+  }, [favorites, activeTab, filter, query, filterPast]);
 
   useEffect(() => {
     localStorage.setItem("favorites", JSON.stringify(favorites));
@@ -236,13 +236,12 @@ export const parseStartTime = (str) => {
 };
 
 export const parseEndTime = (str) => {
-  if (str === undefined) return 1000;
+  if (str === undefined) return 10000;
   const [end, period] = (str ?? "").split("-")[1].split(" ");
   const [endHour, endMinute] = end.split(":");
 
-  return (
-    (parseInt(endHour) % 12) +
-    (period === "PM" ? 12 : 0) * 60 +
-    parseInt(endMinute)
-  );
+  const hour = (parseInt(endHour) % 12) + (period === "PM" ? 12 : 0)
+  const minute = parseInt(endMinute);
+
+  return hour * 100 + minute;
 };
