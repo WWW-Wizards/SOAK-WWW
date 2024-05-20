@@ -15,6 +15,7 @@ const FILTERS = {
   CAMP: "CAMP",
   TIME: "TIME",
   CATEGORY: "CATEGORY",
+  PAST: "PAST"
 };
 
 const DAYS = {
@@ -109,16 +110,16 @@ export function StateProvider({ children }) {
       // Give values to days of the week === to their Day/Date
       function timeValue(date, time) {
         let dayValue;
-        if (date.type === number) {
-          dayValue = date* 1000;
+        if (typeof date === 'number') {
+          dayValue = date * 1000;
         } else if (date === "Friday"){
-          dayValue = 24* 1000;
+          dayValue = 24 * 1000;
         } else if (date === "Saturday") {
-          dayValue = 25* 1000;
+          dayValue = 25 * 1000;
         } else if (date === "Sunday") {
-          dayValue = 26* 1000;
+          dayValue = 26 * 1000;
         } else if (date === "Thursday") {
-          dayValue = 23* 1000;
+          dayValue = 20 * 1000;
         }
 
         return dayValue + time;
@@ -235,12 +236,13 @@ export const parseStartTime = (str) => {
 };
 
 export const parseEndTime = (str) => {
+  if (str === undefined) return 1000;
   const [end, period] = (str ?? "").split("-")[1].split(" ");
-  const [startHour, startMinute] = end.split(":");
+  const [endHour, endMinute] = end.split(":");
 
   return (
-    (parseInt(startHour) % 12) +
+    (parseInt(endHour) % 12) +
     (period === "PM" ? 12 : 0) * 60 +
-    parseInt(startMinute)
+    parseInt(endMinute)
   );
 };
