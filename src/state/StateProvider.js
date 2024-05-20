@@ -198,11 +198,10 @@ export const parseStartTime = (str) => {
   const [start, period] = (str ?? "").split("-")[0].split(" ");
   const [startHour, startMinute] = start.split(":");
 
-  return (
-    (parseInt(startHour) % 12) +
-    (period === "PM" ? 12 : 0) * 60 +
-    parseInt(startMinute)
-  );
+  const hour = (parseInt(startHour) % 12) + (period === "PM" ? 12 : 0);
+  const minute = parseInt(startMinute);
+
+  return hour * 60 + minute;
 };
 
 export const parseEndTime = (str) => {
