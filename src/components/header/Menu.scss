@@ -95,10 +95,13 @@
 
 .search-input-wrapper {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
   padding-bottom: 1.5em;
+  display: flex;
+  width: 90vw;
+  margin: 0 auto;
 
   & > input {
     border: 1px solid black;
@@ -107,5 +110,22 @@
     height: 2em;
     width: 75vw;
     padding: 0 0.5em;
+  }
+  & > button {
+    width: fit-content;
+    font-size: 2.5em;
+    padding: 0.2em 0.4em;
+    border-radius: 0.4em;
+    color: #035980;
+    font-family: Futura, sans-serif;
+    margin-left: 1em;
+  }
+  & > button:active {
+    color: lightgray;
+    background: #035980;
+  }
+  & > button:after {
+    background: lightgray;
+    color: #035980;
   }
 }

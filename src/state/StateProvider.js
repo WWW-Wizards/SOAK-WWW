@@ -44,6 +44,7 @@ export function StateProvider({ children }) {
   const [activeTab, setActiveTab] = useState("THU");
   const [query, setQuery] = useState("");
   const [filterPast, setFilterPast] = useState(true);
+  const [filterSearch, setFilterSearch] = useState(false);
 
   // Handles toggling the filter view between favorited events and all events
   const handleFilterFavorites = (e) => {
@@ -98,11 +99,15 @@ export function StateProvider({ children }) {
           ? favorites.some((favorite) => favorite.id === event.id)
           : true;
       const filterByActiveTab = event.day === DAYS[activeTab];
-      const filterBySearchQuery = query
-        ? [event.what, event.where, event.area].some((attr) =>
-            attr?.toLowerCase().includes(query.toLowerCase())
-          )
-        : true;
+      
+      const searchQuery = () => {
+        const compare = [event.what, event.where, event.area].some((attr) =>
+          attr?.toLowerCase().includes(query.toLowerCase()));
+        if (filterSearch === false) return compare;
+        if (filterSearch === true) return !compare;
+        return true;
+      }
+      const filterBySearchQuery = searchQuery();
 
       // Filter Out Past Events
       // Calculate a number based on Date and time
@@ -154,7 +159,8 @@ export function StateProvider({ children }) {
         query,
         setQuery,
         handleSearch,
-        filterPast, setFilterPast
+        filterPast, setFilterPast,
+        filterSearch, setFilterSearch
       }}
     >
       {children}
@@ -195,6 +201,11 @@ export const useMenu = () => {
 export const useFilterPast = () => {
   const {  filterPast, setFilterPast} = useContext(UserContext);
   return { filterPast, setFilterPast };
+}
+
+export const useFilterSearch = () => {
+  const { filterSearch, setFilterSearch } = useContext(UserContext);
+  return { filterSearch, setFilterSearch };
 }
 
 export const useEvents = () => {
