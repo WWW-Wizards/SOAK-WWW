@@ -2,6 +2,7 @@ import React from "react";
 import { useMenu, useFilter, useDate } from "../../state/StateProvider";
 import Saved from "../details/icons/Saved";
 import { Search } from "./Search";
+import FilterOptions from "./FilterOptions";
 import MenuIcon from "../details/icons/MenuIcon";
 
 export const Menu = () => {
@@ -29,6 +30,16 @@ export const Menu = () => {
       {menu && (
         <div className="menu-accordion-drawer">
           <Search />
+          <FilterOptions />
+          <div className="menu-contact-us-container">
+            <p>Creators Zero-Day, Spooky, Overboard, and Ahoo </p>
+            <a
+              href="mailto:nick.day.fsd@gmail.com?subject=WWW%APP%20of%202024"
+              className="menu-contact-us-link"
+            >
+              Feedback/Kudos
+            </a>
+          </div>
         </div>
       )}
     </div>
