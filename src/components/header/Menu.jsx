@@ -34,7 +34,7 @@ export const Menu = () => {
           <div className="menu-contact-us-container">
             <p>Creators Zero-Day, Spooky, Overboard, and Ahoo </p>
             <a
-              href="mailto:nick.day.fsd@gmail.com?subject=WWW%APP%20of%202024"
+              href="mailto:nick.day.fsd@gmail.com?subject=WWW%20APP%20of%202024"
               className="menu-contact-us-link"
             >
               Feedback/Kudos
