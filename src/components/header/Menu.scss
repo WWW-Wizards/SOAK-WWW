@@ -4,7 +4,20 @@
     top: 0;
     box-shadow: 0px -10px 7px 7px black;
     z-index: 1000;
-    height: 8em;
+    height: 5em;
+  }
+
+  &-contact-us-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.7em;
+    font-size: 2em;
+    background: lightgray;
+    font-style: none;
+    border: none;
+    width: 98vw;
+    padding: 1vw;
   }
 
   &-accordion-content {
@@ -20,6 +33,12 @@
 
   &-accordion-drawer {
     background-color: lightgrey;
+  }
+
+  &-accordian-heading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   &-accordion-heading {
@@ -44,6 +63,30 @@
     stroke-linejoin: round;
     cursor: pointer;
   }
+
+  &-filter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &-filter-past-button {
+    width: fit-content;
+    font-size: 2.5em;
+    padding: 0.2em 0.4em;
+    border-radius: 0.4em;
+    color: #035980;
+    font-family: Futura, sans-serif;
+  }
+
+  &-filter-past-button:active {
+    color: lightgray;
+    background: #035980;
+  }
+  &-filter-past-button:after {
+    background: lightgray;
+    color: #035980;
+  }
 }
 
 .expanded {
@@ -52,14 +95,15 @@
 
 .search-input-wrapper {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2em;
+  padding-bottom: 1.5em;
 
   & > input {
     border: 1px solid black;
     border-radius: 20px;
-    font-size: 4em;
+    font-size: 3em;
     height: 2em;
     width: 75vw;
     padding: 0 0.5em;

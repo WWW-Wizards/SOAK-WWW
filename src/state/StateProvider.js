@@ -15,6 +15,7 @@ const FILTERS = {
   CAMP: "CAMP",
   TIME: "TIME",
   CATEGORY: "CATEGORY",
+  PAST: "PAST"
 };
 
 const DAYS = {
@@ -42,6 +43,7 @@ export function StateProvider({ children }) {
   });
   const [activeTab, setActiveTab] = useState("THU");
   const [query, setQuery] = useState("");
+  const [filterPast, setFilterPast] = useState(true);
 
   // Handles toggling the filter view between favorited events and all events
   const handleFilterFavorites = (e) => {
@@ -101,9 +103,32 @@ export function StateProvider({ children }) {
             attr?.toLowerCase().includes(query.toLowerCase())
           )
         : true;
-      return filterByFavorites && filterByActiveTab && filterBySearchQuery;
+
+      // Filter Out Past Events
+      // Calculate a number based on Date and time
+      const dayDate = new Date();
+      // Give values to days of the week === to their Day/Date
+      function timeValue(date, time) {
+        let dayValue;
+        if (typeof date === 'number') {
+          dayValue = date * 10000;
+        } else if (date === "Friday"){
+          dayValue = 24 * 10000;
+        } else if (date === "Saturday") {
+          dayValue = 25 * 10000;
+        } else if (date === "Sunday") {
+          dayValue = 26 * 10000;
+        } else if (date === "Thursday") {
+          dayValue = 23 * 10000;
+        }
+
+        return dayValue + time;
+      }
+      // Filter those out
+      const filterPastEvents = filterPast ? timeValue(event.day, parseEndTime(event.when)) > timeValue(dayDate.getDate(), (dayDate.getHours() * 100 + dayDate.getMinutes())) : true;
+      return filterByFavorites && filterByActiveTab && filterBySearchQuery && filterPastEvents;
     });
-  }, [favorites, activeTab, filter, query]);
+  }, [favorites, activeTab, filter, query, filterPast]);
 
   useEffect(() => {
     localStorage.setItem("favorites", JSON.stringify(favorites));
@@ -129,6 +154,7 @@ export function StateProvider({ children }) {
         query,
         setQuery,
         handleSearch,
+        filterPast, setFilterPast
       }}
     >
       {children}
@@ -165,6 +191,11 @@ export const useMenu = () => {
   const { menu, setMenu } = useContext(UserContext);
   return { menu, setMenu };
 };
+
+export const useFilterPast = () => {
+  const {  filterPast, setFilterPast} = useContext(UserContext);
+  return { filterPast, setFilterPast };
+}
 
 export const useEvents = () => {
   const { events } = useContext(UserContext);
@@ -205,12 +236,12 @@ export const parseStartTime = (str) => {
 };
 
 export const parseEndTime = (str) => {
+  if (str === undefined) return 10000;
   const [end, period] = (str ?? "").split("-")[1].split(" ");
-  const [startHour, startMinute] = end.split(":");
+  const [endHour, endMinute] = end.split(":");
 
-  return (
-    (parseInt(startHour) % 12) +
-    (period === "PM" ? 12 : 0) * 60 +
-    parseInt(startMinute)
-  );
+  const hour = (parseInt(endHour) % 12) + (period === "PM" ? 12 : 0)
+  const minute = parseInt(endMinute);
+
+  return hour * 100 + minute;
 };
