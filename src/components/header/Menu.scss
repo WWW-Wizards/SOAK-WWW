@@ -4,7 +4,20 @@
     top: 0;
     box-shadow: 0px -10px 7px 7px black;
     z-index: 1000;
-    height: 8em;
+    height: 5em;
+  }
+
+  &-contact-us-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.7em;
+    font-size: 1.7em;
+    background: lightgray;
+    font-style: none;
+    border: none;
+    width: 93vw;
+    padding-top: 1em;
   }
 
   &-accordion-content {
@@ -20,6 +33,12 @@
 
   &-accordion-drawer {
     background-color: lightgrey;
+  }
+
+  &-accordian-heading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   &-accordion-heading {
@@ -52,9 +71,10 @@
 
 .search-input-wrapper {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2em;
+  padding: 1.5em;
 
   & > input {
     border: 1px solid black;
