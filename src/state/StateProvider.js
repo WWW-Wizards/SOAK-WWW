@@ -113,13 +113,13 @@ export function StateProvider({ children }) {
         if (typeof date === 'number') {
           dayValue = date * 10000;
         } else if (date === "Friday"){
-          dayValue = 20 * 10000;
+          dayValue = 24 * 10000;
         } else if (date === "Saturday") {
           dayValue = 25 * 10000;
         } else if (date === "Sunday") {
           dayValue = 26 * 10000;
         } else if (date === "Thursday") {
-          dayValue = 19 * 10000;
+          dayValue = 23 * 10000;
         }
 
         return dayValue + time;

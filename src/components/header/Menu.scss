@@ -78,6 +78,15 @@
     color: #035980;
     font-family: Futura, sans-serif;
   }
+
+  &-filter-past-button:active {
+    color: lightgray;
+    background: #035980;
+  }
+  &-filter-past-button:after {
+    background: lightgray;
+    color: #035980;
+  }
 }
 
 .expanded {
@@ -89,12 +98,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 1.5em;
+  padding-bottom: 1.5em;
 
   & > input {
     border: 1px solid black;
     border-radius: 20px;
-    font-size: 4em;
+    font-size: 3em;
     height: 2em;
     width: 75vw;
     padding: 0 0.5em;

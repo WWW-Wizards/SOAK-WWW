@@ -9,10 +9,9 @@ function FilterOptions() {
         className="menu-filter-past-button"
         onClick={() => {
           setFilterPast(!filterPast);
-          console.log("filter past: ", filterPast);
         }}
       >
-        Hide Past Events: {filterPast ? "active" : "disabled"}
+        {filterPast ? "Only the Future" : "The Whole Picture"}
       </button>
     </div>
   );
