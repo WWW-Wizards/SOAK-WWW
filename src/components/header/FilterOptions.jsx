@@ -5,14 +5,17 @@ function FilterOptions() {
   const { filterPast, setFilterPast } = useFilterPast();
   return (
     <div className="menu-filter-container">
-      <button
-        className="menu-filter-past-button"
-        onClick={() => {
-          setFilterPast(!filterPast);
-        }}
-      >
-        {filterPast ? "Only the Future" : "The Whole Picture"}
-      </button>
+      <label htmlFor="pastEvents" className="menu-filter-checkbox">
+        Hide Past Events
+        <input
+          type="checkbox"
+          id="pastEvents"
+          name="pastEvents"
+          value="filterPast"
+          checked={filterPast}
+          onChange={() => setFilterPast(!filterPast)}
+        ></input>
+      </label>
     </div>
   );
 }

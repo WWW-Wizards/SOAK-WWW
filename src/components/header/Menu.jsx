@@ -12,11 +12,12 @@ export const Menu = () => {
 
   return (
     <div className="menu-accordion-wrapper">
-      <div className="menu-accordion-content" onClick={() => setMenu(!menu)}>
-        <MenuIcon className={`menu-accordion-svg ${menu ? "expanded" : ""}`} />
-        <div className="menu-accordion-heading">
-          {headingText.toUpperCase()}
-        </div>
+      <div className="menu-accordion-content">
+        <MenuIcon
+          className={`menu-accordion-svg ${menu ? "expanded" : ""}`}
+          onClick={() => setMenu(!menu)}
+        />
+        <Search />
         <div
           className="menu-favorites-svg-wrapper"
           onClick={handleFilterFavorites}
@@ -26,15 +27,14 @@ export const Menu = () => {
             fill={filter === FILTERS.FAVORITES ? "#faaf40" : "none"}
           />
         </div>
+        {/* <p>Creators Zero-Day, Spooky, Overboard, and Ahoo </p> */}
       </div>
       {menu && (
         <div className="menu-accordion-drawer">
-          <Search />
           <FilterOptions />
           <div className="menu-contact-us-container">
-            <p>Creators Zero-Day, Spooky, Overboard, and Ahoo </p>
             <a
-              href="mailto:nick.day.fsd@gmail.com?subject=WWW%20APP%20of%202024"
+              href="mailto:nick.day.fsd@gmail.com?subject=WWW%20APP%20of%202025"
               className="menu-contact-us-link"
             >
               Feedback/Kudos

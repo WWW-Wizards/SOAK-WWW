@@ -11,12 +11,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 1.7em;
+    height: 4em;
     font-size: 2em;
     background: lightgray;
     font-style: none;
     border: none;
-    width: 98vw;
+    width: 50vw;
     padding: 1vw;
   }
 
@@ -33,6 +33,7 @@
 
   &-accordion-drawer {
     background-color: lightgrey;
+    width: 50vw;
   }
 
   &-accordian-heading-container {
@@ -66,8 +67,11 @@
 
   &-filter-container {
     display: flex;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
     flex-direction: column;
-    align-items: center;
+    font-size: 2.5em;
+    width: 50vw;
   }
 
   &-filter-past-button {
@@ -98,14 +102,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 1.5em;
 
   & > input {
     border: 1px solid black;
     border-radius: 20px;
     font-size: 3em;
     height: 2em;
-    width: 75vw;
+    width: 68vw;
     padding: 0 0.5em;
   }
 }
