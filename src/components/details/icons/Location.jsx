@@ -5,8 +5,7 @@ function Location(props) {
     <svg
       id="prefix__Layer_2"
       data-name="Layer 2"
-      width="4em"
-      height="4em"
+      className="icons"
       viewBox="0 0 128 128"
       {...props}
     >
