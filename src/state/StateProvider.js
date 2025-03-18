@@ -124,8 +124,9 @@ export function StateProvider({ children }) {
 
         return dayValue + time;
       }
-      // Filter those out
       const filterPastEvents = filterPast ? timeValue(event.day, parseEndTime(event.when)) > timeValue(dayDate.getDate(), (dayDate.getHours() * 100 + dayDate.getMinutes())) : true;
+      
+      // Filter those out
       return filterByFavorites && filterByActiveTab && filterBySearchQuery && filterPastEvents;
     });
   }, [favorites, activeTab, filter, query, filterPast]);

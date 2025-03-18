@@ -6,8 +6,8 @@
     align-items: center;
     position: fixed;
     bottom: 0;
-    width: 100%;
-    height: 8em;
+    width: 100vw;
+    height: 2em;
     background-color: lightgrey;
     box-shadow: 0px 10px 7px 7px black;
   }
@@ -15,7 +15,7 @@
   &-tabs {
     font-family: "Futura Bold", sans-serif;
     font-variant-caps: small-caps;
-    font-size: 3em;
+    font-size: 1em;
 
     > button {
       margin: 0;
@@ -31,7 +31,7 @@
   &-tab-active {
     font-family: "Futura Bold", sans-serif;
     font-variant-caps: small-caps;
-    font-size: 3em;
+    font-size: 1em;
 
     background-color: #035980;
     border-radius: 10px;
