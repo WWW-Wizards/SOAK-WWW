@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 
-function EventDescription({ description }) {
+function EventDescription({ event, area }) {
   const [showMore, setShowMore] = useState(false);
   const MAX_LENGTH = 175;
+  const description = event.what;
 
-  if (description.length <= MAX_LENGTH) {
+  if (event.what.length <= MAX_LENGTH) {
     return <p className="event-details-description">{description}</p>;
   }
 
@@ -15,6 +16,7 @@ function EventDescription({ description }) {
           {`${description.substring(0, MAX_LENGTH)}...`}
           <button
             className="event-details-description-more"
+            style={{ "--area-color": [area[event.area]] }}
             onClick={() => setShowMore(true)}
           >
             Read more
@@ -25,6 +27,7 @@ function EventDescription({ description }) {
           {description}
           <button
             className="event-details-description-more"
+            style={{ "--area-color": [area[event.area]] }}
             onClick={() => setShowMore(false)}
           >
             Show less

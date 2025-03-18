@@ -8,24 +8,22 @@ export const EventTile = (event) => {
   const area = {
     Mezzanine: "#E0E3EE",
     "Lower Bowl": "#E0E3EE",
-    "Main Field": "#E7F0F4",
-    Barn: "#E7F0F4",
-    "Upper Bowl": "#E7F0F4",
-    Riverside: "#E7F0F4",
-    "North Point Forest": "#E7F0F4",
+    "Main Field": "#E1ECE1",
+    Barn: "#E1ECE1",
+    "Upper Bowl": "#E1ECE1",
+    Riverside: "#E1ECE1",
+    "North Point Forest": "#E1ECE1",
     "Forest Entry": "#E5DAE7",
     Meadow: "#E9F2E7",
     Somewhere: "#E0E0E0",
   };
 
-  // const toDo = ["calculate day/night/all day", "some events have no area"];
   return (
     <div className="event-tile" style={{ "--area-color": [area[event.area]] }}>
       <EventIcons event={event} />
       <section className="event-details">
         <EventTileHeader event={event} />
-        <EventDescription description={event.what} />
-        {/* <div className="event-details-description">{event.what}</div> */}
+        <EventDescription event={event} area={area} />
         <EventTileFooter event={event} />
       </section>
     </div>

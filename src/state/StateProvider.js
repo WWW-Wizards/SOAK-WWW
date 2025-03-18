@@ -43,7 +43,8 @@ export function StateProvider({ children }) {
   });
   const [activeTab, setActiveTab] = useState("THU");
   const [query, setQuery] = useState("");
-  const [filterPast, setFilterPast] = useState(true);
+  const [showPast, setShowPast] = useState(false);
+  const [showAllDay, setShowAllDay] = useState(true);
 
   // Handles toggling the filter view between favorited events and all events
   const handleFilterFavorites = (e) => {
@@ -89,6 +90,12 @@ export function StateProvider({ children }) {
     setQuery(query);
   };
 
+  const handleFilterClick = (button) => {
+    if (query === button) setQuery("")
+    if (query === "") setQuery(button)
+  }
+
+
   const date = useMemo(() => DAY_HEADINGS[activeTab], [activeTab]);
 
   const events = useMemo(() => {
@@ -124,12 +131,14 @@ export function StateProvider({ children }) {
 
         return dayValue + time;
       }
-      const filterPastEvents = filterPast ? timeValue(event.day, parseEndTime(event.when)) > timeValue(dayDate.getDate(), (dayDate.getHours() * 100 + dayDate.getMinutes())) : true;
+      const showPastEvents = !showPast ? timeValue(event.day, parseEndTime(event.when)) > timeValue(dayDate.getDate(), (dayDate.getHours() * 100 + dayDate.getMinutes())) : true;
+
+      const showAllDayEvents = !showAllDay ? event.when != "12:00 AM-11:59 PM" : true ;
       
       // Filter those out
-      return filterByFavorites && filterByActiveTab && filterBySearchQuery && filterPastEvents;
+      return filterByFavorites && filterByActiveTab && showPastEvents && showAllDayEvents && filterBySearchQuery;
     });
-  }, [favorites, activeTab, filter, query, filterPast]);
+  }, [favorites, activeTab, filter, query, showPast, showAllDay]);
 
   useEffect(() => {
     localStorage.setItem("favorites", JSON.stringify(favorites));
@@ -148,6 +157,7 @@ export function StateProvider({ children }) {
         handleFilterFavorites,
         handleToggleFavorited,
         handleFavoriteDisplay,
+        handleFilterClick,
         FILTERS,
         activeTab,
         handleTabClick,
@@ -155,7 +165,8 @@ export function StateProvider({ children }) {
         query,
         setQuery,
         handleSearch,
-        filterPast, setFilterPast
+        showPast, setShowPast,
+        showAllDay, setShowAllDay
       }}
     >
       {children}
@@ -177,6 +188,7 @@ export const useFilter = () => {
     handleFavoriteDisplay,
     handleFilterFavorites,
     handleToggleFavorited,
+    handleFilterClick
   } = useContext(UserContext);
   return {
     filter,
@@ -185,6 +197,7 @@ export const useFilter = () => {
     handleFavoriteDisplay,
     handleFilterFavorites,
     handleToggleFavorited,
+    handleFilterClick
   };
 };
 
@@ -193,9 +206,14 @@ export const useMenu = () => {
   return { menu, setMenu };
 };
 
-export const useFilterPast = () => {
-  const {  filterPast, setFilterPast} = useContext(UserContext);
-  return { filterPast, setFilterPast };
+export const useShowPast = () => {
+  const { showPast, setShowPast} = useContext(UserContext);
+  return { showPast, setShowPast };
+}
+
+export const useFilterAllDay = () => {
+  const { showAllDay, setShowAllDay} = useContext(UserContext);
+  return { showAllDay, setShowAllDay };
 }
 
 export const useEvents = () => {

@@ -7,7 +7,6 @@ import MenuIcon from "../details/icons/MenuIcon";
 
 export const Menu = () => {
   const { menu, setMenu } = useMenu();
-  const { date: headingText } = useDate();
   const { filter, FILTERS, handleFilterFavorites } = useFilter();
 
   return (
