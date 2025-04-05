@@ -139,17 +139,21 @@
 
 @media only screen and (min-width: 600px) {
   .event-tile {
+    grid-template-columns: 2.5em auto;
     margin: 10px auto;
-    padding: 1em;
-    max-width: 90vw;
+    padding: 0.8em;
+    margin: 0.5em;
+    width: 44vw;
     height: auto;
   }
 
   .event-details {
-    max-width: 82vw;
+    padding-left: 0.7em;
 
     &-icons {
       font-size: 1.3em;
+      height: 2em;
+      width: 2em;
       padding-bottom: 1em;
     }
 
@@ -157,11 +161,11 @@
       font-weight: 500;
       font-size: 18;
 
-      height: 4em;
+      height: 2em;
     }
 
     &-title-left {
-      font-size: 3em;
+      font-size: 1.5em;
     }
 
     &-fav {
@@ -169,15 +173,14 @@
     }
 
     &-footer {
-      font-size: 3em;
+      font-size: 1.5em;
       font-weight: 400;
 
-      min-height: 3em;
+      min-height: 1.6em;
     }
 
     &-footer-area {
       padding: 0.3em;
-      min-height: 1.3em;
     }
 
     &-footer-where {
@@ -186,8 +189,8 @@
 
     &-description {
       font-weight: 200;
-      font-size: 2.7em;
-      min-height: 3em;
+      font-size: 1.2em;
+      min-height: 2em;
       padding-top: 0.7em;
       padding-bottom: 0.4em;
     }
@@ -199,7 +202,7 @@
     &-favorites-svg {
       width: 1em;
       height: 1em;
-      font-size: 2.5rem;
+      font-size: 1.3rem;
     }
   }
 }
