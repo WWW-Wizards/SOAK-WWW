@@ -17,7 +17,7 @@ function FilterOptions() {
           onChange={() => setFilterPast(!filterPast)}
         ></input>
       </label>
-      <label htmlFor="pastEvents" className="menu-filter-label">
+      {/* <label htmlFor="pastEvents" className="menu-filter-label">
         Hide All Day Events
         <input
           type="checkbox"
@@ -28,7 +28,7 @@ function FilterOptions() {
           checked={filterPast}
           onChange={() => setFilterPast(!filterPast)}
         ></input>
-      </label>
+      </label> */}
     </div>
   );
 }
