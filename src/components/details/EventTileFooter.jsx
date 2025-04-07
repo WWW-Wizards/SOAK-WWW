@@ -1,6 +1,9 @@
 import React from "react";
+import { useFilter } from "../../state/StateProvider";
 
 function EventTileFooter({ event }) {
+  const { handleFilterClick } = useFilter();
+
   const area = {
     Mezzanine: "#6374A6",
     "Lower Bowl": "#6374A6",
@@ -16,14 +19,20 @@ function EventTileFooter({ event }) {
 
   return (
     <section className="event-details-footer">
-      <div className="event-details-footer-where">{event.where}</div>
+      <button
+        className="event-details-footer-where"
+        onClick={() => handleFilterClick(event.where)}
+      >
+        {event.where}
+      </button>
 
-      <div
+      <button
         className="event-details-footer-area"
         style={{ "--area-color": [area[event.area]] }}
+        onClick={() => handleFilterClick(event.area)}
       >
         {event.area}
-      </div>
+      </button>
     </section>
   );
 }
