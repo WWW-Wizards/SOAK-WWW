@@ -11,12 +11,13 @@
     "serve": "rm -r .parcel-cache/ && parcel serve src/robots.txt src/favicon.svg src/index.html"
   },
   "devDependencies": {
-    "@parcel/packager-raw-url": "2.12.0",
+    "@parcel/packager-raw-url": "^2.12.0",
     "@parcel/transformer-sass": "^2.12.0",
     "@parcel/transformer-webmanifest": "^2.12.0",
     "parcel": "latest",
     "parcel-plugin-sw-cache": "^0.3.1",
     "process": "^0.11.10",
+    "svgo": "^3",
     "workbox-cli": "^7.1.0"
   },
   "dependencies": {
