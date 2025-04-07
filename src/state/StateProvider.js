@@ -89,6 +89,12 @@ export function StateProvider({ children }) {
     setQuery(query);
   };
 
+  const handleFilterClick = (button) => {
+    if (query === button) setQuery("")
+    if (query === "") setQuery(button)
+  }
+
+
   const date = useMemo(() => DAY_HEADINGS[activeTab], [activeTab]);
 
   const events = useMemo(() => {
@@ -148,6 +154,7 @@ export function StateProvider({ children }) {
         handleFilterFavorites,
         handleToggleFavorited,
         handleFavoriteDisplay,
+        handleFilterClick,
         FILTERS,
         activeTab,
         handleTabClick,
@@ -177,6 +184,7 @@ export const useFilter = () => {
     handleFavoriteDisplay,
     handleFilterFavorites,
     handleToggleFavorited,
+    handleFilterClick
   } = useContext(UserContext);
   return {
     filter,
@@ -185,6 +193,7 @@ export const useFilter = () => {
     handleFavoriteDisplay,
     handleFilterFavorites,
     handleToggleFavorited,
+    handleFilterClick
   };
 };
 
