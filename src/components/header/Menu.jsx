@@ -14,9 +14,7 @@ export const Menu = () => {
     <div className="menu-accordion-wrapper">
       <div className="menu-accordion-content" onClick={() => setMenu(!menu)}>
         <MenuIcon className={`menu-accordion-svg ${menu ? "expanded" : ""}`} />
-        <div className="menu-accordion-heading">
-          {headingText.toUpperCase()}
-        </div>
+        <div className="menu-accordion-heading">SOAK 2024</div>
         <div
           className="menu-favorites-svg-wrapper"
           onClick={handleFilterFavorites}
