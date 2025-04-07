@@ -10,6 +10,7 @@ export const Search = () => {
         placeholder="Search..."
         value={query}
         onChange={({ target }) => handleSearch(target.value)}
+        onClick={() => handleSearch("")}
       />
     </div>
   );
