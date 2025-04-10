@@ -8,13 +8,21 @@
   src: url("../assets/fonts/Futura\ Bold.otf") format("opentype");
 }
 
+:root {
+  --primary-color: #c6d8c6;
+  --secondary-color: #f7d18e;
+  --tertiary-color: #608342;
+  --fav-color: #f2b857;
+  --backdrop-color: #000000;
+}
+
 * {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 html,
 body {
-  background-color: #262626;
+  background-color: var(--backdrop-color);
   width: 100%;
   height: 100%;
   padding: 0;

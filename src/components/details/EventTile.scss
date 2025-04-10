@@ -4,7 +4,7 @@
 
   border-radius: 12px;
 
-  background-color: var(--area-color);
+  background-color: var(--primary-color);
   opacity: 90%;
 
   text-wrap: wrap;
@@ -34,11 +34,18 @@
     align-items: center;
   }
 
-  &-footer-area {
-    border: black 2px solid;
-    border-radius: 10px;
-    text-align: center;
-    background-color: var(--area-color);
+  &-footer-button {
+    background: var(--tertiary-color);
+    border-radius: 4px;
+    border: 1px solid var(--tertiary-color);
+    display: inline-block;
+    cursor: pointer;
+    color: var(--secondary-color);
+    font-size: 0.9em;
+    min-height: 2em;
+    max-width: 15em;
+    padding: 0 0.5em;
+    text-decoration: none;
   }
 
   &-description {
@@ -47,8 +54,8 @@
 
   &-description-more {
     border: none;
-    background-color: var(--area-color);
-    color: #035980;
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
   }
 
   &-favorites-svg {

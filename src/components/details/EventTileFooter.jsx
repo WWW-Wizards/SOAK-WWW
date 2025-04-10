@@ -20,14 +20,14 @@ function EventTileFooter({ event }) {
   return (
     <section className="event-details-footer">
       <button
-        className="event-details-footer-where"
+        className="event-details-footer-button"
         onClick={() => handleFilterClick(event.where)}
       >
         {event.where}
       </button>
 
       <button
-        className="event-details-footer-area"
+        className="event-details-footer-button"
         style={{ "--area-color": [area[event.area]] }}
         onClick={() => handleFilterClick(event.area)}
       >
