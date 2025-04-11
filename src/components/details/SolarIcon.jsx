@@ -6,20 +6,32 @@ import { parseStartTime } from "../../state/StateProvider";
 
 function SolarIcon({ event }) {
   // Figure out which icon to display based on event time
-  const sunrise = parseStartTime("5:30 AM-6:00 AM");
-  const sunset = parseStartTime("8:30 PM-9:00 PM");
+  const startTime = parseStartTime(event.when);
 
-  const timeNumbers = parseStartTime(event.when);
+  const sunrise = parseStartTime("5:30 AM");
+  const sunset = parseStartTime("8:45 PM");
 
-  return (
-    <div>
-      {/* {event.allDay ? <AllDay /> : ""}
-      {timeNumbers > 0 && timeNumbers <= sunrise ? <NightTime /> : ""}
-      {timeNumbers >= sunset ? <NightTime /> : ""}
-      {timeNumbers > sunrise || timeNumbers < sunset ? <DayTime /> : ""} */}
-      <AllDay />
-    </div>
-  );
+  if (event.when === "12:00 AM-11:59 PM") {
+    return (
+      <div>
+        <AllDay />
+      </div>
+    );
+  }
+  if (startTime > sunrise && startTime < sunset) {
+    return (
+      <div>
+        <DayTime />
+      </div>
+    );
+  }
+  if (startTime < sunrise || startTime > sunset) {
+    return (
+      <div>
+        <NightTime />
+      </div>
+    );
+  }
 }
 
 export default SolarIcon;
