@@ -2,10 +2,8 @@
   display: grid;
   grid-template-rows: 100%;
 
+  background-color: var(--area-color);
   border-radius: 12px;
-
-  background-color: var(--primary-color);
-  opacity: 90%;
 
   text-wrap: wrap;
 }
