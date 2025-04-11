@@ -1,8 +1,9 @@
 import React from "react";
-import { useFilterPast } from "../../state/StateProvider";
+import { useFilterPast, useFilterAllDay } from "../../state/StateProvider";
 
 function FilterOptions() {
   const { filterPast, setFilterPast } = useFilterPast();
+  const { filterAllDay, setFilterAllDay } = useFilterAllDay();
   return (
     <div className="menu-filter-container">
       <label htmlFor="pastEvents" className="menu-filter-label">
@@ -17,18 +18,18 @@ function FilterOptions() {
           onChange={() => setFilterPast(!filterPast)}
         ></input>
       </label>
-      {/* <label htmlFor="pastEvents" className="menu-filter-label">
+      <label htmlFor="allDay" className="menu-filter-label">
         Hide All Day Events
         <input
           type="checkbox"
-          id="pastEvents"
-          name="pastEvents"
+          id="allDay"
+          name="allDay"
           className="menu-filter-checkbox"
-          value="filterPast"
-          checked={filterPast}
-          onChange={() => setFilterPast(!filterPast)}
+          value="filterAllDay"
+          checked={filterAllDay}
+          onChange={() => setFilterAllDay(!filterAllDay)}
         ></input>
-      </label> */}
+      </label>
     </div>
   );
 }

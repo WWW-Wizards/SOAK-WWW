@@ -44,6 +44,7 @@ export function StateProvider({ children }) {
   const [activeTab, setActiveTab] = useState("THU");
   const [query, setQuery] = useState("");
   const [filterPast, setFilterPast] = useState(true);
+  const [filterAllDay, setFilterAllDay] = useState(false);
 
   // Handles toggling the filter view between favorited events and all events
   const handleFilterFavorites = (e) => {
@@ -131,11 +132,13 @@ export function StateProvider({ children }) {
         return dayValue + time;
       }
       const filterPastEvents = filterPast ? timeValue(event.day, parseEndTime(event.when)) > timeValue(dayDate.getDate(), (dayDate.getHours() * 100 + dayDate.getMinutes())) : true;
+
+      const filterAllDayEvents = filterAllDay ? event.when != "12:00 AM-11:59 PM" : true ;
       
       // Filter those out
-      return filterByFavorites && filterByActiveTab && filterBySearchQuery && filterPastEvents;
+      return filterByFavorites && filterByActiveTab && filterBySearchQuery && filterPastEvents, filterAllDayEvents;
     });
-  }, [favorites, activeTab, filter, query, filterPast]);
+  }, [favorites, activeTab, filter, query, filterPast, filterAllDay]);
 
   useEffect(() => {
     localStorage.setItem("favorites", JSON.stringify(favorites));
@@ -162,7 +165,8 @@ export function StateProvider({ children }) {
         query,
         setQuery,
         handleSearch,
-        filterPast, setFilterPast
+        filterPast, setFilterPast,
+        filterAllDay, setFilterAllDay
       }}
     >
       {children}
@@ -203,8 +207,13 @@ export const useMenu = () => {
 };
 
 export const useFilterPast = () => {
-  const {  filterPast, setFilterPast} = useContext(UserContext);
+  const { filterPast, setFilterPast} = useContext(UserContext);
   return { filterPast, setFilterPast };
+}
+
+export const useFilterAllDay = () => {
+  const { filterAllDay, setFilterAllDay} = useContext(UserContext);
+  return { filterAllDay, setFilterAllDay };
 }
 
 export const useEvents = () => {
