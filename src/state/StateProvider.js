@@ -136,7 +136,7 @@ export function StateProvider({ children }) {
       const filterAllDayEvents = filterAllDay ? event.when != "12:00 AM-11:59 PM" : true ;
       
       // Filter those out
-      return filterByFavorites && filterByActiveTab && filterBySearchQuery && filterPastEvents, filterAllDayEvents;
+      return filterByFavorites && filterByActiveTab && filterPastEvents && filterAllDayEvents && filterBySearchQuery;
     });
   }, [favorites, activeTab, filter, query, filterPast, filterAllDay]);
 
