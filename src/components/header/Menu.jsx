@@ -1,5 +1,5 @@
 import React from "react";
-import { useMenu, useFilter, useDate } from "../../state/StateProvider";
+import { useMenu, useFilter } from "../../state/StateProvider";
 import Saved from "../details/icons/Saved";
 import { Search } from "./Search";
 import FilterOptions from "./FilterOptions";
@@ -34,7 +34,7 @@ export const Menu = () => {
         <div className="menu-accordian-drawer">
           <FilterOptions />
           <div className="menu-accordian-contact">
-            Created by<br></br> ZeroDay + Spooky + Ahoo + Overboard <br></br>
+            Created by<br></br> ZeroDay + Ahoo <br></br>
             <div className="menu-accordian-links">
               <a
                 href="mailto:nick.day.fsd@gmail.com?subject=WWW%20APP%20of%202025"

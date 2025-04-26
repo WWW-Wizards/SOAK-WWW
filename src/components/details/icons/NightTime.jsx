@@ -4,8 +4,8 @@ function NightTime(props) {
   return (
     <svg
       data-name="Layer 2"
-      width="2em"
-      height="2em"
+      width="2.2em"
+      height="2.2em"
       viewBox="0 0 128 128"
       {...props}
     >

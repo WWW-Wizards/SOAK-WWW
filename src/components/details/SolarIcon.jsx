@@ -2,16 +2,16 @@ import React from "react";
 import AllDay from "./icons/AllDay";
 import DayTime from "./icons/DayTime";
 import NightTime from "./icons/NightTime";
-import { parseStartTime } from "../../state/StateProvider";
+import { parseTime } from "../../state/StateProvider";
 
 function SolarIcon({ event }) {
   // Figure out which icon to display based on event time
-  const startTime = parseStartTime(event.when);
+  const startTime = parseTime(event.occurrence.start_time);
 
-  const sunrise = parseStartTime("5:30 AM");
-  const sunset = parseStartTime("8:45 PM");
+  const sunrise = parseTime("05:30:00");
+  const sunset = parseTime("20:45:00");
 
-  if (event.when === "12:00 AM-11:59 PM") {
+  if (event.occurrence.short.includes("24hrs")) {
     return (
       <div>
         <AllDay />

@@ -5,6 +5,8 @@ function AllDay(props) {
     <svg
       id="prefix__Layer_2"
       data-name="Layer 2"
+      width="2.2em"
+      height="2.2em"
       viewBox="0 0 128 128"
       {...props}
     >
