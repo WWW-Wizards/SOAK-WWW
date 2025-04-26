@@ -5,34 +5,27 @@ function EventTileFooter({ event }) {
   const { handleFilterClick } = useFilter();
 
   const area = {
-    Mezzanine: "#6374A6",
-    "Lower Bowl": "#6374A6",
-    "Main Field": "#9EC4D3",
-    Barn: "#9EC4D3",
-    "Upper Bowl": "#9EC4D3",
-    Riverside: "#9EC4D3",
-    "North Point Forest": "#9EC4D3",
-    "Forest Entry": "#AC70B3",
-    Meadow: "#86B57A",
-    Somewhere: "#EAEAEA",
+    Mezzanine: "#E0E3EE",
+    "Lower Bowl": "#E0E3EE",
+    "Main Field": "#E1ECE1",
+    Barn: "#E1ECE1",
+    "Upper Bowl": "#E1ECE1",
+    Riverside: "#E1ECE1",
+    "North Point Forest": "#E1ECE1",
+    "Forest Entry": "#E5DAE7",
+    Meadow: "#E9F2E7",
+    Somewhere: "#E0E0E0",
   };
 
   return (
     <section className="event-details-footer">
       <button
         className="event-details-footer-button"
-        onClick={() => handleFilterClick(event.where)}
+        onClick={() => handleFilterClick(event.camp)}
       >
-        {event.where}
+        {event.camp}
       </button>
-
-      <button
-        className="event-details-footer-button"
-        style={{ "--area-color": [area[event.area]] }}
-        onClick={() => handleFilterClick(event.area)}
-      >
-        {event.area}
-      </button>
+      {/* Neighborhood button goes here */}
     </section>
   );
 }

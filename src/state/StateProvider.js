@@ -25,12 +25,17 @@ const DAYS = {
   SUN: "Sunday",
 };
 
-const DAY_HEADINGS = {
-  THU: "Thursday, May 23rd",
-  FRI: "Friday, May 24th",
-  SAT: "Saturday, May 25th",
-  SUN: "Sunday, May 26th",
-};
+const dayValue = {
+  "Thursday": 1000000,
+  "Friday": 2000000,
+  "Saturday": 3000000,
+  "Sunday": 4000000,
+  "Thu": 1000000,
+  "Fri": 2000000,
+  "Sat": 3000000,
+  "Sun": 4000000
+
+}
 
 export function StateProvider({ children }) {
   const [loading, setLoading] = useState(false);
@@ -41,7 +46,7 @@ export function StateProvider({ children }) {
     const cachedFavorites = localStorage.getItem("favorites");
     return cachedFavorites ? JSON.parse(cachedFavorites) : [];
   });
-  const [activeTab, setActiveTab] = useState("THU");
+  const [activeTab, setActiveTab] = useState(Date().split(" ")[0].toUpperCase());
   const [query, setQuery] = useState("");
   const [showPast, setShowPast] = useState(false);
   const [showAllDay, setShowAllDay] = useState(true);
@@ -57,17 +62,17 @@ export function StateProvider({ children }) {
   };
 
   // Handles toggling an individual event into or out of the favorites list
-  const handleToggleFavorited = (id) => {
+  const handleToggleFavorited = (uid) => {
     setFavorites((prev) => {
-      const prevIndex = prev.findIndex((favorite) => favorite.id === id);
+      const prevIndex = prev.findIndex((favorite) => favorite.uid === uid);
 
       // Check if the event is already favorited
       // If it is, unfavorite it
       // If it isn't, use its id to look up the corresponding event data and add it to the favorites list
       const newFavorites =
         prevIndex !== -1
-          ? prev.filter((favorite) => favorite.id !== id)
-          : [...prev, events.find((event) => event.id === id)];
+          ? prev.filter((favorite) => favorite.uid !== uid)
+          : [...prev, events.find((event) => event.uid === uid)];
 
       // Set favorite into local storage
       localStorage.setItem("favorites", JSON.stringify(newFavorites));
@@ -95,45 +100,30 @@ export function StateProvider({ children }) {
     if (query === "") setQuery(button)
   }
 
-
-  const date = useMemo(() => DAY_HEADINGS[activeTab], [activeTab]);
-
   const events = useMemo(() => {
     return data.filter((event) => {
+      // Favorites Feature
       const filterByFavorites =
         filter === FILTERS.FAVORITES
           ? favorites.some((favorite) => favorite.id === event.id)
           : true;
-      const filterByActiveTab = event.day === DAYS[activeTab];
+      
+      // Day of the Week Footer Feature
+      const filterByActiveTab = event.occurrence.long.split(" ")[0] === DAYS[activeTab];
+
+      // Search Feature
       const filterBySearchQuery = query
-        ? [event.what, event.where, event.area].some((attr) =>
+        ? [event.description, event.camp, event.location].some((attr) =>
             attr?.toLowerCase().includes(query.toLowerCase())
           )
         : true;
 
-      // Filter Out Past Events
-      // Calculate a number based on Date and time
-      const dayDate = new Date();
-      // Give values to days of the week === to their Day/Date
-      function timeValue(date, time) {
-        let dayValue;
-        if (typeof date === 'number') {
-          dayValue = date * 10000;
-        } else if (date === "Friday"){
-          dayValue = 24 * 10000;
-        } else if (date === "Saturday") {
-          dayValue = 25 * 10000;
-        } else if (date === "Sunday") {
-          dayValue = 26 * 10000;
-        } else if (date === "Thursday") {
-          dayValue = 23 * 10000;
-        }
+      // Filter Out Past Feature
+      const date = new Date();
+      const showPastEvents = !showPast ? Date.parse(event.occurrence.end_time) > Date.parse(date) : true;
 
-        return dayValue + time;
-      }
-      const showPastEvents = !showPast ? timeValue(event.day, parseEndTime(event.when)) > timeValue(dayDate.getDate(), (dayDate.getHours() * 100 + dayDate.getMinutes())) : true;
-
-      const showAllDayEvents = !showAllDay ? event.when != "12:00 AM-11:59 PM" : true ;
+      // Filter Out All Day Feature
+      const showAllDayEvents = !showAllDay ? event.occurrence.short.includes("24hrs") : true ;
       
       // Filter those out
       return filterByFavorites && filterByActiveTab && showPastEvents && showAllDayEvents && filterBySearchQuery;
@@ -161,7 +151,6 @@ export function StateProvider({ children }) {
         FILTERS,
         activeTab,
         handleTabClick,
-        date,
         query,
         setQuery,
         handleSearch,
@@ -223,7 +212,7 @@ export const useEvents = () => {
     const days = ["Thursday", "Friday", "Saturday", "Sunday"];
     return (
       days.indexOf(a.day) - days.indexOf(b.day) ||
-      parseStartTime(a.when) - parseStartTime(b.when)
+      parseTime(a.occurrence.start_time) - parseTime(b.occurrence.start_time)
     );
   });
 };
@@ -244,23 +233,15 @@ export const useSearch = () => {
 };
 
 // Helper functions
-export const parseStartTime = (str) => {
-  const [start, period] = (str ?? "").split("-")[0].split(" ");
-  const [startHour, startMinute] = start.split(":");
+export const parseTime = (str) => {
 
-  const hour = (parseInt(startHour) % 12) + (period === "PM" ? 12 : 0);
-  const minute = parseInt(startMinute);
+  if (str.includes("T")){
 
-  return hour * 60 + minute;
+    let time = str.split("T")[1].split(":").join("");
+    return time;
+  }
+
+  let time = str.split(":").join("");
+  return time;
 };
 
-export const parseEndTime = (str) => {
-  if (str === undefined) return 10000;
-  const [end, period] = (str ?? "").split("-")[1].split(" ");
-  const [endHour, endMinute] = end.split(":");
-
-  const hour = (parseInt(endHour) % 12) + (period === "PM" ? 12 : 0)
-  const minute = parseInt(endMinute);
-
-  return hour * 100 + minute;
-};
