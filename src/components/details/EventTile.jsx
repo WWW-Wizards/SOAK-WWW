@@ -7,26 +7,37 @@ import EventIcons from "./EventIcons";
 export const EventTile = (event) => {
   const area = {
     Mezzanine: "#E0E3EE",
-    "Lower Bowl": "#E0E3EE",
-    "Main Field": "#E7F0F4",
-    Barn: "#E7F0F4",
-    "Upper Bowl": "#E7F0F4",
-    Riverside: "#E7F0F4",
-    "North Point Forest": "#E7F0F4",
-    "Forest Entry": "#E5DAE7",
+    LowerBowl: "#E0E3EE",
+    MainField: "#E1ECE1",
+    Barn: "#E1ECE1",
+    UpperBowl: "#E1ECE1",
+    Riverside: "#E1ECE1",
+    NorthPointForest: "#E1ECE1",
+    ForestEntry: "#E5DAE7",
     Meadow: "#E9F2E7",
     Somewhere: "#E0E0E0",
   };
 
-  // const toDo = ["calculate day/night/all day", "some events have no area"];
+  const areaColor = ["#E0E3EE", "#E1ECE1", "#E5DAE7", "#E9F2E7", "#E0E0E0"];
+
+  const pickRandomHood = (area) => {
+    const random = Math.floor(Math.random() * area.length);
+    return area[random];
+  };
+
+  const hood = pickRandomHood(area);
+
+  const color = pickRandomHood(areaColor);
+
   return (
-    <div className="event-tile" style={{ "--area-color": [area[event.area]] }}>
-      <EventIcons event={event} />
+    <div className="event-tile" style={{ backgroundColor: color }}>
+      <EventTileHeader event={event} />
       <section className="event-details">
-        <EventTileHeader event={event} />
-        <EventDescription description={event.what} />
-        {/* <div className="event-details-description">{event.what}</div> */}
-        <EventTileFooter event={event} />
+        <EventIcons event={event} />
+        <section>
+          <EventDescription event={event} area={hood} />
+          <EventTileFooter event={event} />
+        </section>
       </section>
     </div>
   );

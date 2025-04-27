@@ -4,8 +4,8 @@ function CatMisc(props) {
   return (
     <svg
       data-name="Layer 2"
-      width="4em"
-      height="4em"
+      width="2em"
+      height="2em"
       viewBox="0 0 128 128"
       {...props}
     >

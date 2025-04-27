@@ -4,8 +4,18 @@
 @use "components/footer/Footer.scss";
 
 @font-face {
-  font-family: 'Futura Bold';
-  src: url('../assets/fonts/Futura\ Bold.otf') format('opentype');
+  font-family: "Futura Bold";
+  src: url("../assets/fonts/Futura\ Bold.otf") format("opentype");
+  font-family: "Futura Bold";
+  src: url("../assets/fonts/Futura\ Bold.otf") format("opentype");
+}
+
+:root {
+  --primary-color: #d7d7d7;
+  --secondary-color: #e2f7e4;
+  --tertiary-color: #496d2e;
+  --fav-color: #ffc35c;
+  --backdrop-color: #000000;
 }
 
 * {
@@ -14,9 +24,9 @@
 
 html,
 body {
-  background-color: #262626;
-  width: 100vw;
-  height: 100vh;
+  background-color: var(--backdrop-color);
+  width: 100%;
+  height: 100%;
   padding: 0;
   margin: 0;
 }

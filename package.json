@@ -1,13 +1,13 @@
 {
   "name": "soakwww",
   "browserslist": "> 0.5%, last 2 versions, not dead",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "source": "src/index.js",
   "license": "ISC",
   "scripts": {
     "watch": "parcel watch",
     "build": "rm -rf dist && parcel build src/robots.txt src/favicon.svg src/index.html --public-url ./ --detailed-report",
-    "run": "parcel src/robots.txt src/favicon.svg src/index.html",
+    "run": "parcel --no-cache src/robots.txt src/favicon.svg src/index.html",
     "serve": "rm -r .parcel-cache/ && parcel serve src/robots.txt src/favicon.svg src/index.html"
   },
   "devDependencies": {

@@ -8,15 +8,15 @@ function FavIcon({ event }) {
   const { handleFavoriteDisplay, handleToggleFavorited } = useFilter();
   return (
     <div>
-      {handleFavoriteDisplay(event.id) ? (
+      {handleFavoriteDisplay(event.uid) ? (
         <Saved
           className="event-details-fav"
-          onClick={() => handleToggleFavorited(event.id)}
+          onClick={() => handleToggleFavorited(event.uid)}
         />
       ) : (
         <Save
           className="event-details-fav"
-          onClick={() => handleToggleFavorited(event.id)}
+          onClick={() => handleToggleFavorited(event.uid)}
         />
       )}
     </div>
