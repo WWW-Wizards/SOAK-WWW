@@ -83,7 +83,7 @@ export function StateProvider({ children }) {
 
   // Returns a string to be used as a classname for conditional styling
   const handleFavoriteDisplay = (id) => {
-    const isFavorited = favorites.some((favorite) => favorite.id === id);
+    const isFavorited = favorites.some((favorite) => favorite.uid === id);
     return isFavorited;
   };
 
@@ -105,7 +105,7 @@ export function StateProvider({ children }) {
       // Favorites Feature
       const filterByFavorites =
         filter === FILTERS.FAVORITES
-          ? favorites.some((favorite) => favorite.id === event.id)
+          ? favorites.some((favorite) => favorite.uid === event.uid)
           : true;
       
       // Day of the Week Footer Feature
@@ -123,7 +123,7 @@ export function StateProvider({ children }) {
       const showPastEvents = !showPast ? Date.parse(event.occurrence.end_time) > Date.parse(date) : true;
 
       // Filter Out All Day Feature
-      const showAllDayEvents = !showAllDay ? event.occurrence.short.includes("24hrs") : true ;
+      const showAllDayEvents = !showAllDay ? !event.occurrence.short.includes("24hrs") : true ;
       
       // Filter those out
       return filterByFavorites && filterByActiveTab && showPastEvents && showAllDayEvents && filterBySearchQuery;
