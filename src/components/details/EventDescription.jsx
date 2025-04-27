@@ -37,7 +37,6 @@ function EventDescription({ event, area }) {
             {description}
             <button
               className="event-details-description-more"
-              style={{ "--area-color": hood }}
               onClick={() => setShowMore(false)}
             >
               Show less
