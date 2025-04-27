@@ -1,7 +1,7 @@
 {
   "name": "soakwww",
   "browserslist": "> 0.5%, last 2 versions, not dead",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "source": "src/index.js",
   "license": "ISC",
   "scripts": {
