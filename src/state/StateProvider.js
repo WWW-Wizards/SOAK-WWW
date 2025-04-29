@@ -5,7 +5,6 @@ import React, {
   useEffect,
   useMemo,
 } from "react";
-import data from "../../assets/data/events.json";
 
 export const UserContext = createContext();
 
@@ -50,6 +49,28 @@ export function StateProvider({ children }) {
   const [query, setQuery] = useState("");
   const [showPast, setShowPast] = useState(false);
   const [showAllDay, setShowAllDay] = useState(true);
+  const [data, setData] = useState(null); // Initialize as null
+  const [error, setError] = useState(null); // Add error state
+
+  useEffect(() => {
+    const fetchData = async () => {
+      setLoading(true);
+      try {
+        const response = await fetch("/schedule.json");
+        if (!response.ok) {
+          throw new Error(`Failed to fetch data: ${response.statusText}`);
+        }
+        const result = await response.json();
+        setData(result.data); // Update data state with fetched data
+      } catch (err) {
+        setError(err.message); // Handle fetch error
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []); // Fetch data on component mount
 
   // Handles toggling the filter view between favorited events and all events
   const handleFilterFavorites = (e) => {
@@ -101,6 +122,7 @@ export function StateProvider({ children }) {
   }
 
   const events = useMemo(() => {
+    if (!data) return []; // Return empty array if data is not yet loaded
     return data.filter((event) => {
       // Favorites Feature
       const filterByFavorites =
@@ -128,7 +150,7 @@ export function StateProvider({ children }) {
       // Filter those out
       return filterByFavorites && filterByActiveTab && showPastEvents && showAllDayEvents && filterBySearchQuery;
     });
-  }, [favorites, activeTab, filter, query, showPast, showAllDay]);
+  }, [data, favorites, activeTab, filter, query, showPast, showAllDay]);
 
   useEffect(() => {
     localStorage.setItem("favorites", JSON.stringify(favorites));
@@ -154,8 +176,11 @@ export function StateProvider({ children }) {
         query,
         setQuery,
         handleSearch,
-        showPast, setShowPast,
-        showAllDay, setShowAllDay
+        showPast,
+        setShowPast,
+        showAllDay,
+        setShowAllDay,
+        error, // Expose error state
       }}
     >
       {children}
