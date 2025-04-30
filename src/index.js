@@ -16,11 +16,11 @@ const options = {
     sa: 1,
   },
   loader_config: {
-    accountID: "3241619",
-    trustKey: "3241619",
-    agentID: "1134551812",
-    licenseKey: "NRJS-951885a3654f8493a1b",
-    applicationID: "1134551812",
+    accountID: "6708047",
+    trustKey: "6708047",
+    agentID: "1134581579",
+    licenseKey: "NRJS-e61e46c846a887a7424",
+    applicationID: "1134581579",
   },
 };
 new BrowserAgent(options);
