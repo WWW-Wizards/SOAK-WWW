@@ -7,7 +7,7 @@
   "scripts": {
     "watch": "parcel watch",
     "build": "rm -rf dist && parcel build src/robots.txt src/favicon.svg src/index.html --public-url ./ --detailed-report",
-    "run": "parcel --no-cache src/robots.txt src/favicon.svg src/index.html",
+    "run": "rm -rf dist && npx msw init dist/ --save && parcel --no-cache src/robots.txt src/favicon.svg src/index.html",
     "serve": "rm -r .parcel-cache/ && parcel serve src/robots.txt src/favicon.svg src/index.html"
   },
   "devDependencies": {
