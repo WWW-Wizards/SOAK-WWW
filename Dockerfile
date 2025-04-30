@@ -2,6 +2,12 @@
 # To test run: docker run -e PORT=5000 -p 5000:5000 --rm soak-www
 # based on tutorials at urls listed below
 # https://cloud.google.com/run/docs/quickstarts/build-and-deploy/python
+FROM node:20-slim AS build
+
+WORKDIR /app
+COPY . /app/
+RUN yarn add --dev parcel
+RUN yarn build
 
 # Use the official lightweight Python image.
 # https://hub.docker.com/_/python
@@ -17,7 +23,7 @@ WORKDIR /home/web
 ENV PATH="/home/web/.local/bin:${PATH}"
 COPY --chown=web:web backend /home/web/
 RUN mkdir -p /home/web/dist
-COPY --chown=web:web dist /home/web/dist/
+COPY --from=build --chown=web:web /app/dist /home/web/dist/
 
 # Install production dependencies.
 RUN pip install --upgrade pip

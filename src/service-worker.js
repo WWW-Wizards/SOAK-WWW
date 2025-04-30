@@ -19,7 +19,7 @@ registerRoute(
 // Cache dust api
 registerRoute(
   ({url}) =>
-    url.origin === 'https://data.dust.events/',
+    url.origin === self.location.origin,
   new StaleWhileRevalidate({
     cacheName: 'api-cache',
     plugins: [

@@ -24,7 +24,8 @@ jobs:
         - name: Build app
           run: |
             yarn add --dev parcel
-            yarn build
+            NODE_ENV=development yarn build
+            npx msw init dist/ --save
         - run: touch dist/.nojekyll
         - name: Deploy
           uses: peaceiris/actions-gh-pages@v4

@@ -61,7 +61,7 @@ export function StateProvider({ children }) {
           throw new Error(`Failed to fetch data: ${response.statusText}`);
         }
         const result = await response.json();
-        setData(result.data); // Update data state with fetched data
+        setData(result); // Update data state with fetched data
       } catch (err) {
         setError(err.message); // Handle fetch error
       } finally {
