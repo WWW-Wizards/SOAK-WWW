@@ -45,7 +45,7 @@ export function StateProvider({ children }) {
     const cachedFavorites = localStorage.getItem("favorites");
     return cachedFavorites ? JSON.parse(cachedFavorites) : [];
   });
-  const [activeTab, setActiveTab] = useState(Date().split(" ")[0].toUpperCase());
+  const [activeTab, setActiveTab] = useState("THU");
   const [query, setQuery] = useState("");
   const [showPast, setShowPast] = useState(false);
   const [showAllDay, setShowAllDay] = useState(true);
@@ -71,6 +71,24 @@ export function StateProvider({ children }) {
 
     fetchData();
   }, []); // Fetch data on component mount
+
+  // Set default day
+  useEffect(() => {
+    if (Date().split(" ")[0].toUpperCase() == "FRI") {
+      setActiveTab("FRI")
+      return;
+    }
+    if (Date().split(" ")[0].toUpperCase() == "SAT") {
+      setActiveTab("SAT")
+      return;
+    }
+    if (Date().split(" ")[0].toUpperCase() == "SUN") {
+      setActiveTab("SUN")
+      return;
+    }
+    setActiveTab("THU")
+  }, [])
+  
 
   // Handles toggling the filter view between favorited events and all events
   const handleFilterFavorites = (e) => {
@@ -135,7 +153,7 @@ export function StateProvider({ children }) {
 
       // Search Feature
       const filterBySearchQuery = query
-        ? [event.description, event.camp, event.location].some((attr) =>
+        ? [event.description, event.camp, event.neighborhood].some((attr) =>
             attr?.toLowerCase().includes(query.toLowerCase())
           )
         : true;
