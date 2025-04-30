@@ -106,7 +106,7 @@ CAMP_LOCATIONS = {
     "u-3663": "The Meadow",  # Meadowtations
     "u-3662": "Main Field",  # Meditation In Circles
     "u-3661": "Upper Bowl",  # MOIST
-    "u-3660": "Various - See Notes",  # Monster Mirrors
+    "u-3660": "Around",  # Monster Mirrors
     "u-3659": "Main Field",  # Moon Tent
     "u-3658": "Upper Bowl",  # Moonrock
     "u-3657": "The Meadow",  # mycelium mystics
@@ -170,7 +170,7 @@ CAMP_LOCATIONS = {
     "u-3599": "The Meadow",  # The Coven
     "u-3598": "The Meadow",  # The Coven's Cauldron
     "u-3597": "Mobile Art",  # The Curiosity
-    "u-3596": "Various - See Map",  # The Fool's Journey
+    "u-3596": "Around",  # The Fool's Journey
     "u-3595": "Forest Entry",  # The Garden of Otherworldly Delights
     "u-3594": "Riverside",  # The Gas Station
     "u-3593": "Forest Entry",  # The Geode-Home
@@ -202,7 +202,7 @@ CAMP_LOCATIONS = {
     "u-3567": "Lower Bowl",  # Wish (vol 1)
     "u-3566": "Main Field",  # Woo the Day
     "u-3565": "Main Field",  # Yellow Bikes
-    "u-3564": "Various - See Map"  # Zealous Entities
+    "u-3564": "Around"  # Zealous Entities
 }
 
 @app.route('/<path:path>')

@@ -7,38 +7,28 @@ import EventIcons from "./EventIcons";
 export const EventTile = (event) => {
   const area = {
     Mezzanine: "#E0E3EE",
-    LowerBowl: "#E0E3EE",
-    MainField: "#E1ECE1",
-    Barn: "#E1ECE1",
-    UpperBowl: "#E1ECE1",
+    "Lower Bowl": "#E0E3EE",
+    "Main Field": "#E1ECE1",
+    "Upper Bowl": "#E1ECE1",
     Riverside: "#E1ECE1",
-    NorthPointForest: "#E1ECE1",
-    ForestEntry: "#E5DAE7",
-    Meadow: "#E9F2E7",
-    Somewhere: "#E0E0E0",
+    "North Point Forest": "#E1ECE1",
+    "Mobile Art": "#E1ECE1",
+    Around: "#E1ECE1",
+    "Forest Entry": "#E5DAE7",
+    "The Meadow": "#E5DAE7",
   };
-
-  const areaColor = ["#E0E3EE", "#E1ECE1", "#E5DAE7", "#E9F2E7", "#E0E0E0"];
-
-  const pickRandomHood = (area) => {
-    const random = Math.floor(Math.random() * area.length);
-    return area[random];
-  };
-
-  const hood = pickRandomHood(area);
-
-  const color = pickRandomHood(areaColor);
 
   return (
-    <div className="event-tile" style={{ backgroundColor: color }}>
+    <div
+      className="event-tile"
+      style={{ backgroundColor: area[event.neighborhood] }}
+    >
       <EventTileHeader event={event} />
       <section className="event-details">
         <EventIcons event={event} />
-        <section>
-          <EventDescription event={event} area={hood} />
-          <EventTileFooter event={event} />
-        </section>
+        <EventDescription event={event} />
       </section>
+      <EventTileFooter event={event} />
     </div>
   );
 };

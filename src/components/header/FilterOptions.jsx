@@ -7,7 +7,7 @@ function FilterOptions() {
 
   return (
     <div className="menu-filter-container">
-      <label className="menu-filter-label">Showing Events For:</label>
+      <label className="menu-filter-title">FILTERS</label>
       <label htmlFor="allDay" className="menu-filter-label">
         All Day
         <div className="menu-filter-switch">
