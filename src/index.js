@@ -11,8 +11,8 @@ const options = {
   info: {
     beacon: "bam.nr-data.net",
     errorBeacon: "bam.nr-data.net",
-    licenseKey: "NRJS-951885a3654f8493a1b",
-    applicationID: "1134551812",
+    licenseKey: "NRJS-e61e46c846a887a7424",
+    applicationID: "1134581579",
     sa: 1,
   },
   loader_config: {
