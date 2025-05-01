@@ -30,14 +30,14 @@ import { StateProvider } from "./state/StateProvider";
 import App from "./App";
 
 console.log("index.js");
-navigator.serviceWorker.register(
-  new URL("service-worker.js", import.meta.url),
-  { type: "module" }
-);
 
 async function enableMocking() {
   // This is set by parcel
   if (process.env.NODE_ENV !== "development") {
+    navigator.serviceWorker.register(
+      new URL("service-worker.js", import.meta.url),
+      { type: "module" }
+    );
     return;
   }
 
