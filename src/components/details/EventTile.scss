@@ -1,36 +1,13 @@
 .event-tile {
   display: grid;
-  grid-template-columns: 7em auto;
-  grid-template-rows: 100%;
+  grid-template-columns: 100%;
 
   border-radius: 12px;
-  margin: 10px auto;
-  padding: 1em;
-  max-width: 90vw;
-  height: auto;
-
-  background-color: var(--area-color);
-  opacity: 90%;
 
   text-wrap: wrap;
 }
 
-.event-details {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-wrap: wrap;
-  max-width: 82vw;
-
-  &-icons {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    font-size: 1.3em;
-    padding-bottom: 1em;
-  }
-
+.event-header {
   &-title {
     display: flex;
     justify-content: space-between;
@@ -39,61 +16,68 @@
     font-weight: 500;
     font-size: 18;
 
-    height: 4em;
+    height: 2em;
+
+    &-left {
+      font-size: 1.2em;
+    }
+  }
+}
+
+.event-details {
+  display: flex;
+  flex-direction: row;
+  text-wrap: wrap;
+
+  &-container {
+    padding: 0.5em 0 0 0.5em;
   }
 
-  &-title-left {
-    font-size: 3em;
+  &-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding-top: 0.5em;
+    min-width: 42px;
   }
 
-  &-fav {
-    font-size: 1.5rem;
+  &-title {
+    margin: 0;
+    font-size: 1.5em;
   }
 
   &-footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-
-    font-size: 3em;
-    font-weight: 400;
-
-    min-height: 3em;
   }
 
-  &-footer-area {
-    border: black 3px solid;
-    border-radius: 10px;
-    padding: 0.3em;
-    min-height: 1.3em;
-    text-align: center;
-    background-color: var(--area-color);
-  }
-
-  &-footer-where {
-    max-width: 50%;
+  &-footer-button {
+    background: var(--tertiary-color);
+    border-radius: 4px;
+    border: 1px solid var(--tertiary-color);
+    display: inline-block;
+    cursor: pointer;
+    color: var(--secondary-color);
+    font-size: 0.9em;
+    min-height: 2em;
+    max-width: 11em;
+    padding: 0 0.5em;
+    text-decoration: none;
   }
 
   &-description {
-    font-weight: 200;
-    font-size: 2.7em;
-    min-height: 3em;
     align-items: center;
-    padding-top: 0.7em;
-    padding-bottom: 0.4em;
   }
 
   &-description-more {
-    font-size: 1em;
     border: none;
     background-color: var(--area-color);
-    color: #035980;
+    color: var(--tertiary-color);
   }
 
   &-favorites-svg {
-    width: 1em;
-    height: 1em;
-    font-size: 2.5rem;
     fill: none;
     stroke: currentColor;
     stroke-width: 2;
@@ -107,4 +91,114 @@
   fill: gold;
   color: gold;
   filter: drop-shadow(1px 2px 1px rgb(0 0 0 / 0.4));
+}
+
+@media only screen and (max-width: 600px) {
+  .event-tile {
+    grid-template-rows: 2.5em auto;
+    margin: 10px auto;
+    padding: 0.8em;
+    width: 90vw;
+    height: auto;
+  }
+
+  .event-details {
+    max-width: 89vw;
+
+    &-icons {
+      font-size: 1.3em;
+    }
+
+    &-fav {
+      font-size: 1.5rem;
+    }
+
+    &-footer {
+      font-size: 1.1em;
+      font-weight: 400;
+
+      min-height: 1.6em;
+    }
+
+    &-footer-area {
+      padding: 0.3em;
+    }
+
+    &-footer-where {
+      max-width: 50%;
+    }
+
+    &-description {
+      font-weight: 200;
+      font-size: 1.2em;
+      min-height: 2em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      margin: 0;
+    }
+
+    &-description-more {
+      font-size: 1em;
+    }
+
+    &-favorites-svg {
+      width: 1em;
+      height: 1em;
+      font-size: 1.3rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .event-tile {
+    grid-template-rows: 2.5em auto;
+    margin: 10px 5px;
+    padding: 0.8em;
+    width: 43vw;
+    max-width: 22em;
+    height: auto;
+  }
+
+  .event-details {
+    &-icons {
+      font-size: 1.3em;
+    }
+
+    &-fav {
+      font-size: 1.5rem;
+    }
+
+    &-footer {
+      font-size: 1.1em;
+      font-weight: 400;
+
+      min-height: 1.6em;
+    }
+
+    &-footer-area {
+      padding: 0.3em;
+    }
+
+    &-footer-where {
+      max-width: 50%;
+    }
+
+    &-description {
+      font-weight: 200;
+      font-size: 1.2em;
+      min-height: 2em;
+      padding-top: 0.7em;
+      padding-bottom: 0.4em;
+    }
+
+    &-description-more {
+      font-size: 1em;
+    }
+
+    &-favorites-svg {
+      width: 1em;
+      height: 1em;
+      font-size: 1.3rem;
+    }
+  }
 }
