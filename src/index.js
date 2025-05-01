@@ -5,7 +5,7 @@ const options = {
     privacy: { cookies_enabled: true },
     page_view_timing: { enabled: true },
     spa: { enabled: true },
-    ajax: { deny_list: ["bam.nr-data.net"] },
+    ajax: { enabled: true },
     distributed_tracing: { enabled: false },
   },
   info: {
