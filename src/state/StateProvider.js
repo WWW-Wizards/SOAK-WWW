@@ -56,7 +56,7 @@ export function StateProvider({ children }) {
     const fetchData = async () => {
       setLoading(true);
       try {
-        const response = await fetch("/schedule.json");
+        const response = await fetch("./schedule.json");
         if (!response.ok) {
           throw new Error(`Failed to fetch data: ${response.statusText}`);
         }
