@@ -7,203 +7,224 @@ from requests import get
 app = Flask(__name__)
 
 CAMP_LOCATIONS = {
-    "u-3758": "Riverside",  # Absinthe Minded
-    "u-3757": "Lower Bowl",  # Acid Drip
-    "u-3756": "The Meadow",  # Art of Doing Nothing
-    "u-3755": "The Meadow",  # Artists Paradise
-    "u-3759": "Forest Entry",  # ASMR Apothecary
-    "u-3754": "The Meadow",  # Astro Shack JaVa JoINt
-    "u-3753": "Upper Bowl",  # Aucupouri Teahouse
-    "u-3716": "Mezzanine",  # Aura Flora
-    "u-3752": "Upper Bowl",  # Baba Yaga House
-    "u-3751": "Main Field",  # Babble-On
-    "u-3750": "Upper Bowl",  # Baby Behead & Breakfast
-    "u-3749": "The Meadow",  # Baggage Check
-    "u-3748": "Main Field",  # Banana Phone Booth
-    "u-3747": "Main Field",  # Bean Here Now
-    "u-3746": "Mobile Art",  # Bewitching Brews Bicycle
-    "u-3745": "The Meadow",  # Bibliothēca Idiōmatis
-    "u-3744": "Riverside",  # BILY Camp
-    "u-3743": "North Point Forest",  # Black Hole West
-    "u-3742": "The Meadow",  # Black Rock Observatory
-    "u-3741": "The Meadow",  # Black Rock Observatory Art Support
-    "u-3740": "Main Field",  # Bobablivion
-    "u-3739": "Forest Entry",  # Burn With Me
-    "u-3738": "Upper Bowl",  # Burnerphone
-    "u-3737": "Mezzanine",  # C.O.C.K.(Camp of Cool Kids)
-    "u-3736": "Main Field",  # Caffeinated Catalyst
-    "u-3735": "Mezzanine",  # Camp Clusterfuck
-    "u-3734": "Main Field",  # Camp DSF
-    "u-3733": "Main Field",  # Camp FYFA
-    "u-3732": "Main Field",  # Camp Monkey Business
-    "u-3731": "The Meadow",  # Camp-Misbehaving
-    "u-3730": "Mezzanine",  # Cats in Space!
-    "u-3729": "The Meadow",  # CBGB Camp Biscuits, Gravy and Bacon
-    "u-3728": "Main Field",  # Central Services
-    "u-3727": "The Meadow",  # Chrono Chroma
-    "u-3726": "Mezzanine",  # Church of Party
-    "u-3725": "Mezzanine",  # Church of Softer Space
-    "u-3724": "Upper Bowl",  # Cirque De Licious
-    "u-3723": "Upper Bowl",  # Citadel of the Eternal Pastry
-    "u-3722": "Riverside",  # Coast Guard
-    "u-3721": "Main Field",  # Cosmic Chai
-    "u-3720": "Mobile Art",  # Cosmic Ducky
-    "u-3719": "Forest Entry",  # Cracked Pot
-    "u-3718": "Riverside",  # Creature Corner
-    "u-3717": "The Meadow",  # Crêpiphany
-    "u-3715": "Mezzanine",  # Crystallography
-    "u-3714": "Main Field",  # Cult of the Peach
-    "u-3713": "Upper Bowl",  # Dancing Serpent
-    "u-3712": "The Meadow",  # Disco Porto
-    "u-3711": "The Meadow",  # Dr. Bev's Clinic
-    "u-3710": "Riverside",  # Dusty Bunnies
-    "u-3709": "Mezzanine",  # Elation Station
-    "u-3708": "Forest Entry",  # EX-FILES
-    "u-3707": "Lower Bowl",  # Face Infinity
-    "u-3706": "Upper Bowl",  # Family Can Be Murder
-    "u-3705": "Main Field",  # Fire Safety Support Camp
-    "u-3704": "Upper Bowl",  # Fire Whiskey Circus: Sideshow
-    "u-3703": "Upper Bowl",  # FireFlow Studios
-    "u-3702": "The Meadow",  # Flower Bower
-    "u-3701": "Main Field",  # Fortunia
-    "u-3700": "Upper Bowl",  # Forward Unto Dawn
-    "u-3699": "Main Field",  # Fountain and Flame Apothecary
-    "u-3698": "Forest Entry",  # Fresh Hot Noods
-    "u-3697": "North Point Forest",  # Frisky Brisket
-    "u-3696": "Mezzanine",  # Frizz
-    "u-3695": "Mezzanine",  # FryGuy Kitchen
-    "u-3694": "Main Field",  # Get Toasted
-    "u-3693": "Riverside",  # Glow Up!
-    "u-3692": "Main Field",  # Glowdeo Drive
-    "u-3691": "Upper Bowl",  # Gothicorn Meadows
-    "u-3690": "Mezzanine",  # Gypsy Monkey Carnival
-    "u-3689": "Lower Bowl",  # Hang Loose Camp
-    "u-3688": "The Meadow",  # Haus Anima
-    "u-3687": "North Point Forest",  # Heart Tree
-    "u-3686": "Lower Bowl",  # Hex Marks the Spot
-    "u-3685": "The Meadow",  # HonkDawg
-    "u-3684": "Forest Entry",  # Hoppy Endings Social Club
-    "u-3683": "The Meadow",  # Hotel Charley
-    "u-3682": "Riverside",  # How Rude R U?
-    "u-3681": "Mezzanine",  # HYSS
-    "u-3680": "Main Field",  # Interdimensional Snack Station
-    "u-3679": "Upper Bowl",  # It's All Downhill From Here
-    "u-3678": "Mezzanine",  # Kaleidophoria
-    "u-3677": "Upper Bowl",  # KBUTT 101.3FM
-    "u-3676": "Main Field",  # KID BAR
-    "u-3675": "Riverside",  # Kinky Fucking Camp
-    "u-3674": "Forest Entry",  # Krampusberg
-    "u-3673": "Lower Bowl",  # LED Icosidome
-    "u-3672": "Forest Entry",  # Lil' Hell Bake
-    "u-3671": "The Meadow",  # Limbo Lounge
-    "u-3670": "Main Field",  # Lingerie Lounge
-    "u-3669": "Mezzanine",  # Live LED Art
-    "u-3668": "Riverside",  # Low Bar
-    "u-3667": "The Meadow",  # Mad Hatter's HIGH Tea
-    "u-3666": "The Meadow",  # MAGIC?!
-    "u-3665": "Main Field",  # Mars Rover
-    "u-3664": "Upper Bowl",  # MBS Support Camp
-    "u-3663": "The Meadow",  # Meadowtations
-    "u-3662": "Main Field",  # Meditation In Circles
-    "u-3661": "Upper Bowl",  # MOIST
-    "u-3660": "Around",  # Monster Mirrors
-    "u-3659": "Main Field",  # Moon Tent
-    "u-3658": "Upper Bowl",  # Moonrock
-    "u-3657": "The Meadow",  # mycelium mystics
-    "u-3656": "Riverside",  # neon dreams
-    "u-3655": "Mezzanine",  # Neon Jungle
-    "u-3654": "Upper Bowl",  # Nom Village
-    "u-3653": "Main Field",  # Northwest Mist
-    "u-3652": "Upper Bowl",  # OnlyFeet
-    "u-3651": "Main Field",  # Oracle
-    "u-3650": "Riverside",  # Oregon Snail Trail
-    "u-3649": "Upper Bowl",  # Ourburritoroom
-    "u-3648": "Main Field",  # Ovɘᴙ Fuckin' Rated
-    "u-3647": "The Meadow",  # Pampered Camper
-    "u-3646": "The Meadow",  # Pathways of Process
-    "u-3645": "Lower Bowl",  # Penguins Bubble Bar
-    "u-3644": "Lower Bowl",  # Perspective
-    "u-3643": "Forest Entry",  # Perspective Perception
-    "u-3642": "Main Field",  # Pickleodeon
-    "u-3641": "Main Field",  # Plunderground
-    "u-3640": "Main Field",  # Portals of Paradox
-    "u-3639": "Main Field",  # Possitopia
-    "u-3638": "Upper Bowl",  # POTTY PEOPLE
-    "u-3637": "Forest Entry",  # PPWP Headquarters
-    "u-3636": "Upper Bowl",  # Prismatic Forest
-    "u-3635": "Forest Entry",  # Puppet Camp
-    "u-3634": "Main Field",  # Pyramid of Levitation
-    "u-3633": "Upper Bowl",  # Pyrobox
-    "u-3632": "Riverside",  # Quest Cult
-    "u-3631": "Forest Entry",  # Reading Rainbow
-    "u-3630": "Main Field",  # Rx Burn
-    "u-3629": "Riverside",  # S*M*A*S*H
-    "u-3628": "Upper Bowl",  # Sapphic Suckubus
-    "u-3627": "Riverside",  # Second Rodeo
-    "u-3626": "Upper Bowl",  # Serpentine
-    "u-3625": "Upper Bowl",  # Sex Positivity Camp - Fucking Magic
-    "u-3624": "Forest Entry",  # Shattered Time
-    "u-3623": "Mobile Art",  # Sideshow - The travelling clown bar
-    "u-3622": "Main Field",  # Slow Camera Photobooth
-    "u-3621": "Upper Bowl",  # Snack Attack
-    "u-3620": "Upper Bowl",  # Snack Shack
-    "u-3619": "Main Field",  # Snacks N Snuggles
-    "u-3618": "Main Field",  # SOAK POST
-    "u-3617": "The Meadow",  # Soak Welcome Sign
-    "u-3616": "Main Field",  # SOAKinole
-    "u-3615": "Forest Entry",  # SOAKs Dirty Secrets
-    "u-3614": "Riverside",  # Softer Space
-    "u-3613": "The Meadow",  # Sour Puss
-    "u-3612": "Riverside",  # Spam Camp
-    "u-3611": "The Meadow",  # SPF Patrol
-    "u-3610": "Riverside",  # Stoicheia [ELEMENTS]
-    "u-3609": "Mezzanine",  # Stoop
-    "u-3608": "Upper Bowl",  # G String
-    "u-3607": "Mezzanine",  # Strip 'n Taters
-    "u-3606": "Upper Bowl",  # Swinging Cock Pendulum Wave
-    "u-3605": "Main Field",  # Synthesthesia
-    "u-3604": "Main Field",  # Synthia
-    "u-3603": "Upper Bowl",  # Temple Support Camp
-    "u-3602": "Riverside",  # That's Bright Bob!
-    "u-3601": "The Meadow",  # The Adventurer's Respite
-    "u-3600": "Main Field",  # The Bananiverse
-    "u-3599": "The Meadow",  # The Coven
-    "u-3598": "The Meadow",  # The Coven's Cauldron
-    "u-3597": "Mobile Art",  # The Curiosity
-    "u-3596": "Around",  # The Fool's Journey
-    "u-3595": "Forest Entry",  # The Garden of Otherworldly Delights
-    "u-3594": "Riverside",  # The Gas Station
-    "u-3593": "Forest Entry",  # The Geode-Home
-    "u-3592": "Upper Bowl",  # The Glory Hole - A Spectacular Boutique
-    "u-3591": "Riverside",  # The Horny Unicorn
-    "u-3590": "Forest Entry",  # The man cave
-    "u-3589": "Forest Entry",  # The Rainbow Experiment
-    "u-3588": "The Meadow",  # The Secret of Mems
-    "u-3587": "Forest Entry",  # The Shrubbery
-    "u-3586": "Riverside",  # The Teenie Weenie Art Tent
-    "u-3585": "Forest Entry",  # The Twilight Lounge
-    "u-3584": "The Meadow",  # The Twilight Room
-    "u-3583": "Mezzanine",  # The Valkyrie and Finley
-    "u-3582": "Mobile Art",  # The Wandering Wardrobe
-    "u-3581": "Main Field",  # There U Glow
-    "u-3580": "Forest Entry",  # Time in the Forest
-    "u-3579": "Forest Entry",  # Tiny Tramp Espresso-Tinis
-    "u-3578": "Main Field",  # Trifecta 2.0
-    "u-3577": "Forest Entry",  # Twilight Tarot
-    "u-3576": "Upper Bowl",  # Universal Eggsperience
-    "u-3575": "Upper Bowl",  # V, S, M (an agate)
-    "u-3574": "Riverside",  # Vanity
-    "u-3573": "Main Field",  # Virror 2.0
-    "u-3572": "Upper Bowl",  # W.E.T.
-    "u-3571": "Mezzanine",  # Warm Snuggles
-    "u-3570": "Main Field",  # Watt-Woh!
-    "u-3569": "Forest Entry",  # WB MEDICAL
-    "u-3568": "Upper Bowl",  # Weevil Weevil Rock You
-    "u-3567": "Lower Bowl",  # Wish (vol 1)
-    "u-3566": "Main Field",  # Woo the Day
-    "u-3565": "Main Field",  # Yellow Bikes
-    "u-3564": "Around"  # Zealous Entities
-}
+ 'u-1607': {'name': 'Neon Dreams', 'neighborhood': 'Around'},
+ 'u-1608': {'name': 'Yellow Bikes', 'neighborhood': 'Main Field'},
+ 'u-1610': {'name': 'Wish (vol 1)', 'neighborhood': 'Lower Bowl'},
+ 'u-1611': {'name': 'Virror 2.0', 'neighborhood': 'Main Field'},
+ 'u-1612': {'name': 'Vanity', 'neighborhood': 'Riverside'},
+ 'u-1613': {'name': 'Trifecta 2.0', 'neighborhood': 'Main Field'},
+ 'u-1614': {'name': 'Time in the Forest', 'neighborhood': 'Forest Entry'},
+ 'u-1615': {'name': 'The Wandering Wardrobe', 'neighborhood': 'Mobile Art'},
+ 'u-1616': {'name': 'The Valkyrie and Finley', 'neighborhood': 'Mezzanine'},
+ 'u-1617': {'name': 'The Twilight Room', 'neighborhood': 'The Meadow'},
+ 'u-1618': {'name': 'The Rainbow Experiment', 'neighborhood': 'Forest Entry'},
+ 'u-1619': {'name': 'The Geode-Home', 'neighborhood': 'Mezzanine'},
+ 'u-1620': {'name': "The Fool's Journey", 'neighborhood': 'Around'},
+ 'u-1621': {'name': 'The Curiosity', 'neighborhood': 'Mobile Art'},
+ 'u-1622': {'name': "The Coven's Cauldron", 'neighborhood': 'The Meadow'},
+ 'u-1623': {'name': 'The Bananiverse', 'neighborhood': 'Main Field'},
+ 'u-1624': {'name': "That's Bright Bob!", 'neighborhood': 'Riverside'},
+ 'u-1625': {'name': 'Synthia Light & Music Instrument',
+            'neighborhood': 'Around'},
+ 'u-1626': {'name': 'Swinging Cock Pendulum Wave',
+            'neighborhood': 'Upper Bowl'},
+ 'u-1627': {'name': 'G String', 'neighborhood': 'Upper Bowl'},
+ 'u-1628': {'name': 'Stoicheia [ELEMENTS]', 'neighborhood': 'Riverside'},
+ 'u-1629': {'name': 'Stoicheia Predator', 'neighborhood': 'Around'},
+ 'u-1631': {'name': 'Soak Welcomes You', 'neighborhood': 'Around'},
+ 'u-1632': {'name': 'Snack Attack', 'neighborhood': 'Upper Bowl'},
+ 'u-1633': {'name': 'Slow Camera Photobooth', 'neighborhood': 'Main Field'},
+ 'u-1634': {'name': 'Sideshow - The travelling clown bar',
+            'neighborhood': 'Mobile Art'},
+ 'u-1635': {'name': 'Shattered Time', 'neighborhood': 'Forest Entry'},
+ 'u-1636': {'name': 'Serpentine', 'neighborhood': 'Upper Bowl'},
+ 'u-1637': {'name': 'Sapphic Suckubus', 'neighborhood': 'Upper Bowl'},
+ 'u-1638': {'name': 'SOAKs Dirty Secrets', 'neighborhood': 'Forest Entry'},
+ 'u-1639': {'name': 'SOAKinole', 'neighborhood': 'Main Field'},
+ 'u-1640': {'name': 'SOAK POST', 'neighborhood': 'Main Field'},
+ 'u-1641': {'name': 'Rx Burn', 'neighborhood': 'Main Field'},
+ 'u-1642': {'name': 'Pyrobox', 'neighborhood': 'Upper Bowl'},
+ 'u-1643': {'name': 'Pyramid of Levitation', 'neighborhood': 'Main Field'},
+ 'u-1644': {'name': 'Portals of Paradox', 'neighborhood': 'Main Field'},
+ 'u-1646': {'name': 'Perspective Perception', 'neighborhood': 'Forest Entry'},
+ 'u-1647': {'name': 'Perspective', 'neighborhood': 'Lower Bowl'},
+ 'u-1648': {'name': 'Pathways of Process', 'neighborhood': 'The Meadow'},
+ 'u-1649': {'name': 'Moon Tent', 'neighborhood': 'Main Field'},
+ 'u-1650': {'name': 'Monster Mirrors', 'neighborhood': 'Various - See Notes'},
+ 'u-1651': {'name': 'Meditation In Circles', 'neighborhood': 'Main Field'},
+ 'u-1652': {'name': 'Mars Rover', 'neighborhood': 'Main Field'},
+ 'u-1653': {'name': 'MAGIC?!', 'neighborhood': 'The Meadow'},
+ 'u-1654': {'name': 'Live LED Art', 'neighborhood': 'Mezzanine'},
+ 'u-1655': {'name': 'LED Icosidome', 'neighborhood': 'Lower Bowl'},
+ 'u-1656': {'name': 'Kaleidophoria', 'neighborhood': 'Mezzanine'},
+ 'u-1657': {'name': 'How Rude R U?', 'neighborhood': 'Riverside'},
+ 'u-1658': {'name': 'HonkDawg', 'neighborhood': 'The Meadow'},
+ 'u-1659': {'name': 'Fountain and Flame Apothecary',
+            'neighborhood': 'Main Field'},
+ 'u-1660': {'name': 'Forward Unto Dawn', 'neighborhood': 'Upper Bowl'},
+ 'u-1661': {'name': 'Family Can Be Murder', 'neighborhood': 'Upper Bowl'},
+ 'u-1662': {'name': 'Face Infinity', 'neighborhood': 'Lower Bowl'},
+ 'u-1663': {'name': 'Disco Porto', 'neighborhood': 'The Meadow'},
+ 'u-1664': {'name': 'Dancing Serpent', 'neighborhood': 'Upper Bowl'},
+ 'u-1665': {'name': 'Cymatic Magic Waters', 'neighborhood': 'Around'},
+ 'u-1666': {'name': 'Crystallography', 'neighborhood': 'Mezzanine'},
+ 'u-1667': {'name': 'Cosmic Ducky', 'neighborhood': 'Mobile Art'},
+ 'u-1668': {'name': 'Church of Softer Space', 'neighborhood': 'Mezzanine'},
+ 'u-1669': {'name': 'Burnerphone', 'neighborhood': 'Upper Bowl'},
+ 'u-1670': {'name': 'Burn With Me', 'neighborhood': 'Forest Entry'},
+ 'u-1671': {'name': 'Black Rock Observatory', 'neighborhood': 'The Meadow'},
+ 'u-1672': {'name': 'BibliothÄ“ca IdiÅ\x8dmatis', 'neighborhood': 'Around'},
+ 'u-1673': {'name': 'Bewitching Brews Bicycle', 'neighborhood': 'Mobile Art'},
+ 'u-1674': {'name': 'Banana Phone Booth', 'neighborhood': 'Main Field'},
+ 'u-1675': {'name': 'Baba Yaga House', 'neighborhood': 'Upper Bowl'},
+ 'u-1676': {'name': 'Aura Flora', 'neighborhood': 'Mezzanine'},
+ 'u-1680': {'name': 'Attunement', 'neighborhood': 'Around'},
+ 'u-1767': {'name': 'We Must Imagine Ourselves Happy',
+            'neighborhood': 'Around'},
+ 'u-1768': {'name': 'Temple of Renewal', 'neighborhood': 'Around'},
+ 'u-1769': {'name': 'Main Burnable Structure', 'neighborhood': 'Around'},
+ 'u-3376': {'name': 'Central Services', 'neighborhood': 'Main Field'},
+ 'u-3642': {'name': 'Cats in Space!', 'neighborhood': 'Mezzanine'},
+ 'u-3643': {'name': 'Caffeinated Catalyst', 'neighborhood': 'Main Field'},
+ 'u-3644': {'name': 'Baggage Check', 'neighborhood': 'The Meadow'},
+ 'u-3647': {'name': 'Weevilicious Puppets', 'neighborhood': 'Around'},
+ 'u-3648': {'name': 'Watt-Woh!', 'neighborhood': 'Main Field'},
+ 'u-3649': {'name': 'Warm Snuggles', 'neighborhood': 'Mezzanine'},
+ 'u-3650': {'name': 'W.E.T.', 'neighborhood': 'Upper Bowl'},
+ 'u-3651': {'name': 'V', 'neighborhood': 'Around'},
+ 'u-3652': {'name': 'Twilight Tarot', 'neighborhood': 'Forest Entry'},
+ 'u-3653': {'name': 'Tiny Tramp Espresso-Tinis',
+            'neighborhood': 'Forest Entry'},
+ 'u-3654': {'name': 'There U Glow', 'neighborhood': 'Main Field'},
+ 'u-3655': {'name': 'The man cave', 'neighborhood': 'Forest Entry'},
+ 'u-3656': {'name': 'The Twilight Lounge (brought to you by The Bunny Ranch)',
+            'neighborhood': 'Around'},
+ 'u-3657': {'name': 'The Teenie Weenie Art Tent', 'neighborhood': 'Riverside'},
+ 'u-3658': {'name': 'The Shrubbery', 'neighborhood': 'Forest Entry'},
+ 'u-3659': {'name': 'The Secret of Mems', 'neighborhood': 'The Meadow'},
+ 'u-3660': {'name': 'The Horny Unicorn', 'neighborhood': 'Riverside'},
+ 'u-3661': {'name': 'The Glory Hole - A Spectacular Boutique',
+            'neighborhood': 'Upper Bowl'},
+ 'u-3662': {'name': 'The Gas Station', 'neighborhood': 'Riverside'},
+ 'u-3663': {'name': 'The Garden of Otherworldly Delights',
+            'neighborhood': 'Forest Entry'},
+ 'u-3664': {'name': 'The Coven', 'neighborhood': 'The Meadow'},
+ 'u-3665': {'name': "The Adventurer's Respite", 'neighborhood': 'The Meadow'},
+ 'u-3666': {'name': 'Synthesthesia', 'neighborhood': 'Main Field'},
+ 'u-3667': {'name': "Strip 'n Taters", 'neighborhood': 'Mezzanine'},
+ 'u-3668': {'name': 'Stoop', 'neighborhood': 'Mezzanine'},
+ 'u-3669': {'name': 'Spam Camp', 'neighborhood': 'Riverside'},
+ 'u-3670': {'name': 'Softer Space', 'neighborhood': 'Riverside'},
+ 'u-3671': {'name': 'Snacks N Snuggles', 'neighborhood': 'Main Field'},
+ 'u-3672': {'name': 'Snack Shack', 'neighborhood': 'Upper Bowl'},
+ 'u-3673': {'name': 'Sex Positivity Camp - Fucking Magic',
+            'neighborhood': 'Upper Bowl'},
+ 'u-3674': {'name': 'Second Rodeo', 'neighborhood': 'Riverside'},
+ 'u-3675': {'name': 'SPF Patrol', 'neighborhood': 'The Meadow'},
+ 'u-3676': {'name': 'S*M*A*S*H', 'neighborhood': 'Riverside'},
+ 'u-3677': {'name': 'Reading Rainbow', 'neighborhood': 'Forest Entry'},
+ 'u-3678': {'name': 'Quest Cult', 'neighborhood': 'Riverside'},
+ 'u-3679': {'name': 'Puppet Camp', 'neighborhood': 'Forest Entry'},
+ 'u-3680': {'name': 'Prismatic Forest', 'neighborhood': 'Upper Bowl'},
+ 'u-3681': {'name': 'Possitopia', 'neighborhood': 'Main Field'},
+ 'u-3682': {'name': 'Plunderground', 'neighborhood': 'Main Field'},
+ 'u-3683': {'name': 'Pickleodeon', 'neighborhood': 'Main Field'},
+ 'u-3684': {'name': 'Penguins Bubble Bar', 'neighborhood': 'Lower Bowl'},
+ 'u-3685': {'name': 'Pampered Camper', 'neighborhood': 'The Meadow'},
+ 'u-3686': {'name': 'POTTY PEOPLE', 'neighborhood': 'Upper Bowl'},
+ 'u-3687': {'name': "Over Fuckin' Rated", 'neighborhood': 'Around'},
+ 'u-3688': {'name': 'Ourburritoroom', 'neighborhood': 'Upper Bowl'},
+ 'u-3689': {'name': 'Oregon Snail Trail', 'neighborhood': 'Riverside'},
+ 'u-3690': {'name': 'OnlyFeet', 'neighborhood': 'Upper Bowl'},
+ 'u-3691': {'name': 'Northwest Mist', 'neighborhood': 'Main Field'},
+ 'u-3692': {'name': 'Nom Village', 'neighborhood': 'Upper Bowl'},
+ 'u-3693': {'name': 'Neon Jungle', 'neighborhood': 'Mezzanine'},
+ 'u-3694': {'name': 'Mushroom Mystics', 'neighborhood': 'Around'},
+ 'u-3695': {'name': 'Moonrock', 'neighborhood': 'Upper Bowl'},
+ 'u-3696': {'name': 'Meadowtations', 'neighborhood': 'The Meadow'},
+ 'u-3697': {'name': "Mad Hatter's HIGH Tea", 'neighborhood': 'The Meadow'},
+ 'u-3698': {'name': 'MOIST', 'neighborhood': 'Upper Bowl'},
+ 'u-3699': {'name': 'MBS Support Camp', 'neighborhood': 'Upper Bowl'},
+ 'u-3700': {'name': 'Low Bar', 'neighborhood': 'Riverside'},
+ 'u-3701': {'name': 'Lingerie Lounge', 'neighborhood': 'Main Field'},
+ 'u-3702': {'name': 'Limbo Lounge', 'neighborhood': 'Forest Entry'},
+ 'u-3703': {'name': "Lil' Hell Bake", 'neighborhood': 'Forest Entry'},
+ 'u-3704': {'name': 'Krampusberg', 'neighborhood': 'Forest Entry'},
+ 'u-3705': {'name': 'Kinky Fucking Camp', 'neighborhood': 'Riverside'},
+ 'u-3706': {'name': 'KID BAR', 'neighborhood': 'Main Field'},
+ 'u-3707': {'name': 'KBUTT 101.3FM', 'neighborhood': 'Upper Bowl'},
+ 'u-3708': {'name': "It's All Downhill From Here",
+            'neighborhood': 'Upper Bowl'},
+ 'u-3709': {'name': 'Hotel Charley', 'neighborhood': 'The Meadow'},
+ 'u-3710': {'name': 'Hex Marks the Spot', 'neighborhood': 'Lower Bowl'},
+ 'u-3711': {'name': 'Heart Tree', 'neighborhood': 'North Point Forest'},
+ 'u-3712': {'name': 'Haus Anima', 'neighborhood': 'The Meadow'},
+ 'u-3714': {'name': 'HYSS', 'neighborhood': 'Mezzanine'},
+ 'u-3715': {'name': 'Gypsy Monkey Carnival', 'neighborhood': 'Mezzanine'},
+ 'u-3716': {'name': 'Gothicorn Meadows', 'neighborhood': 'Upper Bowl'},
+ 'u-3717': {'name': 'Glowdeo Drive', 'neighborhood': 'Main Field'},
+ 'u-3718': {'name': 'Glow Up!', 'neighborhood': 'Riverside'},
+ 'u-3719': {'name': 'Get Toasted', 'neighborhood': 'Main Field'},
+ 'u-3720': {'name': 'FryGuy', 'neighborhood': 'Around'},
+ 'u-3721': {'name': 'Frizz', 'neighborhood': 'Mezzanine'},
+ 'u-3722': {'name': 'Frisky Brisket', 'neighborhood': 'North Point Forest'},
+ 'u-3723': {'name': 'Fresh Hot Noods', 'neighborhood': 'Forest Entry'},
+ 'u-3724': {'name': 'Fortunia', 'neighborhood': 'Main Field'},
+ 'u-3725': {'name': 'Flower Bower', 'neighborhood': 'The Meadow'},
+ 'u-3726': {'name': 'FireFlow Studios', 'neighborhood': 'Upper Bowl'},
+ 'u-3727': {'name': 'Fire Whiskey Circus: Sideshow',
+            'neighborhood': 'Upper Bowl'},
+ 'u-3728': {'name': 'Fire Safety Support Camp', 'neighborhood': 'Main Field'},
+ 'u-3729': {'name': 'Embassy', 'neighborhood': 'Around'},
+ 'u-3730': {'name': 'Elation Station', 'neighborhood': 'Mezzanine'},
+ 'u-3731': {'name': 'EX-FILES', 'neighborhood': 'Forest Entry'},
+ 'u-3732': {'name': 'Dusty Bunnies', 'neighborhood': 'Riverside'},
+ 'u-3733': {'name': "Dr. Bev's Clinic", 'neighborhood': 'The Meadow'},
+ 'u-3734': {'name': 'Cult of the Peach', 'neighborhood': 'Main Field'},
+ 'u-3735': {'name': 'CrÃªpiphany', 'neighborhood': 'Around'},
+ 'u-3736': {'name': 'Creature Corner', 'neighborhood': 'Riverside'},
+ 'u-3737': {'name': 'Cracked Pot', 'neighborhood': 'Forest Entry'},
+ 'u-3738': {'name': 'Cosmic Chai', 'neighborhood': 'Main Field'},
+ 'u-3739': {'name': 'Citadel of the Eternal Pastry',
+            'neighborhood': 'Upper Bowl'},
+ 'u-3740': {'name': 'Cirque De Licious', 'neighborhood': 'Upper Bowl'},
+ 'u-3741': {'name': 'Church of Party', 'neighborhood': 'Mezzanine'},
+ 'u-3742': {'name': 'Chrono Chroma', 'neighborhood': 'The Meadow'},
+ 'u-3743': {'name': 'Camp-Misbehaving', 'neighborhood': 'The Meadow'},
+ 'u-3744': {'name': 'Camp Monkey Business', 'neighborhood': 'Main Field'},
+ 'u-3745': {'name': 'Camp FYFA', 'neighborhood': 'Main Field'},
+ 'u-3746': {'name': 'Camp DSF', 'neighborhood': 'Main Field'},
+ 'u-3747': {'name': 'Camp Clusterfuck', 'neighborhood': 'Mezzanine'},
+ 'u-3748': {'name': 'CBGB Camp Biscuits', 'neighborhood': 'Around'},
+ 'u-3749': {'name': 'Bobablivion', 'neighborhood': 'Main Field'},
+ 'u-3750': {'name': 'Bean Here Now', 'neighborhood': 'Main Field'},
+ 'u-3751': {'name': 'Baby Behead & Breakfast', 'neighborhood': 'Upper Bowl'},
+ 'u-3752': {'name': 'Babble-On', 'neighborhood': 'Main Field'},
+ 'u-3753': {'name': 'BILY Camp', 'neighborhood': 'Riverside'},
+ 'u-3754': {'name': 'Aucupouri Teahouse', 'neighborhood': 'Upper Bowl'},
+ 'u-3755': {'name': 'Astro Shack JaVa JoINt', 'neighborhood': 'The Meadow'},
+ 'u-3756': {'name': 'Art of Doing Nothing', 'neighborhood': 'The Meadow'},
+ 'u-3757': {'name': 'Acid Drip', 'neighborhood': 'Lower Bowl'},
+ 'u-3758': {'name': 'Absinthe Minded', 'neighborhood': 'Riverside'},
+ 'u-3759': {'name': 'ASMR Apothecary', 'neighborhood': 'Forest Entry'},
+ 'u-3761': {'name': 'Oracle', 'neighborhood': 'Main Field'},
+ 'u-3762': {'name': 'Interdimensional Snack Station',
+            'neighborhood': 'Main Field'},
+ 'u-3763': {'name': 'Hoppy Endings Social Club',
+            'neighborhood': 'Forest Entry'},
+ 'u-3764': {'name': 'C.O.C.K.(Camp of Cool Kids)', 'neighborhood': 'Mezzanine'},
+ 'u-3766': {'name': 'Woo the Day', 'neighborhood': 'Main Field'},
+ 'u-3767': {'name': 'Universal Eggsperience', 'neighborhood': 'Upper Bowl'},
+ 'u-3769': {'name': 'NJ', 'neighborhood': 'Around'},
+ 'u-3771': {'name': 'mycelium mystics', 'neighborhood': 'The Meadow'},
+ 'u-3772': {'name': 'Hang Loose Camp', 'neighborhood': 'Lower Bowl'},
+ 'u-3773': {'name': 'The Twilight Lounge', 'neighborhood': 'Forest Entry'},
+ 'u-3774': {'name': "OvÉ˜á´™ Fuckin' Rated", 'neighborhood': 'Around'},
+ 'u-3776': {'name': 'FryGuy Kitchen', 'neighborhood': 'Mezzanine'},
+ 'u-4160': {'name': 'Sour Puss', 'neighborhood': 'The Meadow'},
+ 'u-4162': {'name': 'Placement HQ', 'neighborhood': 'Around'},
+ 'u-4197': {'name': 'Coast Guard', 'neighborhood': 'Riverside'}
+ }
 
 @app.route('/<path:path>')
 def send_report(path):
@@ -221,8 +242,10 @@ def schedule() -> Response:
 
     schedule_data = response.json()
     for event in schedule_data:
-        neighborhood = CAMP_LOCATIONS.get(event["hosted_by_camp"], "Various - See Map")
-        event["neighborhood"] = neighborhood
+        camp = CAMP_LOCATIONS.get(event["hosted_by_camp"])
+        if camp is None:
+            camp = CAMP_LOCATIONS.get(event["located_at_art"], { "neighborhood": "Around" })
+        event["neighborhood"] = camp.get("neighborhood", "Around")
 
     return schedule_data
 

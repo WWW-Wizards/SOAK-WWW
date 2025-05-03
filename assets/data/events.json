@@ -10,7 +10,7 @@
     "hosted_by_camp": "u-3649",
     "imageUrl": null,
     "location": "Warm Snuggles",
-    "neighborhood": "Upper Bowl",
+    "neighborhood": "Mezzanine",
     "occurrence": {
       "brief": "Midnight",
       "end_time": "2025-05-22T23:59:59",
@@ -27,14 +27,14 @@
     "art": "",
     "camp": "Cirque De Licious",
     "day": "Thursday",
-    "description": "Slide into the Spectacle: Cirque De Licious Water Slide Edition!\nSaturday | 1PM–3PM\n\nStep right up and take the plunge—because this Saturday, Cirque De Licious transforms into a whirl of watery wonder and whimsical delight!\n\nFrom 1PM to 3PM, prepare to be drenched in joy as our giant water slide becomes the centerpiece of a magical, bubbly extravaganza. Picture yourself sliding through clouds of glittering bubbles while mythical creatures cheer you on, giggling like trickster spirits of splash and sun.\n\nA DJ spins the soundtrack of your summer soul, sending beats that bounce like beach balls across the dust. Hula hoops swirl like galaxies around bodies in motion, while aerial silk performers twist and twirl above, defying gravity and reason with grace only found in dreams.\n\nBring your wild heart, and your thirst for fun—because this isn’t just a water slide. It’s a portal. A playground. A performance. A party.\nCirque De Licious. 1PM to 3PM. Saturday.\nCome soak up the magic! ✨✨✨",
+    "description": "Slide into the Spectacle: Cirque De Licious Water Slide Edition!\nSaturday | 1PM\u20133PM\n\nStep right up and take the plunge\u2014because this Saturday, Cirque De Licious transforms into a whirl of watery wonder and whimsical delight!\n\nFrom 1PM to 3PM, prepare to be drenched in joy as our giant water slide becomes the centerpiece of a magical, bubbly extravaganza. Picture yourself sliding through clouds of glittering bubbles while mythical creatures cheer you on, giggling like trickster spirits of splash and sun.\n\nA DJ spins the soundtrack of your summer soul, sending beats that bounce like beach balls across the dust. Hula hoops swirl like galaxies around bodies in motion, while aerial silk performers twist and twirl above, defying gravity and reason with grace only found in dreams.\n\nBring your wild heart, and your thirst for fun\u2014because this isn\u2019t just a water slide. It\u2019s a portal. A playground. A performance. A party.\nCirque De Licious. 1PM to 3PM. Saturday.\nCome soak up the magic! \u2728\u2728\u2728",
     "event_type": {
       "label": "Gathering/Party"
     },
     "hosted_by_camp": "u-3740",
     "imageUrl": "https://data.dust.events/soak-2025/05199221075675825.webp",
     "location": "Cirque De Licious",
-    "neighborhood": "Main Field",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "Midnight",
       "end_time": "2025-05-22T01:00:00",
@@ -49,6 +49,80 @@
   },
   {
     "art": "",
+    "camp": "Acid Drip",
+    "day": "Thursday",
+    "description": "Step into your sonic sanctuary! Our sound booth offers you the ultimate DJ experience. Imagine a space where the decks are yours, the vibe is yours, and the only limit is your musical imagination. Bring your own tracks, plug in your gear, and let the rhythm take over.\n\nWhether you're a seasoned DJ wanting a dedicated practice space, an aspiring artist ready to lay down your first mix, or just someone who loves to curate the perfect playlist for friends, our booth provides the ideal environment. With professional-grade equipment and comfortable acoustics, you can immerse yourself in the music and fine-tune your skills without distractions. It's your stage, your sound \u2013 unleash your inner DJ!",
+    "event_type": {
+      "label": "Gathering/Party"
+    },
+    "hosted_by_camp": "u-3757",
+    "imageUrl": "https://data.dust.events/soak-2025/08702081009492253.webp",
+    "location": "Acid Drip",
+    "neighborhood": "Lower Bowl",
+    "occurrence": {
+      "brief": "Midnight",
+      "end_time": "2025-05-22T23:59:59",
+      "long": "Thursday Midnight-11:59pm (24hrs)",
+      "short": "Midnight (24hrs)",
+      "start_time": "2025-05-22T00:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Open Decks!!!",
+    "uid": "u-10801"
+  },
+  {
+    "art": "The Geode-Home",
+    "camp": "",
+    "canView": false,
+    "day": "Thursday",
+    "description": "An all-day LED lightshow experience\u2014step into a shifting world of color, motion, and illusion as light transforms the space from sunrise to starlight.",
+    "event_type": {
+      "label": "Fire/Spectacle,Performance"
+    },
+    "hosted_by_camp": null,
+    "imageUrl": null,
+    "located_at_art": "u-1619",
+    "location": "The Geode-Home",
+    "neighborhood": "Forest Entry",
+    "occurrence": {
+      "brief": "Midnight",
+      "end_time": "2025-05-22T23:59:59",
+      "long": "Thursday Midnight-11:59pm (24hrs)",
+      "short": "Midnight (24hrs)",
+      "start_time": "2025-05-22T00:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "LED Lightshows at the GeodeHome",
+    "uid": "u-10835"
+  },
+  {
+    "art": "",
+    "camp": "FryGuy",
+    "day": "Thursday",
+    "description": "Keep the party going or snack out before bed.\nWe'll by there to serve you something tasty when the moon shines.",
+    "event_type": {
+      "label": "Food & Drink"
+    },
+    "hosted_by_camp": "u-3720",
+    "imageUrl": "https://data.dust.events/soak-2025/06071825411187407.webp",
+    "location": "FryGuy",
+    "neighborhood": "Around",
+    "occurrence": {
+      "brief": "1am",
+      "end_time": "2025-05-22T03:00:00",
+      "long": "Thursday 1am-3am (2hrs)",
+      "short": "1am (2hrs)",
+      "start_time": "2025-05-22T01:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Late night services",
+    "uid": "u-10842"
+  },
+  {
+    "art": "",
     "camp": "Frizz",
     "day": "Thursday",
     "description": "Start your day right with the best drug in the world, caffeine!  Slow crafted cappuccinos, lattes, and espresso drinks from our coffee bar. Enjoy the cozy atmosphere with propane fire pits and comfortable seating, perfect for morning chats and mid-day relaxation.",
@@ -58,7 +132,7 @@
     "hosted_by_camp": "u-3721",
     "imageUrl": null,
     "location": "Frizz",
-    "neighborhood": "Main Field",
+    "neighborhood": "Mezzanine",
     "occurrence": {
       "brief": "8am",
       "end_time": "2025-05-22T11:00:00",
@@ -82,7 +156,7 @@
     "hosted_by_camp": "u-3729",
     "imageUrl": null,
     "location": "Embassy",
-    "neighborhood": "The Meadow",
+    "neighborhood": "Around",
     "occurrence": {
       "brief": "10am",
       "end_time": "2025-05-22T16:00:00",
@@ -97,16 +171,16 @@
   },
   {
     "art": "",
-    "camp": "Crêpiphany",
+    "camp": "Cr\u00eapiphany",
     "day": "Thursday",
-    "description": "You are cordially invited to savor the crêpes at the Café Crêpiphany. Choose from a variety of sweet toppings and enjoy our typical French café experience. Engage your mind as well as your taste buds with an assortment of puzzles.",
+    "description": "You are cordially invited to savor the cr\u00eapes at the Caf\u00e9 Cr\u00eapiphany. Choose from a variety of sweet toppings and enjoy our typical French caf\u00e9 experience. Engage your mind as well as your taste buds with an assortment of puzzles.",
     "event_type": {
       "label": "Food & Drink"
     },
     "hosted_by_camp": "u-3735",
     "imageUrl": "https://data.dust.events/soak-2025/07008582032414468.webp",
-    "location": "Crêpiphany",
-    "neighborhood": "Mezzanine",
+    "location": "Cr\u00eapiphany",
+    "neighborhood": "Around",
     "occurrence": {
       "brief": "11am",
       "end_time": "2025-05-22T13:00:00",
@@ -116,7 +190,7 @@
     },
     "otherLocation": "",
     "other_location": null,
-    "title": "Crêpes and puzzles!",
+    "title": "Cr\u00eapes and puzzles!",
     "uid": "u-10143"
   },
   {
@@ -130,7 +204,7 @@
     "hosted_by_camp": "u-3753",
     "imageUrl": "https://data.dust.events/soak-2025/06909562744462643.webp",
     "location": "BILY Camp",
-    "neighborhood": "Upper Bowl",
+    "neighborhood": "Riverside",
     "occurrence": {
       "brief": "11am",
       "end_time": "2025-05-22T15:00:00",
@@ -154,7 +228,7 @@
     "hosted_by_camp": "u-3376",
     "imageUrl": "https://data.dust.events/soak-2025/06408114444104589.webp",
     "location": "Central Services",
-    "neighborhood": "Around",
+    "neighborhood": "Main Field",
     "occurrence": {
       "brief": "Noon",
       "end_time": "2025-05-22T13:00:00",
@@ -171,14 +245,14 @@
     "art": "",
     "camp": "The Teenie Weenie Art Tent",
     "day": "Thursday",
-    "description": "Teenie Weenies (Lil' Smokie Sausages) in my own custom sauce mix, cooking away in the Solar Microwave. All Hot & Tasty fer nomlicious snacking action. Come get a skewer!!  Plus Tasty Root Beer, Bring Your Drinking Vessel!! Open Noon until Gone!! PG-13",
+    "description": "Teenie Weenies (Lil' Smokies Sausages) in my own customized sauce, cooking away in the Solar Microwave. All Hot & Tasty fer magical snacking action. Come get a skewer!!  Plus Tasty Root Beer, Bring Your Drinking Vessel!! Open Noon until Gone!! PG-13",
     "event_type": {
       "label": "Food & Drink"
     },
     "hosted_by_camp": "u-3657",
     "imageUrl": "https://data.dust.events/soak-2025/02964952974969669.webp",
     "location": "The Teenie Weenie Art Tent",
-    "neighborhood": "The Meadow",
+    "neighborhood": "Riverside",
     "occurrence": {
       "brief": "Noon",
       "end_time": "2025-05-22T15:00:00",
@@ -188,7 +262,7 @@
     },
     "otherLocation": "",
     "other_location": null,
-    "title": "Teenie Weenies & Root Beer",
+    "title": "Teenie Weenie Feedie (& Root Beer)",
     "uid": "u-10149"
   },
   {
@@ -226,7 +300,7 @@
     "hosted_by_camp": "u-3709",
     "imageUrl": "https://data.dust.events/soak-2025/04737223124807749.webp",
     "location": "Hotel Charley",
-    "neighborhood": "Mezzanine",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "1pm",
       "end_time": "2025-05-22T15:00:00",
@@ -250,7 +324,7 @@
     "hosted_by_camp": "u-3655",
     "imageUrl": "https://data.dust.events/soak-2025/05104601638843727.webp",
     "location": "The man cave",
-    "neighborhood": "Mezzanine",
+    "neighborhood": "Forest Entry",
     "occurrence": {
       "brief": "1pm",
       "end_time": "2025-05-22T14:00:00",
@@ -274,7 +348,7 @@
     "hosted_by_camp": "u-3733",
     "imageUrl": null,
     "location": "Dr. Bev's Clinic",
-    "neighborhood": "Main Field",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "1pm",
       "end_time": "2025-05-22T16:00:00",
@@ -298,7 +372,7 @@
     "hosted_by_camp": "u-3673",
     "imageUrl": null,
     "location": "Sex Positivity Camp - Fucking Magic",
-    "neighborhood": "Lower Bowl",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "2pm",
       "end_time": "2025-05-22T15:30:00",
@@ -322,7 +396,7 @@
     "hosted_by_camp": "u-3772",
     "imageUrl": "https://data.dust.events/soak-2025/04000344047000217.webp",
     "location": "Hang Loose Camp",
-    "neighborhood": "Around",
+    "neighborhood": "Lower Bowl",
     "occurrence": {
       "brief": "3pm",
       "end_time": "2025-05-22T17:00:00",
@@ -346,7 +420,7 @@
     "hosted_by_camp": "u-3649",
     "imageUrl": null,
     "location": "Warm Snuggles",
-    "neighborhood": "Upper Bowl",
+    "neighborhood": "Mezzanine",
     "occurrence": {
       "brief": "3pm",
       "end_time": "2025-05-22T15:30:00",
@@ -370,7 +444,7 @@
     "hosted_by_camp": "u-3751",
     "imageUrl": null,
     "location": "Baby Behead & Breakfast",
-    "neighborhood": "Main Field",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "4pm",
       "end_time": "2025-05-22T18:00:00",
@@ -394,7 +468,7 @@
     "hosted_by_camp": "u-3751",
     "imageUrl": null,
     "location": "Baby Behead & Breakfast",
-    "neighborhood": "Main Field",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "4pm",
       "end_time": "2025-05-22T18:00:00",
@@ -418,7 +492,7 @@
     "hosted_by_camp": "u-3705",
     "imageUrl": null,
     "location": "Kinky Fucking Camp",
-    "neighborhood": "Main Field",
+    "neighborhood": "Riverside",
     "occurrence": {
       "brief": "4pm",
       "end_time": "2025-05-22T17:00:00",
@@ -442,7 +516,7 @@
     "hosted_by_camp": "u-3687",
     "imageUrl": null,
     "location": "Over Fuckin' Rated",
-    "neighborhood": "North Point Forest",
+    "neighborhood": "Around",
     "occurrence": {
       "brief": "4pm",
       "end_time": "2025-05-22T17:00:00",
@@ -466,7 +540,7 @@
     "hosted_by_camp": "u-3706",
     "imageUrl": "https://data.dust.events/soak-2025/08929016165233181.webp",
     "location": "KID BAR",
-    "neighborhood": "Upper Bowl",
+    "neighborhood": "Main Field",
     "occurrence": {
       "brief": "5pm",
       "end_time": "2025-05-22T19:00:00",
@@ -490,7 +564,7 @@
     "hosted_by_camp": "u-3696",
     "imageUrl": null,
     "location": "Meadowtations",
-    "neighborhood": "Mezzanine",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "6pm",
       "end_time": "2025-05-22T18:15:00",
@@ -502,6 +576,78 @@
     "other_location": null,
     "title": "Guided Meditation",
     "uid": "u-10380"
+  },
+  {
+    "art": "",
+    "camp": "Acid Drip",
+    "day": "Thursday",
+    "description": "Escape into a realm of rich aromas and relaxed vibes at our hookah lounge. Sink into plush seating surrounded by warm lighting and intricate d\u00e9cor, creating the perfect backdrop for unwinding. Choose from a diverse selection of premium shisha flavors; we will also have non-tobacco options.\n\nWhether hanging with friends, chilling alone, or looking for something different, our lounge is the spot. Enjoy the fragrant smoke, relax, and soak in the good vibes. Everything is ready for you to kick back and enjoy. Find your flavor and unwind with us!\n\nWe will be closed for the burn!",
+    "event_type": {
+      "label": "Gathering/Party"
+    },
+    "hosted_by_camp": "u-3757",
+    "imageUrl": null,
+    "location": "Acid Drip",
+    "neighborhood": "Lower Bowl",
+    "occurrence": {
+      "brief": "6pm",
+      "end_time": "2025-05-23T00:00:00",
+      "long": "Thursday 6pm-Midnight (6hrs)",
+      "short": "6pm (6hrs)",
+      "start_time": "2025-05-22T18:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Hookah Cafe",
+    "uid": "u-10802"
+  },
+  {
+    "art": "",
+    "camp": "The Glory Hole - A Spectacular Boutique",
+    "day": "Thursday",
+    "description": "We will be accepting donations Thursday night for the boutique! Please bring us your unwanted rave, festy, burner, and slut gear and join us for a cocktail!",
+    "event_type": {
+      "label": "Food & Drink,Miscellaneous"
+    },
+    "hosted_by_camp": "u-3661",
+    "imageUrl": null,
+    "location": "The Glory Hole - A Spectacular Boutique",
+    "neighborhood": "Upper Bowl",
+    "occurrence": {
+      "brief": "7pm",
+      "end_time": "2025-05-22T23:00:00",
+      "long": "Thursday 7pm-11pm (4hrs)",
+      "short": "7pm (4hrs)",
+      "start_time": "2025-05-22T19:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Accepting Donations!",
+    "uid": "u-10822"
+  },
+  {
+    "art": "",
+    "camp": "Flower Bower",
+    "day": "Thursday",
+    "description": "Deflower us! ...by accessorizing yourself with fabulous clip-on flowers and other faux floral creations at our 24-hour self-service boutique. Then come back at night and let the magical lights enchant you. Floral fashion consultants available spore-adically.",
+    "event_type": {
+      "label": "Miscellaneous,Self Care"
+    },
+    "hosted_by_camp": "u-3725",
+    "imageUrl": "https://data.dust.events/soak-2025/04996570797863997.webp",
+    "location": "Flower Bower",
+    "neighborhood": "The Meadow",
+    "occurrence": {
+      "brief": "7pm",
+      "end_time": "2025-05-23T00:00:00",
+      "long": "Thursday 7pm-Midnight (5hrs)",
+      "short": "7pm (5hrs)",
+      "start_time": "2025-05-22T19:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Flower Bower Boutique",
+    "uid": "u-10869"
   },
   {
     "art": "Perspective Perception",
@@ -516,7 +662,7 @@
     "imageUrl": "https://data.dust.events/soak-2025/06959177413169978.webp",
     "located_at_art": "u-1646",
     "location": "Perspective Perception",
-    "neighborhood": "Around",
+    "neighborhood": "Forest Entry",
     "occurrence": {
       "brief": "8pm",
       "end_time": "2025-05-22T21:00:00",
@@ -533,14 +679,14 @@
     "art": "",
     "camp": "Sex Positivity Camp - Fucking Magic",
     "day": "Thursday",
-    "description": "Consent is more than just a yes or no—it’s an art! In this playful, interactive workshop, we’ll explore ways to create magical, consensual connections. Through embodiment exercises and real-time practice, you’ll learn to tune into your enthusiastic YES and empowered NO, building confidence to navigate desires with clarity, fun, and respect.",
+    "description": "Consent is more than just a yes or no\u2014it\u2019s an art! In this playful, interactive workshop, we\u2019ll explore ways to create magical, consensual connections. Through embodiment exercises and real-time practice, you\u2019ll learn to tune into your enthusiastic YES and empowered NO, building confidence to navigate desires with clarity, fun, and respect.",
     "event_type": {
       "label": "Class/Workshop"
     },
     "hosted_by_camp": "u-3673",
     "imageUrl": null,
     "location": "Sex Positivity Camp - Fucking Magic",
-    "neighborhood": "Lower Bowl",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "8pm",
       "end_time": "2025-05-22T21:00:00",
@@ -555,6 +701,30 @@
   },
   {
     "art": "",
+    "camp": "Absinthe Minded",
+    "day": "Thursday",
+    "description": "Come meet the green fairy and earn one of her potions by completing a side quest.",
+    "event_type": {
+      "label": "Food & Drink"
+    },
+    "hosted_by_camp": "u-3758",
+    "imageUrl": null,
+    "location": "Absinthe Minded",
+    "neighborhood": "Riverside",
+    "occurrence": {
+      "brief": "8pm",
+      "end_time": "2025-05-23T00:00:00",
+      "long": "Thursday 8pm-Midnight (4hrs)",
+      "short": "8pm (4hrs)",
+      "start_time": "2025-05-22T20:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Green Lantern: Absinthe & Side Quests",
+    "uid": "u-10876"
+  },
+  {
+    "art": "",
     "camp": "Warm Snuggles",
     "day": "Thursday",
     "description": "Storytelling time is a time honored tradition and holds nostalgic love! Magically comforting and grounds us back to that sense of being HERE & feeling our place here at home! \nJoin us at Dusk as we share a treasured gift- All The Colors!",
@@ -564,7 +734,7 @@
     "hosted_by_camp": "u-3649",
     "imageUrl": "https://data.dust.events/soak-2025/04162085519598957.webp",
     "location": "Warm Snuggles",
-    "neighborhood": "Upper Bowl",
+    "neighborhood": "Mezzanine",
     "occurrence": {
       "brief": "8:30pm",
       "end_time": "2025-05-22T21:00:00",
@@ -581,14 +751,14 @@
     "art": "",
     "camp": "Krampusberg",
     "day": "Thursday",
-    "description": "Join us at our Alpen Dämonen themed bar,  for an evening of revelry, spirits, and the bizarre.  The bar will be open until the goats sing.\n\n(Be prepared to show ID.)",
+    "description": "Join us at our Alpen D\u00e4monen themed bar,  for an evening of revelry, spirits, and the bizarre.  The bar will be open until the goats sing.\n\n(Be prepared to show ID.)",
     "event_type": {
       "label": "Food & Drink"
     },
     "hosted_by_camp": "u-3704",
     "imageUrl": null,
     "location": "Krampusberg",
-    "neighborhood": "Upper Bowl",
+    "neighborhood": "Forest Entry",
     "occurrence": {
       "brief": "8:45pm",
       "end_time": "2025-05-22T23:45:00",
@@ -612,7 +782,7 @@
     "hosted_by_camp": "u-3655",
     "imageUrl": "https://data.dust.events/soak-2025/013441893176842146.webp",
     "location": "The man cave",
-    "neighborhood": "Mezzanine",
+    "neighborhood": "Forest Entry",
     "occurrence": {
       "brief": "9pm",
       "end_time": "2025-05-23T01:00:00",
@@ -627,6 +797,30 @@
   },
   {
     "art": "",
+    "camp": "Haus Anima",
+    "day": "Thursday",
+    "description": "color with blacklight-ractive pigments on a giant hand-drawn coloring sheet",
+    "event_type": {
+      "label": "Arts & Crafts"
+    },
+    "hosted_by_camp": "u-3712",
+    "imageUrl": "https://data.dust.events/soak-2025/0437751337502277.webp",
+    "location": "Haus Anima",
+    "neighborhood": "The Meadow",
+    "occurrence": {
+      "brief": "9pm",
+      "end_time": "2025-05-23T00:00:00",
+      "long": "Thursday 9pm-Midnight (3hrs)",
+      "short": "9pm (3hrs)",
+      "start_time": "2025-05-22T21:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "collaborative coloring",
+    "uid": "u-10847"
+  },
+  {
+    "art": "",
     "camp": "Sex Positivity Camp - Fucking Magic",
     "day": "Thursday",
     "description": "Enter a world of enchantment with SPLA member Alejandro and his partner, Kim. Through Bachata, Salsa, Kizomba, Tango, and more, discover the magic of movement, intimacy, and sensual expression. All dance levels welcome. No partner? Join, observe, or pair up and let the rhythm guide you.",
@@ -636,7 +830,7 @@
     "hosted_by_camp": "u-3673",
     "imageUrl": null,
     "location": "Sex Positivity Camp - Fucking Magic",
-    "neighborhood": "Lower Bowl",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "9:30pm",
       "end_time": "2025-05-22T22:30:00",
@@ -651,6 +845,30 @@
   },
   {
     "art": "",
+    "camp": "Cosmic Chai",
+    "day": "Thursday",
+    "description": "Don your glitter thongs and velvet capes, because we\u2019re conjuring the night with a coven of glamorous struts, hypnotic butts, and moonlit sluts. This is the silent disco where sass meets sorcery, and the weird and wild dance as one. Whether you're summoning the spirits of twerk, casting chaotic good vibes, or simply serving scandalous sparklewear\u2014this is your dance floor, your altar, your invitation to unleash. SOAK is on, the spell is cast\u2014come adorned like a slut and shake some ass.",
+    "event_type": {
+      "label": "Gathering/Party,Yoga/Movement/Fitness"
+    },
+    "hosted_by_camp": "u-3738",
+    "imageUrl": null,
+    "location": "Cosmic Chai",
+    "neighborhood": "Main Field",
+    "occurrence": {
+      "brief": "9:30pm",
+      "end_time": "2025-05-22T23:00:00",
+      "long": "Thursday 9:30pm-11pm (2hrs)",
+      "short": "9:30pm (2hrs)",
+      "start_time": "2025-05-22T21:30:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "The Stranger Sluts (silent disco)",
+    "uid": "u-10889"
+  },
+  {
+    "art": "",
     "camp": "Hotel Charley",
     "day": "Thursday",
     "description": "Use Strange Magic in the form of wands that react to black light when used to mark our large canvas. Tea and cookies provided to fuel your creativity. This art will become part of the camp for years to come.",
@@ -660,7 +878,7 @@
     "hosted_by_camp": "u-3709",
     "imageUrl": "https://data.dust.events/soak-2025/032512800016005583.webp",
     "location": "Hotel Charley",
-    "neighborhood": "Mezzanine",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "10pm",
       "end_time": "2025-05-23T03:00:00",
@@ -675,16 +893,40 @@
   },
   {
     "art": "",
+    "camp": "Cosmic Chai",
+    "day": "Thursday",
+    "description": "Dive into a glowing world of Pok\u00e9mon at the Glow & Catch event! Whether you're a seasoned player or new to the game, come enjoy a black light-lit space where you can battle with specially painted Pok\u00e9mon cards, learn the basics of trading card gameplay, or simply get creative and paint your own Pok\u00e9mon cards under the black lights. It\u2019s a fun, colorful way to immerse yourself in the Pok\u00e9mon universe\u2014no matter your skill level! Don\u2019t miss out on the ultimate glowing TCG experience!",
+    "event_type": {
+      "label": "Arts & Crafts,Class/Workshop"
+    },
+    "hosted_by_camp": "u-3738",
+    "imageUrl": null,
+    "location": "Cosmic Chai",
+    "neighborhood": "Main Field",
+    "occurrence": {
+      "brief": "11pm",
+      "end_time": "2025-05-23T01:00:00",
+      "long": "Thursday 11pm-1am (2hrs)",
+      "short": "11pm (2hrs)",
+      "start_time": "2025-05-22T23:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Luminous Legends: Pokemon TCG Glow Party",
+    "uid": "u-10890"
+  },
+  {
+    "art": "",
     "camp": "Fire Whiskey Circus: Sideshow",
     "day": "Friday",
-    "description": "Only the bold, the brave, and the slightly unhinged are summoned for this afterhours ritual — and space is brutally limited!\n\nWhen the clock strikes midnight, the gates open briefly for those lucky (or unlucky) enough to make it inside. Salt your rim, salt your demons, and throw back margaritas like your soul depends on it.\n\nNo reservations, no second chances — when it's full, it's full.\n\nDress for chaos, drink for glory, and remember: this is a Fire Whiskey Circus midnight — what happens here stays blurry! Expect forbidden flavors, reckless toasts, and unadvertised surprises best left off social media!",
+    "description": "Only the bold, the brave, and the slightly unhinged are summoned for this afterhours ritual \u2014 and space is brutally limited!\n\nWhen the clock strikes midnight, the gates open briefly for those lucky (or unlucky) enough to make it inside. Salt your rim, salt your demons, and throw back margaritas like your soul depends on it.\n\nNo reservations, no second chances \u2014 when it's full, it's full.\n\nDress for chaos, drink for glory, and remember: this is a Fire Whiskey Circus midnight \u2014 what happens here stays blurry! Expect forbidden flavors, reckless toasts, and unadvertised surprises best left off social media!",
     "event_type": {
       "label": "Food & Drink,Mature Audiences"
     },
     "hosted_by_camp": "u-3727",
     "imageUrl": "https://data.dust.events/soak-2025/042519622542297253.webp",
     "location": "Fire Whiskey Circus: Sideshow",
-    "neighborhood": "The Meadow",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "Midnight",
       "end_time": "2025-05-23T00:15:00",
@@ -708,7 +950,7 @@
     "hosted_by_camp": "u-3649",
     "imageUrl": null,
     "location": "Warm Snuggles",
-    "neighborhood": "Upper Bowl",
+    "neighborhood": "Mezzanine",
     "occurrence": {
       "brief": "Midnight",
       "end_time": "2025-05-23T23:59:59",
@@ -732,7 +974,7 @@
     "hosted_by_camp": "u-3717",
     "imageUrl": "https://data.dust.events/soak-2025/05927174030494217.webp",
     "location": "Glowdeo Drive",
-    "neighborhood": "The Meadow",
+    "neighborhood": "Main Field",
     "occurrence": {
       "brief": "Midnight",
       "end_time": "2025-05-23T01:30:00",
@@ -747,6 +989,128 @@
   },
   {
     "art": "",
+    "camp": "Acid Drip",
+    "day": "Friday",
+    "description": "Step into your sonic sanctuary! Our sound booth offers you the ultimate DJ experience. Imagine a space where the decks are yours, the vibe is yours, and the only limit is your musical imagination. Bring your own tracks, plug in your gear, and let the rhythm take over.\n\nWhether you're a seasoned DJ wanting a dedicated practice space, an aspiring artist ready to lay down your first mix, or just someone who loves to curate the perfect playlist for friends, our booth provides the ideal environment. With professional-grade equipment and comfortable acoustics, you can immerse yourself in the music and fine-tune your skills without distractions. It's your stage, your sound \u2013 unleash your inner DJ!",
+    "event_type": {
+      "label": "Gathering/Party"
+    },
+    "hosted_by_camp": "u-3757",
+    "imageUrl": "https://data.dust.events/soak-2025/08702081009492253.webp",
+    "location": "Acid Drip",
+    "neighborhood": "Lower Bowl",
+    "occurrence": {
+      "brief": "Midnight",
+      "end_time": "2025-05-23T23:59:59",
+      "long": "Friday Midnight-11:59pm (24hrs)",
+      "short": "Midnight (24hrs)",
+      "start_time": "2025-05-23T00:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Open Decks!!!",
+    "uid": "u-10801"
+  },
+  {
+    "art": "The Geode-Home",
+    "camp": "",
+    "canView": false,
+    "day": "Friday",
+    "description": "An all-day LED lightshow experience\u2014step into a shifting world of color, motion, and illusion as light transforms the space from sunrise to starlight.",
+    "event_type": {
+      "label": "Fire/Spectacle,Performance"
+    },
+    "hosted_by_camp": null,
+    "imageUrl": null,
+    "located_at_art": "u-1619",
+    "location": "The Geode-Home",
+    "neighborhood": "Forest Entry",
+    "occurrence": {
+      "brief": "Midnight",
+      "end_time": "2025-05-23T23:59:59",
+      "long": "Friday Midnight-11:59pm (24hrs)",
+      "short": "Midnight (24hrs)",
+      "start_time": "2025-05-23T00:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "LED Lightshows at the GeodeHome",
+    "uid": "u-10835"
+  },
+  {
+    "art": "",
+    "camp": "Flower Bower",
+    "day": "Friday",
+    "description": "Deflower us! ...by accessorizing yourself with fabulous clip-on flowers and other faux floral creations at our 24-hour self-service boutique. Then come back at night and let the magical lights enchant you. Floral fashion consultants available spore-adically.",
+    "event_type": {
+      "label": "Miscellaneous,Self Care"
+    },
+    "hosted_by_camp": "u-3725",
+    "imageUrl": "https://data.dust.events/soak-2025/04996570797863997.webp",
+    "location": "Flower Bower",
+    "neighborhood": "The Meadow",
+    "occurrence": {
+      "brief": "Midnight",
+      "end_time": "2025-05-23T23:59:59",
+      "long": "Friday Midnight-11:59pm (24hrs)",
+      "short": "Midnight (24hrs)",
+      "start_time": "2025-05-23T00:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Flower Bower Boutique",
+    "uid": "u-10869"
+  },
+  {
+    "art": "",
+    "camp": "FryGuy",
+    "day": "Friday",
+    "description": "The infamous Cookie Monster, big cheese of Cheesus Crust from the Playa, Love burn, Apogaea and beyond will bless our camp with the Body of Crust.\nJoin us for outstanding grilled cheese and mediocre conversation.",
+    "event_type": {
+      "label": "Food & Drink"
+    },
+    "hosted_by_camp": "u-3720",
+    "imageUrl": "https://data.dust.events/soak-2025/0971851255412849.webp",
+    "location": "FryGuy",
+    "neighborhood": "Around",
+    "occurrence": {
+      "brief": "Midnight",
+      "end_time": "2025-05-23T01:00:00",
+      "long": "Friday Midnight-1am (1hr)",
+      "short": "Midnight (1hr)",
+      "start_time": "2025-05-23T00:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "The Body of Crust",
+    "uid": "u-10872"
+  },
+  {
+    "art": "",
+    "camp": "FryGuy",
+    "day": "Friday",
+    "description": "Keep the party going or snack out before bed.\nWe'll by there to serve you something tasty when the moon shines.",
+    "event_type": {
+      "label": "Food & Drink"
+    },
+    "hosted_by_camp": "u-3720",
+    "imageUrl": "https://data.dust.events/soak-2025/06071825411187407.webp",
+    "location": "FryGuy",
+    "neighborhood": "Around",
+    "occurrence": {
+      "brief": "3am",
+      "end_time": "2025-05-23T04:00:00",
+      "long": "Friday 3am-4am (1hr)",
+      "short": "3am (1hr)",
+      "start_time": "2025-05-23T03:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Late night services",
+    "uid": "u-10842"
+  },
+  {
+    "art": "",
     "camp": "Frizz",
     "day": "Friday",
     "description": "Start your day right with the best drug in the world, caffeine!  Slow crafted cappuccinos, lattes, and espresso drinks from our coffee bar. Enjoy the cozy atmosphere with propane fire pits and comfortable seating, perfect for morning chats and mid-day relaxation.",
@@ -756,7 +1120,7 @@
     "hosted_by_camp": "u-3721",
     "imageUrl": null,
     "location": "Frizz",
-    "neighborhood": "Main Field",
+    "neighborhood": "Mezzanine",
     "occurrence": {
       "brief": "8am",
       "end_time": "2025-05-23T11:00:00",
@@ -780,7 +1144,7 @@
     "hosted_by_camp": "u-3743",
     "imageUrl": "https://data.dust.events/soak-2025/03038840836507193.webp",
     "location": "Camp-Misbehaving",
-    "neighborhood": "North Point Forest",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "8am",
       "end_time": "2025-05-23T09:00:00",
@@ -804,7 +1168,7 @@
     "hosted_by_camp": "u-3692",
     "imageUrl": "https://data.dust.events/soak-2025/06443024909670201.webp",
     "location": "Nom Village",
-    "neighborhood": "Main Field",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "9am",
       "end_time": "2025-05-23T12:00:00",
@@ -821,14 +1185,14 @@
     "art": "",
     "camp": "Cirque De Licious",
     "day": "Friday",
-    "description": "Welcome to Cirque De Licious!\nA curious coffee spectacle for the wild and the wonderful.\n\nFrom 9am to 12 noon, the flaps of Cirque De Licious swing open, beckoning dusty dreamers and caffeine-craving creatures alike. This is not your average morning stop—this is where whimsy meets wake-up call.\n\nServed by the enigmatic Mistral creatures, every cup comes with a dash of delight, a swirl of silliness, and just enough mischief to get your day spinning. Whether you’re rolling in from sunrise or rising from the dust, come sip, laugh, and let your freak flag fly.\n\nExpect fun. Expect flair. Expect the unexpected.\nCirque De Licious—because mornings deserve a little magic.",
+    "description": "Welcome to Cirque De Licious!\nA curious coffee spectacle for the wild and the wonderful.\n\nFrom 9am to 12 noon, the flaps of Cirque De Licious swing open, beckoning dusty dreamers and caffeine-craving creatures alike. This is not your average morning stop\u2014this is where whimsy meets wake-up call.\n\nServed by the enigmatic Mistral creatures, every cup comes with a dash of delight, a swirl of silliness, and just enough mischief to get your day spinning. Whether you\u2019re rolling in from sunrise or rising from the dust, come sip, laugh, and let your freak flag fly.\n\nExpect fun. Expect flair. Expect the unexpected.\nCirque De Licious\u2014because mornings deserve a little magic.",
     "event_type": {
       "label": "Food & Drink"
     },
     "hosted_by_camp": "u-3740",
     "imageUrl": "https://data.dust.events/soak-2025/053489732472915.webp",
     "location": "Cirque De Licious",
-    "neighborhood": "Main Field",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "9am",
       "end_time": "2025-05-23T12:00:00",
@@ -852,7 +1216,7 @@
     "hosted_by_camp": "u-3751",
     "imageUrl": null,
     "location": "Baby Behead & Breakfast",
-    "neighborhood": "Main Field",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "9:30am",
       "end_time": "2025-05-23T11:00:00",
@@ -876,7 +1240,7 @@
     "hosted_by_camp": "u-3729",
     "imageUrl": null,
     "location": "Embassy",
-    "neighborhood": "The Meadow",
+    "neighborhood": "Around",
     "occurrence": {
       "brief": "10am",
       "end_time": "2025-05-23T16:00:00",
@@ -900,7 +1264,7 @@
     "hosted_by_camp": "u-3743",
     "imageUrl": "https://data.dust.events/soak-2025/05224019620272212.webp",
     "location": "Camp-Misbehaving",
-    "neighborhood": "North Point Forest",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "10am",
       "end_time": "2025-05-23T11:00:00",
@@ -910,21 +1274,21 @@
     },
     "otherLocation": "",
     "other_location": null,
-    "title": "Beers Banana Bread and Banter with Lips 💋",
+    "title": "Beers Banana Bread and Banter with Lips \ud83d\udc8b",
     "uid": "u-10520"
   },
   {
     "art": "",
     "camp": "Warm Snuggles",
     "day": "Friday",
-    "description": "To all who love smoked yummy’s.\nWe will be handing out smoked beacon until it’s gone.",
+    "description": "To all who love smoked yummy\u2019s.\nWe will be handing out smoked beacon until it\u2019s gone.",
     "event_type": {
       "label": "Food & Drink"
     },
     "hosted_by_camp": "u-3649",
     "imageUrl": null,
     "location": "Warm Snuggles",
-    "neighborhood": "Upper Bowl",
+    "neighborhood": "Mezzanine",
     "occurrence": {
       "brief": "10am",
       "end_time": "2025-05-23T10:45:00",
@@ -939,16 +1303,40 @@
   },
   {
     "art": "",
-    "camp": "Crêpiphany",
+    "camp": "Flower Bower",
     "day": "Friday",
-    "description": "You are cordially invited to savor the crêpes at the Café Crêpiphany. Choose from a variety of sweet toppings and enjoy our typical French café experience. Engage your mind as well as your taste buds with an assortment of puzzles.",
+    "description": "Slip into something comfy to start up your day (and your precious insides) with some buckwheat porridge: a healthy, delicious treat from Eastern Europe. While considered the \"King of Porridge\" for its taste and nutritional value, it's not even a grain, but rather a seed. Show up in a bathrobe to get the VIP treatment!",
+    "event_type": {
+      "label": "Food & Drink"
+    },
+    "hosted_by_camp": "u-3725",
+    "imageUrl": "https://data.dust.events/soak-2025/0944307999001562.webp",
+    "location": "Flower Bower",
+    "neighborhood": "The Meadow",
+    "occurrence": {
+      "brief": "10am",
+      "end_time": "2025-05-23T11:00:00",
+      "long": "Friday 10am-11am (1hr)",
+      "short": "10am (1hr)",
+      "start_time": "2025-05-23T10:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Buckwheat and Bathrobes!",
+    "uid": "u-10862"
+  },
+  {
+    "art": "",
+    "camp": "Cr\u00eapiphany",
+    "day": "Friday",
+    "description": "You are cordially invited to savor the cr\u00eapes at the Caf\u00e9 Cr\u00eapiphany. Choose from a variety of sweet toppings and enjoy our typical French caf\u00e9 experience. Engage your mind as well as your taste buds with an assortment of puzzles.",
     "event_type": {
       "label": "Food & Drink"
     },
     "hosted_by_camp": "u-3735",
     "imageUrl": "https://data.dust.events/soak-2025/07008582032414468.webp",
-    "location": "Crêpiphany",
-    "neighborhood": "Mezzanine",
+    "location": "Cr\u00eapiphany",
+    "neighborhood": "Around",
     "occurrence": {
       "brief": "11am",
       "end_time": "2025-05-23T13:00:00",
@@ -958,7 +1346,7 @@
     },
     "otherLocation": "",
     "other_location": null,
-    "title": "Crêpes and puzzles!",
+    "title": "Cr\u00eapes and puzzles!",
     "uid": "u-10143"
   },
   {
@@ -972,7 +1360,7 @@
     "hosted_by_camp": "u-3753",
     "imageUrl": "https://data.dust.events/soak-2025/06909562744462643.webp",
     "location": "BILY Camp",
-    "neighborhood": "Upper Bowl",
+    "neighborhood": "Riverside",
     "occurrence": {
       "brief": "11am",
       "end_time": "2025-05-23T15:00:00",
@@ -1013,7 +1401,7 @@
     "art": "",
     "camp": "Pampered Camper",
     "day": "Friday",
-    "description": "Fall off a climbable structure? Tweak your neck moshing to some dub step? Allow us to work it out! We have licensed LMTs, Reiki practitioners, and a chiropractor at your service! Arrive early if you’d like to get an appointment!",
+    "description": "Fall off a climbable structure? Tweak your neck moshing to some dub step? Allow us to work it out! We have licensed LMTs, Reiki practitioners, and a chiropractor at your service! Arrive early if you\u2019d like to get an appointment!",
     "event_type": {
       "label": "Self Care"
     },
@@ -1044,7 +1432,7 @@
     "hosted_by_camp": "u-3644",
     "imageUrl": null,
     "location": "Baggage Check",
-    "neighborhood": "Lower Bowl",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "11am",
       "end_time": "2025-05-23T14:00:00",
@@ -1068,7 +1456,7 @@
     "hosted_by_camp": "u-3644",
     "imageUrl": null,
     "location": "Baggage Check",
-    "neighborhood": "Lower Bowl",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "11am",
       "end_time": "2025-05-23T14:00:00",
@@ -1092,7 +1480,7 @@
     "hosted_by_camp": "u-3644",
     "imageUrl": null,
     "location": "Baggage Check",
-    "neighborhood": "Lower Bowl",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "11am",
       "end_time": "2025-05-23T14:00:00",
@@ -1150,8 +1538,80 @@
     },
     "otherLocation": "",
     "other_location": null,
-    "title": "Yoga with Throat Punch!",
+    "title": "Yoga with Throat Punch",
     "uid": "u-10760"
+  },
+  {
+    "art": "",
+    "camp": "Pampered Camper",
+    "day": "Friday",
+    "description": "Double double toil and trouble fire burn and cauldron bubble. Come to Pampered for a mix-your-own drinkable potion bar. A non-alcoholic diy station will be ready and available. We will have home made syrups and fanciful accoutrements for all your magical needs!",
+    "event_type": {
+      "label": "Food & Drink"
+    },
+    "hosted_by_camp": "u-3685",
+    "imageUrl": null,
+    "location": "Pampered Camper",
+    "neighborhood": "The Meadow",
+    "occurrence": {
+      "brief": "11am",
+      "end_time": "2025-05-23T15:00:00",
+      "long": "Friday 11am-3pm (4hrs)",
+      "short": "11am (4hrs)",
+      "start_time": "2025-05-23T11:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "DIY Potion Bar",
+    "uid": "u-10781"
+  },
+  {
+    "art": "",
+    "camp": "The Glory Hole - A Spectacular Boutique",
+    "day": "Friday",
+    "description": "Swing on by for a delicious morning beverage and try on (and keep) some spectacular outfits!",
+    "event_type": {
+      "label": "Food & Drink,Miscellaneous"
+    },
+    "hosted_by_camp": "u-3661",
+    "imageUrl": null,
+    "location": "The Glory Hole - A Spectacular Boutique",
+    "neighborhood": "Upper Bowl",
+    "occurrence": {
+      "brief": "11am",
+      "end_time": "2025-05-23T14:00:00",
+      "long": "Friday 11am-2pm (3hrs)",
+      "short": "11am (3hrs)",
+      "start_time": "2025-05-23T11:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "The Glory Hole - A Spectacular Boutique!",
+    "uid": "u-10821"
+  },
+  {
+    "art": "",
+    "camp": "FryGuy",
+    "day": "Friday",
+    "description": "The most important mid meal of the day!\nWe'll be starting the day off right.\nWhen we get around to it...\nStop by for a meal made with love.",
+    "event_type": {
+      "label": "Food & Drink"
+    },
+    "hosted_by_camp": "u-3720",
+    "imageUrl": "https://data.dust.events/soak-2025/05542067047243937.webp",
+    "location": "FryGuy",
+    "neighborhood": "Around",
+    "occurrence": {
+      "brief": "11am",
+      "end_time": "2025-05-23T13:00:00",
+      "long": "Friday 11am-1pm (2hrs)",
+      "short": "11am (2hrs)",
+      "start_time": "2025-05-23T11:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Brunch",
+    "uid": "u-10843"
   },
   {
     "art": "",
@@ -1164,7 +1624,7 @@
     "hosted_by_camp": "u-3772",
     "imageUrl": "https://data.dust.events/soak-2025/04000344047000217.webp",
     "location": "Hang Loose Camp",
-    "neighborhood": "Around",
+    "neighborhood": "Lower Bowl",
     "occurrence": {
       "brief": "Noon",
       "end_time": "2025-05-23T17:00:00",
@@ -1212,7 +1672,7 @@
     "hosted_by_camp": "u-3747",
     "imageUrl": "https://data.dust.events/soak-2025/07599363447712032.webp",
     "location": "Camp Clusterfuck",
-    "neighborhood": "Main Field",
+    "neighborhood": "Mezzanine",
     "occurrence": {
       "brief": "12:30pm",
       "end_time": "2025-05-23T14:00:00",
@@ -1229,14 +1689,14 @@
     "art": "",
     "camp": "Sex Positivity Camp - Fucking Magic",
     "day": "Friday",
-    "description": "Kilt Walk: Wear a kilt (or skirt or sarong) then straddle-walk over the line of voyeurs as they lookie-lou from below you! 💃>-->-0 >-->-0 >-->-0 \nFeeling switchy, after walking the line, laydown at the end to become a lookie-lou!",
+    "description": "Kilt Walk: Wear a kilt (or skirt or sarong) then straddle-walk over the line of voyeurs as they lookie-lou from below you! \ud83d\udc83>-->-0 >-->-0 >-->-0 \nFeeling switchy, after walking the line, laydown at the end to become a lookie-lou!",
     "event_type": {
       "label": "Parade"
     },
     "hosted_by_camp": "u-3673",
     "imageUrl": null,
     "location": "Sex Positivity Camp - Fucking Magic",
-    "neighborhood": "Lower Bowl",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "12:30pm",
       "end_time": "2025-05-23T13:00:00",
@@ -1260,7 +1720,7 @@
     "hosted_by_camp": "u-3709",
     "imageUrl": "https://data.dust.events/soak-2025/04737223124807749.webp",
     "location": "Hotel Charley",
-    "neighborhood": "Mezzanine",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "1pm",
       "end_time": "2025-05-23T15:00:00",
@@ -1284,7 +1744,7 @@
     "hosted_by_camp": "u-3657",
     "imageUrl": "https://data.dust.events/soak-2025/06810151330192304.webp",
     "location": "The Teenie Weenie Art Tent",
-    "neighborhood": "The Meadow",
+    "neighborhood": "Riverside",
     "occurrence": {
       "brief": "1pm",
       "end_time": "2025-05-23T16:00:00",
@@ -1301,14 +1761,14 @@
     "art": "",
     "camp": "Mad Hatter's HIGH Tea",
     "day": "Friday",
-    "description": "An Alice Wonderland themed camp, we offer a Mad Hatter’s “high” tea party for a mad world! Travel down the rabbit hole and join us for “high” tea, with a wonderland of CBD-infused tea and sweets in a safe and socially inappropriate space to delve into nonsensical conversation and interactive games. Join the Cheshire Cat at the hookah, or get a tattoo or spanking from the Queen of Hearts. Find the bottles that say “Drink Me” to add a spark of special magic to your day.",
+    "description": "An Alice Wonderland themed camp, we offer a Mad Hatter\u2019s \u201chigh\u201d tea party for a mad world! Travel down the rabbit hole and join us for \u201chigh\u201d tea, with a wonderland of CBD-infused tea and sweets in a safe and socially inappropriate space to delve into nonsensical conversation and interactive games. Join the Cheshire Cat at the hookah, or get a tattoo or spanking from the Queen of Hearts. Find the bottles that say \u201cDrink Me\u201d to add a spark of special magic to your day.",
     "event_type": {
       "label": "Food & Drink,Gathering/Party"
     },
     "hosted_by_camp": "u-3697",
     "imageUrl": null,
     "location": "Mad Hatter's HIGH Tea",
-    "neighborhood": "North Point Forest",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "1pm",
       "end_time": "2025-05-23T15:00:00",
@@ -1332,7 +1792,7 @@
     "hosted_by_camp": "u-3733",
     "imageUrl": null,
     "location": "Dr. Bev's Clinic",
-    "neighborhood": "Main Field",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "1pm",
       "end_time": "2025-05-23T16:00:00",
@@ -1356,7 +1816,7 @@
     "hosted_by_camp": "u-4160",
     "imageUrl": null,
     "location": "Sour Puss",
-    "neighborhood": "Around",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "1pm",
       "end_time": "2025-05-23T14:00:00",
@@ -1371,6 +1831,54 @@
   },
   {
     "art": "",
+    "camp": "Creature Corner",
+    "day": "Friday",
+    "description": "sensory play with (mostly) natural objects: feathers, water, claws, tails, fruit/honey(?), nettles, thorns, leaves, ferns",
+    "event_type": {
+      "label": "Class/Workshop,Self Care"
+    },
+    "hosted_by_camp": "u-3736",
+    "imageUrl": null,
+    "location": "Creature Corner",
+    "neighborhood": "Riverside",
+    "occurrence": {
+      "brief": "1pm",
+      "end_time": "2025-05-23T14:00:00",
+      "long": "Friday 1pm-2pm (1hr)",
+      "short": "1pm (1hr)",
+      "start_time": "2025-05-23T13:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Wild Sensory Play Workshop",
+    "uid": "u-10783"
+  },
+  {
+    "art": "",
+    "camp": "Flower Bower",
+    "day": "Friday",
+    "description": "Summon your own custom olfactory palette from our collection of essential oils and mystical ingredients, then leave with a roll-on bottle of your creation. Facilitated by the scent-sational Alana.",
+    "event_type": {
+      "label": "Arts & Crafts,Self Care"
+    },
+    "hosted_by_camp": "u-3725",
+    "imageUrl": "https://data.dust.events/soak-2025/09007234653569848.webp",
+    "location": "Flower Bower",
+    "neighborhood": "The Meadow",
+    "occurrence": {
+      "brief": "1pm",
+      "end_time": "2025-05-23T14:00:00",
+      "long": "Friday 1pm-2pm (1hr)",
+      "short": "1pm (1hr)",
+      "start_time": "2025-05-23T13:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Perfumery & Aromatherapy",
+    "uid": "u-10863"
+  },
+  {
+    "art": "",
     "camp": "Sex Positivity Camp - Fucking Magic",
     "day": "Friday",
     "description": "MAKE YOUR OWN FLOGGER  This workshop is in the running for the most Portland event ever; we will be making our own floggers out of upcycled bicycle inner tubes! At this hands-on crafting event, we have all the materials necessary; all you need to bring is yourself and a playful, crafty attitude.",
@@ -1380,7 +1888,7 @@
     "hosted_by_camp": "u-3673",
     "imageUrl": null,
     "location": "Sex Positivity Camp - Fucking Magic",
-    "neighborhood": "Lower Bowl",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "1:30pm",
       "end_time": "2025-05-23T15:30:00",
@@ -1395,6 +1903,30 @@
   },
   {
     "art": "",
+    "camp": "Flower Bower",
+    "day": "Friday",
+    "description": "Turns out that it\u2019s okay to want and/or not want things! Become a wizard on the topics of consent and self-advocacy at this interactive workshop conjured by Chelsea.",
+    "event_type": {
+      "label": "Class/Workshop,Diversity & Inclusion"
+    },
+    "hosted_by_camp": "u-3725",
+    "imageUrl": "https://data.dust.events/soak-2025/03664644952251971.webp",
+    "location": "Flower Bower",
+    "neighborhood": "The Meadow",
+    "occurrence": {
+      "brief": "2pm",
+      "end_time": "2025-05-23T15:00:00",
+      "long": "Friday 2pm-3pm (1hr)",
+      "short": "2pm (1hr)",
+      "start_time": "2025-05-23T14:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "The Language Of Boundaries",
+    "uid": "u-10864"
+  },
+  {
+    "art": "",
     "camp": "Warm Snuggles",
     "day": "Friday",
     "description": "Pillows become weapons of joyful destruction, wielded by warriors with rosy cheeks and sparkling eyes. A playful war will be raged, fueled by silliness and pure, unadulterated fun.",
@@ -1404,7 +1936,7 @@
     "hosted_by_camp": "u-3649",
     "imageUrl": null,
     "location": "Warm Snuggles",
-    "neighborhood": "Upper Bowl",
+    "neighborhood": "Mezzanine",
     "occurrence": {
       "brief": "3pm",
       "end_time": "2025-05-23T15:30:00",
@@ -1428,7 +1960,7 @@
     "hosted_by_camp": "u-4160",
     "imageUrl": null,
     "location": "Sour Puss",
-    "neighborhood": "Around",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "3pm",
       "end_time": "2025-05-23T16:00:00",
@@ -1443,6 +1975,54 @@
   },
   {
     "art": "",
+    "camp": "Creature Corner",
+    "day": "Friday",
+    "description": "paint animal masks to joing our parades as we pass by!",
+    "event_type": {
+      "label": "Arts & Crafts"
+    },
+    "hosted_by_camp": "u-3736",
+    "imageUrl": null,
+    "location": "Creature Corner",
+    "neighborhood": "Riverside",
+    "occurrence": {
+      "brief": "3pm",
+      "end_time": "2025-05-23T16:00:00",
+      "long": "Friday 3pm-4pm (1hr)",
+      "short": "3pm (1hr)",
+      "start_time": "2025-05-23T15:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Animal mask making",
+    "uid": "u-10786"
+  },
+  {
+    "art": "",
+    "camp": "Camp Clusterfuck",
+    "day": "Friday",
+    "description": "Unleash your inner sorcerer and dive headfirst into a kaleidoscope of color at ClusterFuck's Body Marbling Magic! Prepare to be spellbound as you immerse yourself in a cauldron of UV-reactive paints (beware, they may enchant onlookers on the dance floor!). These mystical pigments are completely non-toxic, so you can conjure up your vibrant alter ego with peace of mind. The mesmerizing marbling washes away with a simple incantation of soap and water, but the magic can linger for up to 72 hours.",
+    "event_type": {
+      "label": "Arts & Crafts"
+    },
+    "hosted_by_camp": "u-3747",
+    "imageUrl": "https://data.dust.events/soak-2025/07496218745079182.webp",
+    "location": "Camp Clusterfuck",
+    "neighborhood": "Mezzanine",
+    "occurrence": {
+      "brief": "3pm",
+      "end_time": "2025-05-23T16:00:00",
+      "long": "Friday 3pm-4pm (1hr)",
+      "short": "3pm (1hr)",
+      "start_time": "2025-05-23T15:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Body Marbling Magic",
+    "uid": "u-10846"
+  },
+  {
+    "art": "",
     "camp": "The man cave",
     "day": "Friday",
     "description": "Come join us for a two on two foosball tournament, bring a partner or find one here. Dad Rock will be played in the background for ambiance and culture. We may share our beer with you.",
@@ -1452,7 +2032,7 @@
     "hosted_by_camp": "u-3655",
     "imageUrl": "https://data.dust.events/soak-2025/07455497048229708.webp",
     "location": "The man cave",
-    "neighborhood": "Mezzanine",
+    "neighborhood": "Forest Entry",
     "occurrence": {
       "brief": "4pm",
       "end_time": "2025-05-23T18:00:00",
@@ -1469,14 +2049,14 @@
     "art": "",
     "camp": "HYSS",
     "day": "Friday",
-    "description": "Come get a delicious gin and tonic with Henry!",
+    "description": "Come hang out with some friendly folks and get a delicious gin and tonic!",
     "event_type": {
       "label": "Food & Drink"
     },
     "hosted_by_camp": "u-3714",
-    "imageUrl": null,
+    "imageUrl": "https://data.dust.events/soak-2025/057644619912813.webp",
     "location": "HYSS",
-    "neighborhood": "Main Field",
+    "neighborhood": "Mezzanine",
     "occurrence": {
       "brief": "4pm",
       "end_time": "2025-05-23T18:00:00",
@@ -1500,7 +2080,7 @@
     "hosted_by_camp": "u-3705",
     "imageUrl": null,
     "location": "Kinky Fucking Camp",
-    "neighborhood": "Main Field",
+    "neighborhood": "Riverside",
     "occurrence": {
       "brief": "4pm",
       "end_time": "2025-05-23T17:00:00",
@@ -1515,6 +2095,30 @@
   },
   {
     "art": "",
+    "camp": "FryGuy",
+    "day": "Friday",
+    "description": "What do you like in your wontons?\nBetter question, do you have any of that stuff?\nBring by an ingredient and let's make some weird flavor combinations.\nRoll your own and cooked to order.",
+    "event_type": {
+      "label": "Food & Drink"
+    },
+    "hosted_by_camp": "u-3720",
+    "imageUrl": "https://data.dust.events/soak-2025/05483042612108632.webp",
+    "location": "FryGuy",
+    "neighborhood": "Around",
+    "occurrence": {
+      "brief": "4pm",
+      "end_time": "2025-05-23T20:00:00",
+      "long": "Friday 4pm-8pm (4hrs)",
+      "short": "4pm (4hrs)",
+      "start_time": "2025-05-23T16:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Wontonamo Bay",
+    "uid": "u-10841"
+  },
+  {
+    "art": "",
     "camp": "KID BAR",
     "day": "Friday",
     "description": "Join us in a parade for Kids and their Handlers, to the KID BAR for a pizza party! Starting point TBD.",
@@ -1524,7 +2128,7 @@
     "hosted_by_camp": "u-3706",
     "imageUrl": "https://data.dust.events/soak-2025/016501341308292639.webp",
     "location": "KID BAR",
-    "neighborhood": "Upper Bowl",
+    "neighborhood": "Main Field",
     "occurrence": {
       "brief": "4:45pm",
       "end_time": "2025-05-23T17:00:00",
@@ -1548,7 +2152,7 @@
     "hosted_by_camp": "u-3706",
     "imageUrl": "https://data.dust.events/soak-2025/007280296039355716.webp",
     "location": "KID BAR",
-    "neighborhood": "Upper Bowl",
+    "neighborhood": "Main Field",
     "occurrence": {
       "brief": "5pm",
       "end_time": "2025-05-23T19:00:00",
@@ -1565,14 +2169,14 @@
     "art": "",
     "camp": "Camp-Misbehaving",
     "day": "Friday",
-    "description": "Come have a warm bowl of comfort with Grandma Susie's homemade chicken and vegetable soup! dont forget to bring your own vessel!\n\n Love the soup? Leave Grandma Susie a letter and let her know 🩷",
+    "description": "Come have a warm bowl of comfort with Grandma Susie's homemade chicken and vegetable soup! dont forget to bring your own vessel!\n\n Love the soup? Leave Grandma Susie a letter and let her know \ud83e\ude77",
     "event_type": {
       "label": "Food & Drink"
     },
     "hosted_by_camp": "u-3743",
     "imageUrl": "https://data.dust.events/soak-2025/06135818220708287.webp",
     "location": "Camp-Misbehaving",
-    "neighborhood": "North Point Forest",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "5pm",
       "end_time": "2025-05-23T19:00:00",
@@ -1596,7 +2200,7 @@
     "hosted_by_camp": "u-3687",
     "imageUrl": null,
     "location": "Over Fuckin' Rated",
-    "neighborhood": "North Point Forest",
+    "neighborhood": "Around",
     "occurrence": {
       "brief": "5pm",
       "end_time": "2025-05-23T18:00:00",
@@ -1630,21 +2234,45 @@
     },
     "otherLocation": "",
     "other_location": null,
-    "title": "Strange Magic Parade!",
+    "title": "Strange Magic Parade",
     "uid": "u-10761"
+  },
+  {
+    "art": "",
+    "camp": "HYSS",
+    "day": "Friday",
+    "description": "Like being human? Want to show how much you enjoy existing by hulahooping? Well...I have just the thing for you! I\u2019ve made a video hoop and invite you to come and give it a wirl. You like immediate gratification too?! (I\u2019m shocked) View your fresh video imediately after making it. I\u2019ll send it to you after the event and it can hang out with all your other weird videos.",
+    "event_type": {
+      "label": "Miscellaneous"
+    },
+    "hosted_by_camp": "u-3714",
+    "imageUrl": "https://data.dust.events/soak-2025/05089448896739477.webp",
+    "location": "HYSS",
+    "neighborhood": "Mezzanine",
+    "occurrence": {
+      "brief": "6pm",
+      "end_time": "2025-05-23T19:00:00",
+      "long": "Friday 6pm-7pm (1hr)",
+      "short": "6pm (1hr)",
+      "start_time": "2025-05-23T18:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Video Hula Jam",
+    "uid": "u-10782"
   },
   {
     "art": "",
     "camp": "Fire Whiskey Circus: Sideshow",
     "day": "Friday",
-    "description": "Picture this: One LUGE cock, dropping fresh loads straight into your mouth.\n\nBring your appetite, bad decisions, and swagger. Prizes for the fastest tongue, the best performance, and the most theatrical shuck! Fire Whiskey Circus style: loud, proud, and slightly unhinged.\n\nStep right up, thrill-seekers and oyster fiends! It’s fast, it’s messy, it’s borderline questionable — just how we like it.",
+    "description": "Picture this: One LUGE cock, dropping fresh loads straight into your mouth.\n\nBring your appetite, bad decisions, and swagger. Prizes for the fastest tongue, the best performance, and the most theatrical shuck! Fire Whiskey Circus style: loud, proud, and slightly unhinged.\n\nStep right up, thrill-seekers and oyster fiends! It\u2019s fast, it\u2019s messy, it\u2019s borderline questionable \u2014 just how we like it.",
     "event_type": {
       "label": "Food & Drink,Mature Audiences"
     },
     "hosted_by_camp": "u-3727",
     "imageUrl": "https://data.dust.events/soak-2025/048302985081772853.webp",
     "location": "Fire Whiskey Circus: Sideshow",
-    "neighborhood": "The Meadow",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "6:15pm",
       "end_time": "2025-05-23T20:15:00",
@@ -1668,7 +2296,7 @@
     "hosted_by_camp": "u-3692",
     "imageUrl": "https://data.dust.events/soak-2025/04332205163431665.webp",
     "location": "Nom Village",
-    "neighborhood": "Main Field",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "7pm",
       "end_time": "2025-05-24T00:00:00",
@@ -1692,7 +2320,7 @@
     "hosted_by_camp": "u-3673",
     "imageUrl": null,
     "location": "Sex Positivity Camp - Fucking Magic",
-    "neighborhood": "Lower Bowl",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "7pm",
       "end_time": "2025-05-23T20:30:00",
@@ -1707,16 +2335,64 @@
   },
   {
     "art": "",
+    "camp": "FireFlow Studios",
+    "day": "Friday",
+    "description": "Some magic can\u2019t be explained \u2014 it has to be felt.\nStep into the flame and let the Strange Magic of SOAK come alive around you.\nCostumes, wings, horns, swords, bare skin, sacred objects \u2014 whatever strange magic you carry, bring it.\nWe\u2019ll weave it into fire, capture it mid-transformation, and freeze it in a single impossible moment.\nStep through the veil. Burn a little brighter. Become your own myth.\nAs always, full fire safety protocols are in place.\nThe magic is yours. We just catch it on camera.",
+    "event_type": {
+      "label": "Fire/Spectacle"
+    },
+    "hosted_by_camp": "u-3726",
+    "imageUrl": "https://data.dust.events/soak-2025/0999744548068917.webp",
+    "location": "FireFlow Studios",
+    "neighborhood": "Upper Bowl",
+    "occurrence": {
+      "brief": "7pm",
+      "end_time": "2025-05-23T20:30:00",
+      "long": "Friday 7pm-8:30pm (2hrs)",
+      "short": "7pm (2hrs)",
+      "start_time": "2025-05-23T19:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Strange Magic Costume Shoot",
+    "uid": "u-10774"
+  },
+  {
+    "art": "",
+    "camp": "Cosmic Chai",
+    "day": "Friday",
+    "description": "Hello, I'm Stevie Nicks - Do you like the music of my band Fleetwood Mac? And do you like dancing, witchcraft, fajitas, and other Tex-Mex specialties? Then come on down to my new pop-up at Cosmic Chai for an affordable dancing experience you'll never forget!",
+    "event_type": {
+      "label": "Food & Drink,Gathering/Party"
+    },
+    "hosted_by_camp": "u-3738",
+    "imageUrl": null,
+    "location": "Cosmic Chai",
+    "neighborhood": "Main Field",
+    "occurrence": {
+      "brief": "7pm",
+      "end_time": "2025-05-23T20:00:00",
+      "long": "Friday 7pm-8pm (1hr)",
+      "short": "7pm (1hr)",
+      "start_time": "2025-05-23T19:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Stevie Nick's fajita roundup",
+    "uid": "u-10891"
+  },
+  {
+    "art": "",
     "camp": "Glowdeo Drive",
     "day": "Friday",
-    "description": "Glowdeo Drive is excited to host the annual Miss Soak pageant! All the participants need to hone their Un Talents and sharpen their answers for the judges. Be brave, be bold and be silly! All ages are welcome but beware that some adult content is usually present.",
+    "description": "Glowdeo Drive is excited to host the annual Miss Soak pageant! All the participants need to hone their Un-Talents and sharpen their answers for the judges. Be brave, be bold and be silly! All ages are welcome but some acts may not be suitable for children, parents decide to use discretion if concerned.",
     "event_type": {
       "label": "Gathering/Party,Performance"
     },
     "hosted_by_camp": "u-3717",
     "imageUrl": "https://data.dust.events/soak-2025/038751961301438886.webp",
     "location": "Glowdeo Drive",
-    "neighborhood": "The Meadow",
+    "neighborhood": "Main Field",
     "occurrence": {
       "brief": "7:30pm",
       "end_time": "2025-05-23T21:00:00",
@@ -1740,7 +2416,7 @@
     "hosted_by_camp": "u-3644",
     "imageUrl": null,
     "location": "Baggage Check",
-    "neighborhood": "Lower Bowl",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "8pm",
       "end_time": "2025-05-23T22:00:00",
@@ -1755,16 +2431,40 @@
   },
   {
     "art": "",
+    "camp": "Acid Drip",
+    "day": "Friday",
+    "description": "Escape into a realm of rich aromas and relaxed vibes at our hookah lounge. Sink into plush seating surrounded by warm lighting and intricate d\u00e9cor, creating the perfect backdrop for unwinding. Choose from a diverse selection of premium shisha flavors; we will also have non-tobacco options.\n\nWhether hanging with friends, chilling alone, or looking for something different, our lounge is the spot. Enjoy the fragrant smoke, relax, and soak in the good vibes. Everything is ready for you to kick back and enjoy. Find your flavor and unwind with us!\n\nWe will be closed for the burn!",
+    "event_type": {
+      "label": "Gathering/Party"
+    },
+    "hosted_by_camp": "u-3757",
+    "imageUrl": null,
+    "location": "Acid Drip",
+    "neighborhood": "Lower Bowl",
+    "occurrence": {
+      "brief": "8pm",
+      "end_time": "2025-05-24T00:00:00",
+      "long": "Friday 8pm-Midnight (4hrs)",
+      "short": "8pm (4hrs)",
+      "start_time": "2025-05-23T20:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Hookah Cafe",
+    "uid": "u-10802"
+  },
+  {
+    "art": "",
     "camp": "Fire Whiskey Circus: Sideshow",
     "day": "Friday",
-    "description": "Fire Whisky bar is open!\nWe sling Fireball and spicy spirits.\n\nSpin the Wheel of Cocks. Brave the Jerk Off Gauntlet (warning: it will shoot you in the face). Drop into Butt Plug Plinko and Cock Jousting.  Unjam your clam at our Arts & Crafts for Degenerates table.\n\nIt’s a circus for sinners, a playground for bad ideas, and a home for the fire in your gut and the chaos in your soul!",
+    "description": "Fire Whisky bar is open!\nWe sling Fireball and spicy spirits.\n\nSpin the Wheel of Cocks. Brave the Jerk Off Gauntlet (warning: it will shoot you in the face). Drop into Butt Plug Plinko and Cock Jousting.  Unjam your clam at our Arts & Crafts for Degenerates table.\n\nIt\u2019s a circus for sinners, a playground for bad ideas, and a home for the fire in your gut and the chaos in your soul!",
     "event_type": {
       "label": "Food & Drink,Mature Audiences"
     },
     "hosted_by_camp": "u-3727",
     "imageUrl": "https://data.dust.events/soak-2025/09671274153011233.webp",
     "location": "Fire Whiskey Circus: Sideshow",
-    "neighborhood": "The Meadow",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "8:15pm",
       "end_time": "2025-05-23T23:15:00",
@@ -1788,7 +2488,7 @@
     "hosted_by_camp": "u-3649",
     "imageUrl": "https://data.dust.events/soak-2025/04162085519598957.webp",
     "location": "Warm Snuggles",
-    "neighborhood": "Upper Bowl",
+    "neighborhood": "Mezzanine",
     "occurrence": {
       "brief": "8:30pm",
       "end_time": "2025-05-23T21:00:00",
@@ -1803,6 +2503,30 @@
   },
   {
     "art": "",
+    "camp": "Flower Bower",
+    "day": "Friday",
+    "description": "Do you enjoy luring sailors TO THEIR DEATHS with siren song, but would prefer to have some vocal backup while you do it? At Karaoke Choir everyone sings on every song from our curated playlist of fun, well-known bangers.",
+    "event_type": {
+      "label": "Gathering/Party,Live Music"
+    },
+    "hosted_by_camp": "u-3725",
+    "imageUrl": "https://data.dust.events/soak-2025/0667621267483586.webp",
+    "location": "Flower Bower",
+    "neighborhood": "The Meadow",
+    "occurrence": {
+      "brief": "8:30pm",
+      "end_time": "2025-05-23T21:30:00",
+      "long": "Friday 8:30pm-9:30pm (1hr)",
+      "short": "8:30pm (1hr)",
+      "start_time": "2025-05-23T20:30:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Group Sing Karaoke Choir!",
+    "uid": "u-10865"
+  },
+  {
+    "art": "",
     "camp": "Weevilicious Puppets",
     "day": "Friday",
     "description": "Come play with our weevil puppets! Entertain yourself, your friends, and passerbys!\n\nWe have a giant person-sized weevil (requires 2+ people), a roll weevil, and a shadow weevil theater for all your insect puppeting needs.",
@@ -1812,7 +2536,7 @@
     "hosted_by_camp": "u-3647",
     "imageUrl": null,
     "location": "Weevilicious Puppets",
-    "neighborhood": "The Meadow",
+    "neighborhood": "Around",
     "occurrence": {
       "brief": "9pm",
       "end_time": "2025-05-23T23:00:00",
@@ -1836,7 +2560,7 @@
     "hosted_by_camp": "u-3655",
     "imageUrl": "https://data.dust.events/soak-2025/013441893176842146.webp",
     "location": "The man cave",
-    "neighborhood": "Mezzanine",
+    "neighborhood": "Forest Entry",
     "occurrence": {
       "brief": "9pm",
       "end_time": "2025-05-24T01:00:00",
@@ -1860,7 +2584,7 @@
     "hosted_by_camp": "u-3673",
     "imageUrl": null,
     "location": "Sex Positivity Camp - Fucking Magic",
-    "neighborhood": "Lower Bowl",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "9pm",
       "end_time": "2025-05-23T22:30:00",
@@ -1875,6 +2599,54 @@
   },
   {
     "art": "",
+    "camp": "Haus Anima",
+    "day": "Friday",
+    "description": "color with blacklight-ractive pigments on a giant hand-drawn coloring sheet",
+    "event_type": {
+      "label": "Arts & Crafts"
+    },
+    "hosted_by_camp": "u-3712",
+    "imageUrl": "https://data.dust.events/soak-2025/0437751337502277.webp",
+    "location": "Haus Anima",
+    "neighborhood": "The Meadow",
+    "occurrence": {
+      "brief": "9pm",
+      "end_time": "2025-05-24T00:00:00",
+      "long": "Friday 9pm-Midnight (3hrs)",
+      "short": "9pm (3hrs)",
+      "start_time": "2025-05-23T21:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "collaborative coloring",
+    "uid": "u-10847"
+  },
+  {
+    "art": "",
+    "camp": "Cosmic Chai",
+    "day": "Friday",
+    "description": "Grab your Ewok drums, Chindinkalu flute, Kloo horn, Red Ball Jett Organ and join us Friday night at 7pm for an intergalactic open mic night. All levels of alien talent welcome for a special night of Klingon slam poetry, Tatooine jazz, and Vulcan standup. But seriously please come perform or Glorp will be angered.",
+    "event_type": {
+      "label": "Gathering/Party,Performance"
+    },
+    "hosted_by_camp": "u-3738",
+    "imageUrl": null,
+    "location": "Cosmic Chai",
+    "neighborhood": "Main Field",
+    "occurrence": {
+      "brief": "9pm",
+      "end_time": "2025-05-23T22:30:00",
+      "long": "Friday 9pm-10:30pm (2hrs)",
+      "short": "9pm (2hrs)",
+      "start_time": "2025-05-23T21:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Intergalactic Open mic night",
+    "uid": "u-10892"
+  },
+  {
+    "art": "",
     "camp": "Hotel Charley",
     "day": "Friday",
     "description": "Use Strange Magic in the form of wands that react to black light when used to mark our large canvas. Tea and cookies provided to fuel your creativity. This art will become part of the camp for years to come.",
@@ -1884,7 +2656,7 @@
     "hosted_by_camp": "u-3709",
     "imageUrl": "https://data.dust.events/soak-2025/032512800016005583.webp",
     "location": "Hotel Charley",
-    "neighborhood": "Mezzanine",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "10pm",
       "end_time": "2025-05-24T03:00:00",
@@ -1908,7 +2680,7 @@
     "hosted_by_camp": "u-3649",
     "imageUrl": null,
     "location": "Warm Snuggles",
-    "neighborhood": "Upper Bowl",
+    "neighborhood": "Mezzanine",
     "occurrence": {
       "brief": "10pm",
       "end_time": "2025-05-23T23:00:00",
@@ -1923,6 +2695,30 @@
   },
   {
     "art": "",
+    "camp": "Absinthe Minded",
+    "day": "Friday",
+    "description": "Roll the dice to choose your design, then press your luck to see what body part will be adorned by our artists.",
+    "event_type": {
+      "label": "Games,Miscellaneous"
+    },
+    "hosted_by_camp": "u-3758",
+    "imageUrl": null,
+    "location": "Absinthe Minded",
+    "neighborhood": "Riverside",
+    "occurrence": {
+      "brief": "11pm",
+      "end_time": "2025-05-24T00:00:00",
+      "long": "Friday 11pm-Midnight (1hr)",
+      "short": "11pm (1hr)",
+      "start_time": "2025-05-23T23:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Body Painting Roulette",
+    "uid": "u-10880"
+  },
+  {
+    "art": "",
     "camp": "Warm Snuggles",
     "day": "Saturday",
     "description": "All through the day and night, come and snuggle up.\nWe have pillows and soft floors to lay and cuddle.\nAt night, you can watch to dancing fire above your head.",
@@ -1932,7 +2728,7 @@
     "hosted_by_camp": "u-3649",
     "imageUrl": null,
     "location": "Warm Snuggles",
-    "neighborhood": "Upper Bowl",
+    "neighborhood": "Mezzanine",
     "occurrence": {
       "brief": "Midnight",
       "end_time": "2025-05-24T23:59:59",
@@ -1949,14 +2745,14 @@
     "art": "",
     "camp": "Fire Whiskey Circus: Sideshow",
     "day": "Saturday",
-    "description": "Step right up to the wildest night of the year—WIGGED OUT, where glam meets grit and your alter ego gets lit. Don your loudest, proudest, most fabulous wig—neon bobs, glittery mullets, sky-high beehives, or lace-fronts straight from your fever dreams—because at this carnival, subtlety gets you nowhere.\n\nThe rules are simple: wig up, show up, and sip up. Flash that glorious headpiece at the bar and we’ll hit you with a FREE shot of Fireball—because nothing says \"party\" like cinnamon whiskey and synthetic hair. 🔥💃\n\nExpect sideshow strangeness, cotton candy laced with chaos, and a crowd that doesn't know the word \"mellow.\" One night only. Come weird. Come wild. Come wigged the hell out.",
+    "description": "Step right up to the wildest night of the year\u2014WIGGED OUT, where glam meets grit and your alter ego gets lit. Don your loudest, proudest, most fabulous wig\u2014neon bobs, glittery mullets, sky-high beehives, or lace-fronts straight from your fever dreams\u2014because at this carnival, subtlety gets you nowhere.\n\nThe rules are simple: wig up, show up, and sip up. Flash that glorious headpiece at the bar and we\u2019ll hit you with a FREE shot of Fireball\u2014because nothing says \"party\" like cinnamon whiskey and synthetic hair. \ud83d\udd25\ud83d\udc83\n\nExpect sideshow strangeness, cotton candy laced with chaos, and a crowd that doesn't know the word \"mellow.\" One night only. Come weird. Come wild. Come wigged the hell out.",
     "event_type": {
       "label": "Food & Drink,Mature Audiences"
     },
     "hosted_by_camp": "u-3727",
     "imageUrl": "https://data.dust.events/soak-2025/05544450158539075.webp",
     "location": "Fire Whiskey Circus: Sideshow",
-    "neighborhood": "The Meadow",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "Midnight",
       "end_time": "2025-05-24T23:59:59",
@@ -1971,6 +2767,128 @@
   },
   {
     "art": "",
+    "camp": "Acid Drip",
+    "day": "Saturday",
+    "description": "Step into your sonic sanctuary! Our sound booth offers you the ultimate DJ experience. Imagine a space where the decks are yours, the vibe is yours, and the only limit is your musical imagination. Bring your own tracks, plug in your gear, and let the rhythm take over.\n\nWhether you're a seasoned DJ wanting a dedicated practice space, an aspiring artist ready to lay down your first mix, or just someone who loves to curate the perfect playlist for friends, our booth provides the ideal environment. With professional-grade equipment and comfortable acoustics, you can immerse yourself in the music and fine-tune your skills without distractions. It's your stage, your sound \u2013 unleash your inner DJ!",
+    "event_type": {
+      "label": "Gathering/Party"
+    },
+    "hosted_by_camp": "u-3757",
+    "imageUrl": "https://data.dust.events/soak-2025/08702081009492253.webp",
+    "location": "Acid Drip",
+    "neighborhood": "Lower Bowl",
+    "occurrence": {
+      "brief": "Midnight",
+      "end_time": "2025-05-24T23:59:59",
+      "long": "Saturday Midnight-11:59pm (24hrs)",
+      "short": "Midnight (24hrs)",
+      "start_time": "2025-05-24T00:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Open Decks!!!",
+    "uid": "u-10801"
+  },
+  {
+    "art": "The Geode-Home",
+    "camp": "",
+    "canView": false,
+    "day": "Saturday",
+    "description": "An all-day LED lightshow experience\u2014step into a shifting world of color, motion, and illusion as light transforms the space from sunrise to starlight.",
+    "event_type": {
+      "label": "Fire/Spectacle,Performance"
+    },
+    "hosted_by_camp": null,
+    "imageUrl": null,
+    "located_at_art": "u-1619",
+    "location": "The Geode-Home",
+    "neighborhood": "Forest Entry",
+    "occurrence": {
+      "brief": "Midnight",
+      "end_time": "2025-05-24T23:59:59",
+      "long": "Saturday Midnight-11:59pm (24hrs)",
+      "short": "Midnight (24hrs)",
+      "start_time": "2025-05-24T00:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "LED Lightshows at the GeodeHome",
+    "uid": "u-10835"
+  },
+  {
+    "art": "",
+    "camp": "Flower Bower",
+    "day": "Saturday",
+    "description": "Deflower us! ...by accessorizing yourself with fabulous clip-on flowers and other faux floral creations at our 24-hour self-service boutique. Then come back at night and let the magical lights enchant you. Floral fashion consultants available spore-adically.",
+    "event_type": {
+      "label": "Miscellaneous,Self Care"
+    },
+    "hosted_by_camp": "u-3725",
+    "imageUrl": "https://data.dust.events/soak-2025/04996570797863997.webp",
+    "location": "Flower Bower",
+    "neighborhood": "The Meadow",
+    "occurrence": {
+      "brief": "Midnight",
+      "end_time": "2025-05-24T23:59:59",
+      "long": "Saturday Midnight-11:59pm (24hrs)",
+      "short": "Midnight (24hrs)",
+      "start_time": "2025-05-24T00:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Flower Bower Boutique",
+    "uid": "u-10869"
+  },
+  {
+    "art": "",
+    "camp": "Absinthe Minded",
+    "day": "Saturday",
+    "description": "Become intoxicated by the green fairy's cabaret show.",
+    "event_type": {
+      "label": "Performance"
+    },
+    "hosted_by_camp": "u-3758",
+    "imageUrl": null,
+    "location": "Absinthe Minded",
+    "neighborhood": "Riverside",
+    "occurrence": {
+      "brief": "Midnight",
+      "end_time": "2025-05-24T00:45:00",
+      "long": "Saturday Midnight-12:45am (1hr)",
+      "short": "Midnight (1hr)",
+      "start_time": "2025-05-24T00:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Midnight Green Fairy Cabaret",
+    "uid": "u-10881"
+  },
+  {
+    "art": "",
+    "camp": "Absinthe Minded",
+    "day": "Saturday",
+    "description": "Come meet the green fairy and earn one of her potions by completing a side quest.",
+    "event_type": {
+      "label": "Food & Drink"
+    },
+    "hosted_by_camp": "u-3758",
+    "imageUrl": null,
+    "location": "Absinthe Minded",
+    "neighborhood": "Riverside",
+    "occurrence": {
+      "brief": "12:30am",
+      "end_time": "2025-05-24T02:00:00",
+      "long": "Saturday 12:30am-2am (2hrs)",
+      "short": "12:30am (2hrs)",
+      "start_time": "2025-05-24T00:30:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Green Lantern: Absinthe & Side Quests",
+    "uid": "u-10876"
+  },
+  {
+    "art": "",
     "camp": "HYSS",
     "day": "Saturday",
     "description": "Come have some soup with Tree and Rowdy!",
@@ -1980,7 +2898,7 @@
     "hosted_by_camp": "u-3714",
     "imageUrl": null,
     "location": "HYSS",
-    "neighborhood": "Main Field",
+    "neighborhood": "Mezzanine",
     "occurrence": {
       "brief": "2am",
       "end_time": "2025-05-24T03:00:00",
@@ -1995,6 +2913,30 @@
   },
   {
     "art": "",
+    "camp": "FryGuy",
+    "day": "Saturday",
+    "description": "Keep the party going or snack out before bed.\nWe'll by there to serve you something tasty when the moon shines.",
+    "event_type": {
+      "label": "Food & Drink"
+    },
+    "hosted_by_camp": "u-3720",
+    "imageUrl": "https://data.dust.events/soak-2025/06071825411187407.webp",
+    "location": "FryGuy",
+    "neighborhood": "Around",
+    "occurrence": {
+      "brief": "4am",
+      "end_time": "2025-05-24T05:00:00",
+      "long": "Saturday 4am-5am (1hr)",
+      "short": "4am (1hr)",
+      "start_time": "2025-05-24T04:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Late night services",
+    "uid": "u-10842"
+  },
+  {
+    "art": "",
     "camp": "HYSS",
     "day": "Saturday",
     "description": "Can't sleep for some reason? Come spend the morning drinking mimosas in the sun and playing Dungeons & Dragons! Ages 21+",
@@ -2004,7 +2946,7 @@
     "hosted_by_camp": "u-3714",
     "imageUrl": "https://data.dust.events/soak-2025/07904864870827757.webp",
     "location": "HYSS",
-    "neighborhood": "Main Field",
+    "neighborhood": "Mezzanine",
     "occurrence": {
       "brief": "6am",
       "end_time": "2025-05-24T10:00:00",
@@ -2028,7 +2970,7 @@
     "hosted_by_camp": "u-3721",
     "imageUrl": null,
     "location": "Frizz",
-    "neighborhood": "Main Field",
+    "neighborhood": "Mezzanine",
     "occurrence": {
       "brief": "8am",
       "end_time": "2025-05-24T11:00:00",
@@ -2052,7 +2994,7 @@
     "hosted_by_camp": "u-3743",
     "imageUrl": "https://data.dust.events/soak-2025/03038840836507193.webp",
     "location": "Camp-Misbehaving",
-    "neighborhood": "North Point Forest",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "8am",
       "end_time": "2025-05-24T09:00:00",
@@ -2076,7 +3018,7 @@
     "hosted_by_camp": "u-3692",
     "imageUrl": "https://data.dust.events/soak-2025/06443024909670201.webp",
     "location": "Nom Village",
-    "neighborhood": "Main Field",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "9am",
       "end_time": "2025-05-24T12:00:00",
@@ -2093,14 +3035,14 @@
     "art": "",
     "camp": "Cirque De Licious",
     "day": "Saturday",
-    "description": "Welcome to Cirque De Licious!\nA curious coffee spectacle for the wild and the wonderful.\n\nFrom 9am to 12 noon, the flaps of Cirque De Licious swing open, beckoning dusty dreamers and caffeine-craving creatures alike. This is not your average morning stop—this is where whimsy meets wake-up call.\n\nServed by the enigmatic Mistral creatures, every cup comes with a dash of delight, a swirl of silliness, and just enough mischief to get your day spinning. Whether you’re rolling in from sunrise or rising from the dust, come sip, laugh, and let your freak flag fly.\n\nExpect fun. Expect flair. Expect the unexpected.\nCirque De Licious—because mornings deserve a little magic.",
+    "description": "Welcome to Cirque De Licious!\nA curious coffee spectacle for the wild and the wonderful.\n\nFrom 9am to 12 noon, the flaps of Cirque De Licious swing open, beckoning dusty dreamers and caffeine-craving creatures alike. This is not your average morning stop\u2014this is where whimsy meets wake-up call.\n\nServed by the enigmatic Mistral creatures, every cup comes with a dash of delight, a swirl of silliness, and just enough mischief to get your day spinning. Whether you\u2019re rolling in from sunrise or rising from the dust, come sip, laugh, and let your freak flag fly.\n\nExpect fun. Expect flair. Expect the unexpected.\nCirque De Licious\u2014because mornings deserve a little magic.",
     "event_type": {
       "label": "Food & Drink"
     },
     "hosted_by_camp": "u-3740",
     "imageUrl": "https://data.dust.events/soak-2025/053489732472915.webp",
     "location": "Cirque De Licious",
-    "neighborhood": "Main Field",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "9am",
       "end_time": "2025-05-24T12:00:00",
@@ -2124,7 +3066,7 @@
     "hosted_by_camp": "u-3751",
     "imageUrl": null,
     "location": "Baby Behead & Breakfast",
-    "neighborhood": "Main Field",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "9:30am",
       "end_time": "2025-05-24T11:30:00",
@@ -2148,7 +3090,7 @@
     "hosted_by_camp": "u-3657",
     "imageUrl": "https://data.dust.events/soak-2025/09156551255241007.webp",
     "location": "The Teenie Weenie Art Tent",
-    "neighborhood": "The Meadow",
+    "neighborhood": "Riverside",
     "occurrence": {
       "brief": "10am",
       "end_time": "2025-05-24T12:30:00",
@@ -2172,7 +3114,7 @@
     "hosted_by_camp": "u-3729",
     "imageUrl": null,
     "location": "Embassy",
-    "neighborhood": "The Meadow",
+    "neighborhood": "Around",
     "occurrence": {
       "brief": "10am",
       "end_time": "2025-05-24T16:00:00",
@@ -2189,14 +3131,14 @@
     "art": "",
     "camp": "Warm Snuggles",
     "day": "Saturday",
-    "description": "To all who love smoked yummy’s.\nWe will be handing out smoked beacon until it’s gone.",
+    "description": "To all who love smoked yummy\u2019s.\nWe will be handing out smoked beacon until it\u2019s gone.",
     "event_type": {
       "label": "Food & Drink"
     },
     "hosted_by_camp": "u-3649",
     "imageUrl": null,
     "location": "Warm Snuggles",
-    "neighborhood": "Upper Bowl",
+    "neighborhood": "Mezzanine",
     "occurrence": {
       "brief": "10am",
       "end_time": "2025-05-24T10:45:00",
@@ -2213,14 +3155,14 @@
     "art": "",
     "camp": "HYSS",
     "day": "Saturday",
-    "description": "Come start your morning right with one of Grandpa Joe's famous Bloody Marys!",
+    "description": "Come start your morning right with one of Grandpa Joe's famous Bloody Marys! 21+!",
     "event_type": {
       "label": "Food & Drink"
     },
     "hosted_by_camp": "u-3714",
-    "imageUrl": null,
+    "imageUrl": "https://data.dust.events/soak-2025/0982123898539011.webp",
     "location": "HYSS",
-    "neighborhood": "Main Field",
+    "neighborhood": "Mezzanine",
     "occurrence": {
       "brief": "10am",
       "end_time": "2025-05-24T11:00:00",
@@ -2235,16 +3177,40 @@
   },
   {
     "art": "",
-    "camp": "Crêpiphany",
+    "camp": "Flower Bower",
     "day": "Saturday",
-    "description": "You are cordially invited to savor the crêpes at the Café Crêpiphany. Choose from a variety of sweet toppings and enjoy our typical French café experience. Engage your mind as well as your taste buds with an assortment of puzzles.",
+    "description": "Slip into something comfy to start up your day (and your precious insides) with some buckwheat porridge: a healthy, delicious treat from Eastern Europe. While considered the \"King of Porridge\" for its taste and nutritional value, it's not even a grain, but rather a seed. Show up in a bathrobe to get the VIP treatment!",
+    "event_type": {
+      "label": "Food & Drink"
+    },
+    "hosted_by_camp": "u-3725",
+    "imageUrl": "https://data.dust.events/soak-2025/0944307999001562.webp",
+    "location": "Flower Bower",
+    "neighborhood": "The Meadow",
+    "occurrence": {
+      "brief": "10am",
+      "end_time": "2025-05-24T11:00:00",
+      "long": "Saturday 10am-11am (1hr)",
+      "short": "10am (1hr)",
+      "start_time": "2025-05-24T10:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Buckwheat and Bathrobes!",
+    "uid": "u-10862"
+  },
+  {
+    "art": "",
+    "camp": "Cr\u00eapiphany",
+    "day": "Saturday",
+    "description": "You are cordially invited to savor the cr\u00eapes at the Caf\u00e9 Cr\u00eapiphany. Choose from a variety of sweet toppings and enjoy our typical French caf\u00e9 experience. Engage your mind as well as your taste buds with an assortment of puzzles.",
     "event_type": {
       "label": "Food & Drink"
     },
     "hosted_by_camp": "u-3735",
     "imageUrl": "https://data.dust.events/soak-2025/07008582032414468.webp",
-    "location": "Crêpiphany",
-    "neighborhood": "Mezzanine",
+    "location": "Cr\u00eapiphany",
+    "neighborhood": "Around",
     "occurrence": {
       "brief": "11am",
       "end_time": "2025-05-24T13:00:00",
@@ -2254,7 +3220,7 @@
     },
     "otherLocation": "",
     "other_location": null,
-    "title": "Crêpes and puzzles!",
+    "title": "Cr\u00eapes and puzzles!",
     "uid": "u-10143"
   },
   {
@@ -2268,7 +3234,7 @@
     "hosted_by_camp": "u-3753",
     "imageUrl": "https://data.dust.events/soak-2025/06909562744462643.webp",
     "location": "BILY Camp",
-    "neighborhood": "Upper Bowl",
+    "neighborhood": "Riverside",
     "occurrence": {
       "brief": "11am",
       "end_time": "2025-05-24T15:00:00",
@@ -2309,7 +3275,7 @@
     "art": "",
     "camp": "Pampered Camper",
     "day": "Saturday",
-    "description": "Fall off a climbable structure? Tweak your neck moshing to some dub step? Allow us to work it out! We have licensed LMTs, Reiki practitioners, and a chiropractor at your service! Arrive early if you’d like to get an appointment!",
+    "description": "Fall off a climbable structure? Tweak your neck moshing to some dub step? Allow us to work it out! We have licensed LMTs, Reiki practitioners, and a chiropractor at your service! Arrive early if you\u2019d like to get an appointment!",
     "event_type": {
       "label": "Self Care"
     },
@@ -2374,8 +3340,80 @@
     },
     "otherLocation": "",
     "other_location": null,
-    "title": "Yoga with Throat Punch!",
+    "title": "Yoga with Throat Punch",
     "uid": "u-10760"
+  },
+  {
+    "art": "",
+    "camp": "Pampered Camper",
+    "day": "Saturday",
+    "description": "Double double toil and trouble fire burn and cauldron bubble. Come to Pampered for a mix-your-own drinkable potion bar. A non-alcoholic diy station will be ready and available. We will have home made syrups and fanciful accoutrements for all your magical needs!",
+    "event_type": {
+      "label": "Food & Drink"
+    },
+    "hosted_by_camp": "u-3685",
+    "imageUrl": null,
+    "location": "Pampered Camper",
+    "neighborhood": "The Meadow",
+    "occurrence": {
+      "brief": "11am",
+      "end_time": "2025-05-24T15:00:00",
+      "long": "Saturday 11am-3pm (4hrs)",
+      "short": "11am (4hrs)",
+      "start_time": "2025-05-24T11:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "DIY Potion Bar",
+    "uid": "u-10781"
+  },
+  {
+    "art": "",
+    "camp": "The Glory Hole - A Spectacular Boutique",
+    "day": "Saturday",
+    "description": "Come see what we have to offer to make you look and feel fabulous!",
+    "event_type": {
+      "label": "Food & Drink,Miscellaneous"
+    },
+    "hosted_by_camp": "u-3661",
+    "imageUrl": null,
+    "location": "The Glory Hole - A Spectacular Boutique",
+    "neighborhood": "Upper Bowl",
+    "occurrence": {
+      "brief": "11am",
+      "end_time": "2025-05-24T14:00:00",
+      "long": "Saturday 11am-2pm (3hrs)",
+      "short": "11am (3hrs)",
+      "start_time": "2025-05-24T11:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Breakfast drinks and costumes!",
+    "uid": "u-10824"
+  },
+  {
+    "art": "",
+    "camp": "Flower Bower",
+    "day": "Saturday",
+    "description": "Join us to hone/calibrate your L-base acro skills with our resident acrobatics hobbyists. If this brand of sorcery is new to you, we can teach some introductory poses and spotting. Yoga mats or blankets are helpful, but optional. No partner required.",
+    "event_type": {
+      "label": "Yoga/Movement/Fitness"
+    },
+    "hosted_by_camp": "u-3725",
+    "imageUrl": "https://data.dust.events/soak-2025/08231367594339555.webp",
+    "location": "Flower Bower",
+    "neighborhood": "The Meadow",
+    "occurrence": {
+      "brief": "11am",
+      "end_time": "2025-05-24T12:00:00",
+      "long": "Saturday 11am-Noon (1hr)",
+      "short": "11am (1hr)",
+      "start_time": "2025-05-24T11:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Acro Yoga Jam!",
+    "uid": "u-10866"
   },
   {
     "art": "",
@@ -2388,7 +3426,7 @@
     "hosted_by_camp": "u-3772",
     "imageUrl": "https://data.dust.events/soak-2025/04000344047000217.webp",
     "location": "Hang Loose Camp",
-    "neighborhood": "Around",
+    "neighborhood": "Lower Bowl",
     "occurrence": {
       "brief": "Noon",
       "end_time": "2025-05-24T17:00:00",
@@ -2436,7 +3474,7 @@
     "hosted_by_camp": "u-3687",
     "imageUrl": null,
     "location": "Over Fuckin' Rated",
-    "neighborhood": "North Point Forest",
+    "neighborhood": "Around",
     "occurrence": {
       "brief": "Noon",
       "end_time": "2025-05-24T13:00:00",
@@ -2451,6 +3489,78 @@
   },
   {
     "art": "",
+    "camp": "Pampered Camper",
+    "day": "Saturday",
+    "description": "You are cordially invited to a purely anecdotal tea party where we serve tea, spill tea, and drink tea. Join us at Pampered Camper!",
+    "event_type": {
+      "label": "Gathering/Party"
+    },
+    "hosted_by_camp": "u-3685",
+    "imageUrl": null,
+    "location": "Pampered Camper",
+    "neighborhood": "The Meadow",
+    "occurrence": {
+      "brief": "Noon",
+      "end_time": "2025-05-24T13:30:00",
+      "long": "Saturday Noon-1:30pm (2hrs)",
+      "short": "Noon (2hrs)",
+      "start_time": "2025-05-24T12:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Spill the Tea with P&V",
+    "uid": "u-10780"
+  },
+  {
+    "art": "",
+    "camp": "FryGuy",
+    "day": "Saturday",
+    "description": "The most important mid meal of the day!\nWe'll be starting the day off right.\nWhen we get around to it...\nStop by for a meal made with love.",
+    "event_type": {
+      "label": "Food & Drink"
+    },
+    "hosted_by_camp": "u-3720",
+    "imageUrl": "https://data.dust.events/soak-2025/05542067047243937.webp",
+    "location": "FryGuy",
+    "neighborhood": "Around",
+    "occurrence": {
+      "brief": "Noon",
+      "end_time": "2025-05-24T14:00:00",
+      "long": "Saturday Noon-2pm (2hrs)",
+      "short": "Noon (2hrs)",
+      "start_time": "2025-05-24T12:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Brunch",
+    "uid": "u-10843"
+  },
+  {
+    "art": "",
+    "camp": "Flower Bower",
+    "day": "Saturday",
+    "description": "Bedazzle! Repair! Cast a bonding spell with a substance that changes states of matter before your very eyes! You've been at SOAK for 48 hours and certain items are definitely falling apart or need sprucing up. You bring things to attach to each other. We've got some glue guns.",
+    "event_type": {
+      "label": "Arts & Crafts,Repair"
+    },
+    "hosted_by_camp": "u-3725",
+    "imageUrl": "https://data.dust.events/soak-2025/06451126196536873.webp",
+    "location": "Flower Bower",
+    "neighborhood": "The Meadow",
+    "occurrence": {
+      "brief": "Noon",
+      "end_time": "2025-05-24T13:00:00",
+      "long": "Saturday Noon-1pm (1hr)",
+      "short": "Noon (1hr)",
+      "start_time": "2025-05-24T12:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Hot Glue Hour!",
+    "uid": "u-10867"
+  },
+  {
+    "art": "",
     "camp": "Hotel Charley",
     "day": "Saturday",
     "description": "Serving vegan ice cream rolls.",
@@ -2460,7 +3570,7 @@
     "hosted_by_camp": "u-3709",
     "imageUrl": "https://data.dust.events/soak-2025/04737223124807749.webp",
     "location": "Hotel Charley",
-    "neighborhood": "Mezzanine",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "1pm",
       "end_time": "2025-05-24T15:00:00",
@@ -2484,7 +3594,7 @@
     "hosted_by_camp": "u-3657",
     "imageUrl": "https://data.dust.events/soak-2025/06810151330192304.webp",
     "location": "The Teenie Weenie Art Tent",
-    "neighborhood": "The Meadow",
+    "neighborhood": "Riverside",
     "occurrence": {
       "brief": "1pm",
       "end_time": "2025-05-24T16:00:00",
@@ -2501,14 +3611,14 @@
     "art": "",
     "camp": "Mad Hatter's HIGH Tea",
     "day": "Saturday",
-    "description": "An Alice Wonderland themed camp, we offer a Mad Hatter’s “high” tea party for a mad world! Travel down the rabbit hole and join us for “high” tea, with a wonderland of CBD-infused tea and sweets in a safe and socially inappropriate space to delve into nonsensical conversation and interactive games. Join the Cheshire Cat at the hookah, or get a tattoo or spanking from the Queen of Hearts. Find the bottles that say “Drink Me” to add a spark of special magic to your day.",
+    "description": "An Alice Wonderland themed camp, we offer a Mad Hatter\u2019s \u201chigh\u201d tea party for a mad world! Travel down the rabbit hole and join us for \u201chigh\u201d tea, with a wonderland of CBD-infused tea and sweets in a safe and socially inappropriate space to delve into nonsensical conversation and interactive games. Join the Cheshire Cat at the hookah, or get a tattoo or spanking from the Queen of Hearts. Find the bottles that say \u201cDrink Me\u201d to add a spark of special magic to your day.",
     "event_type": {
       "label": "Food & Drink,Gathering/Party"
     },
     "hosted_by_camp": "u-3697",
     "imageUrl": null,
     "location": "Mad Hatter's HIGH Tea",
-    "neighborhood": "North Point Forest",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "1pm",
       "end_time": "2025-05-24T15:00:00",
@@ -2525,14 +3635,14 @@
     "art": "",
     "camp": "Fire Whiskey Circus: Sideshow",
     "day": "Saturday",
-    "description": "Roll up, roll up, you sick little sinners — Saturday night the tent flaps open for Home Spun Whores, a sticky-fingered sideshow of spun sugar, slurred words, and absolutely no shame.\n\nDeceit or Decadent: cotton candy flavors of dubious inspiration.\n\nHear and share depraved erotic fan fiction. Perform live for our delight and disgust!\nCumin Centipede — tonight’s group shot nightmare, served with a wink and a shove.\nCarnival games in full violent bloom: Wheel of Cocks, Butt Plug Plinko, Cock Jousting — cum win, cum lose, cum question all your life choices! \n\nFill the hole in your soul with meaningless crafts. We've got Oyster Shell Decorating because even monsters deserve a pretty trinket.\n\nMiss it and you’ll die wondering.",
+    "description": "Roll up, roll up, you sick little sinners \u2014 Saturday night the tent flaps open for Home Spun Whores, a sticky-fingered sideshow of spun sugar, slurred words, and absolutely no shame.\n\nDeceit or Decadent: cotton candy flavors of dubious inspiration.\n\nHear and share depraved erotic fan fiction. Perform live for our delight and disgust!\nCumin Centipede \u2014 tonight\u2019s group shot nightmare, served with a wink and a shove.\nCarnival games in full violent bloom: Wheel of Cocks, Butt Plug Plinko, Cock Jousting \u2014 cum win, cum lose, cum question all your life choices! \n\nFill the hole in your soul with meaningless crafts. We've got Oyster Shell Decorating because even monsters deserve a pretty trinket.\n\nMiss it and you\u2019ll die wondering.",
     "event_type": {
       "label": "Food & Drink,Mature Audiences"
     },
     "hosted_by_camp": "u-3727",
     "imageUrl": "https://data.dust.events/soak-2025/041417574584069916.webp",
     "location": "Fire Whiskey Circus: Sideshow",
-    "neighborhood": "The Meadow",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "1pm",
       "end_time": "2025-05-24T17:00:00",
@@ -2556,7 +3666,7 @@
     "hosted_by_camp": "u-3733",
     "imageUrl": null,
     "location": "Dr. Bev's Clinic",
-    "neighborhood": "Main Field",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "1pm",
       "end_time": "2025-05-24T16:00:00",
@@ -2580,7 +3690,7 @@
     "hosted_by_camp": "u-4160",
     "imageUrl": null,
     "location": "Sour Puss",
-    "neighborhood": "Around",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "1pm",
       "end_time": "2025-05-24T14:00:00",
@@ -2595,6 +3705,54 @@
   },
   {
     "art": "",
+    "camp": "Creature Corner",
+    "day": "Saturday",
+    "description": "Bring out your inner animal through sounds and movements that ground you into your body.",
+    "event_type": {
+      "label": "Class/Workshop,Yoga/Movement/Fitness"
+    },
+    "hosted_by_camp": "u-3736",
+    "imageUrl": null,
+    "location": "Creature Corner",
+    "neighborhood": "Riverside",
+    "occurrence": {
+      "brief": "1pm",
+      "end_time": "2025-05-24T14:00:00",
+      "long": "Saturday 1pm-2pm (1hr)",
+      "short": "1pm (1hr)",
+      "start_time": "2025-05-24T13:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Primal Sounding/Primal Movement Workshop",
+    "uid": "u-10784"
+  },
+  {
+    "art": "",
+    "camp": "Flower Bower",
+    "day": "Saturday",
+    "description": "There\u2019s no other way to say it: flowers are how plants flirt. No, I\u2019m NOT a botanist. But how do human beings flirt?! Increase your smoothness and confidence at this interactive workshop conjured up by Chelsea.",
+    "event_type": {
+      "label": "Class/Workshop,Diversity & Inclusion"
+    },
+    "hosted_by_camp": "u-3725",
+    "imageUrl": "https://data.dust.events/soak-2025/08988219926550541.webp",
+    "location": "Flower Bower",
+    "neighborhood": "The Meadow",
+    "occurrence": {
+      "brief": "1pm",
+      "end_time": "2025-05-24T14:00:00",
+      "long": "Saturday 1pm-2pm (1hr)",
+      "short": "1pm (1hr)",
+      "start_time": "2025-05-24T13:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Flirting 101",
+    "uid": "u-10868"
+  },
+  {
+    "art": "",
     "camp": "KID BAR",
     "day": "Saturday",
     "description": "KID BAR is open and twin bartenders are serving! Goat and Kid giant tag game, stickers, games and drinks. Bring your cup. ID Carriers are accommodated in the Goat Lounge.",
@@ -2604,7 +3762,7 @@
     "hosted_by_camp": "u-3706",
     "imageUrl": "https://data.dust.events/soak-2025/08301916004038319.webp",
     "location": "KID BAR",
-    "neighborhood": "Upper Bowl",
+    "neighborhood": "Main Field",
     "occurrence": {
       "brief": "2pm",
       "end_time": "2025-05-24T16:00:00",
@@ -2619,30 +3777,6 @@
   },
   {
     "art": "",
-    "camp": "HYSS",
-    "day": "Saturday",
-    "description": "Come join Leo and Cina at HYSS to get some delicious steel cut oats with sweet and savory toppings! Bring a cup or bowl!",
-    "event_type": {
-      "label": "Food & Drink"
-    },
-    "hosted_by_camp": "u-3714",
-    "imageUrl": null,
-    "location": "HYSS",
-    "neighborhood": "Main Field",
-    "occurrence": {
-      "brief": "2pm",
-      "end_time": "2025-05-24T15:00:00",
-      "long": "Saturday 2pm-3pm (1hr)",
-      "short": "2pm (1hr)",
-      "start_time": "2025-05-24T14:00:00"
-    },
-    "otherLocation": "",
-    "other_location": null,
-    "title": "Steel Cut Oats With Sweet and Savory Toppings!",
-    "uid": "u-10674"
-  },
-  {
-    "art": "",
     "camp": "Over Fuckin' Rated",
     "day": "Saturday",
     "description": "The basics of working hard and getting what you want. Learn from the pro about how to mildly inconvenience your loved ones with your desires.  Drinks will be demanded, may or may not be provided.",
@@ -2652,7 +3786,7 @@
     "hosted_by_camp": "u-3687",
     "imageUrl": null,
     "location": "Over Fuckin' Rated",
-    "neighborhood": "North Point Forest",
+    "neighborhood": "Around",
     "occurrence": {
       "brief": "2pm",
       "end_time": "2025-05-24T15:00:00",
@@ -2669,14 +3803,14 @@
     "art": "",
     "camp": "Sex Positivity Camp - Fucking Magic",
     "day": "Saturday",
-    "description": "Spanking can be one of the most intimate and accessible forms of impact play! You don’t need a lot of fancy gear and you don’t need a lot of space. What you need is curiosity, enthusiasm, and a playful spirit!",
+    "description": "Spanking can be one of the most intimate and accessible forms of impact play! You don\u2019t need a lot of fancy gear and you don\u2019t need a lot of space. What you need is curiosity, enthusiasm, and a playful spirit!",
     "event_type": {
       "label": "Class/Workshop"
     },
     "hosted_by_camp": "u-3673",
     "imageUrl": null,
     "location": "Sex Positivity Camp - Fucking Magic",
-    "neighborhood": "Lower Bowl",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "2pm",
       "end_time": "2025-05-24T15:30:00",
@@ -2691,6 +3825,30 @@
   },
   {
     "art": "",
+    "camp": "Absinthe Minded",
+    "day": "Saturday",
+    "description": "Let our resident forest fairy, Bob Moss, guide you on a painting journey where you might create happy little trees. Supplies provided.",
+    "event_type": {
+      "label": "Arts & Crafts"
+    },
+    "hosted_by_camp": "u-3758",
+    "imageUrl": null,
+    "location": "Absinthe Minded",
+    "neighborhood": "Riverside",
+    "occurrence": {
+      "brief": "2pm",
+      "end_time": "2025-05-24T16:00:00",
+      "long": "Saturday 2pm-4pm (2hrs)",
+      "short": "2pm (2hrs)",
+      "start_time": "2025-05-24T14:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Bob Moss Paint-A-Long",
+    "uid": "u-10882"
+  },
+  {
+    "art": "",
     "camp": "Warm Snuggles",
     "day": "Saturday",
     "description": "Pillows become weapons of joyful destruction, wielded by warriors with rosy cheeks and sparkling eyes. A playful war will be raged, fueled by silliness and pure, unadulterated fun.",
@@ -2700,7 +3858,7 @@
     "hosted_by_camp": "u-3649",
     "imageUrl": null,
     "location": "Warm Snuggles",
-    "neighborhood": "Upper Bowl",
+    "neighborhood": "Mezzanine",
     "occurrence": {
       "brief": "3pm",
       "end_time": "2025-05-24T15:30:00",
@@ -2724,7 +3882,7 @@
     "hosted_by_camp": "u-4160",
     "imageUrl": null,
     "location": "Sour Puss",
-    "neighborhood": "Around",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "3pm",
       "end_time": "2025-05-24T16:00:00",
@@ -2748,7 +3906,7 @@
     "hosted_by_camp": "u-3747",
     "imageUrl": "https://data.dust.events/soak-2025/09284779793234473.webp",
     "location": "Camp Clusterfuck",
-    "neighborhood": "Main Field",
+    "neighborhood": "Mezzanine",
     "occurrence": {
       "brief": "3pm",
       "end_time": "2025-05-24T16:30:00",
@@ -2772,7 +3930,7 @@
     "hosted_by_camp": "u-3644",
     "imageUrl": null,
     "location": "Baggage Check",
-    "neighborhood": "Lower Bowl",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "3pm",
       "end_time": "2025-05-24T18:00:00",
@@ -2787,6 +3945,54 @@
   },
   {
     "art": "",
+    "camp": "Creature Corner",
+    "day": "Saturday",
+    "description": "The creatures on parade!! Wearing animal garb and entertaining folks all around the Playa.",
+    "event_type": {
+      "label": "Parade"
+    },
+    "hosted_by_camp": "u-3736",
+    "imageUrl": null,
+    "location": "Creature Corner",
+    "neighborhood": "Riverside",
+    "occurrence": {
+      "brief": "3pm",
+      "end_time": "2025-05-24T16:00:00",
+      "long": "Saturday 3pm-4pm (1hr)",
+      "short": "3pm (1hr)",
+      "start_time": "2025-05-24T15:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Creatures Creeping and Crawling",
+    "uid": "u-10785"
+  },
+  {
+    "art": "",
+    "camp": "The Glory Hole - A Spectacular Boutique",
+    "day": "Saturday",
+    "description": "On-On! \n\nCum hash with us. If you don't know what that means, grab a red dress from the boutique and join us anyway!",
+    "event_type": {
+      "label": "Food & Drink,Miscellaneous"
+    },
+    "hosted_by_camp": "u-3661",
+    "imageUrl": null,
+    "location": "The Glory Hole - A Spectacular Boutique",
+    "neighborhood": "Upper Bowl",
+    "occurrence": {
+      "brief": "3pm",
+      "end_time": "2025-05-24T18:00:00",
+      "long": "Saturday 3pm-6pm (3hrs)",
+      "short": "3pm (3hrs)",
+      "start_time": "2025-05-24T15:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Hash House Harriers Red Dress Run!",
+    "uid": "u-10823"
+  },
+  {
+    "art": "",
     "camp": "The man cave",
     "day": "Saturday",
     "description": "bringing the tradition from the dust to SOAK: bring your favorite bottle of Scotch or Mezcal, and let's share and savor some special sips. We may make some tasty meat to go with it, we'll see.",
@@ -2796,7 +4002,7 @@
     "hosted_by_camp": "u-3655",
     "imageUrl": "https://data.dust.events/soak-2025/02992551832050656.webp",
     "location": "The man cave",
-    "neighborhood": "Mezzanine",
+    "neighborhood": "Forest Entry",
     "occurrence": {
       "brief": "4pm",
       "end_time": "2025-05-24T17:00:00",
@@ -2820,7 +4026,7 @@
     "hosted_by_camp": "u-3705",
     "imageUrl": null,
     "location": "Kinky Fucking Camp",
-    "neighborhood": "Main Field",
+    "neighborhood": "Riverside",
     "occurrence": {
       "brief": "4pm",
       "end_time": "2025-05-24T17:00:00",
@@ -2835,6 +4041,30 @@
   },
   {
     "art": "",
+    "camp": "Acid Drip",
+    "day": "Saturday",
+    "description": "Escape into a realm of rich aromas and relaxed vibes at our hookah lounge. Sink into plush seating surrounded by warm lighting and intricate d\u00e9cor, creating the perfect backdrop for unwinding. Choose from a diverse selection of premium shisha flavors; we will also have non-tobacco options.\n\nWhether hanging with friends, chilling alone, or looking for something different, our lounge is the spot. Enjoy the fragrant smoke, relax, and soak in the good vibes. Everything is ready for you to kick back and enjoy. Find your flavor and unwind with us!\n\nWe will be closed for the burn!",
+    "event_type": {
+      "label": "Gathering/Party"
+    },
+    "hosted_by_camp": "u-3757",
+    "imageUrl": null,
+    "location": "Acid Drip",
+    "neighborhood": "Lower Bowl",
+    "occurrence": {
+      "brief": "4pm",
+      "end_time": "2025-05-24T19:00:00",
+      "long": "Saturday 4pm-7pm (3hrs)",
+      "short": "4pm (3hrs)",
+      "start_time": "2025-05-24T16:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Hookah Cafe",
+    "uid": "u-10802"
+  },
+  {
+    "art": "",
     "camp": "The Teenie Weenie Art Tent",
     "day": "Saturday",
     "description": "The Spirits Becon!!! Recieve the Gifts!! Summon the Beyond!! Check the Time!!  21+ Older",
@@ -2844,7 +4074,7 @@
     "hosted_by_camp": "u-3657",
     "imageUrl": "https://data.dust.events/soak-2025/04340867801304965.webp",
     "location": "The Teenie Weenie Art Tent",
-    "neighborhood": "The Meadow",
+    "neighborhood": "Riverside",
     "occurrence": {
       "brief": "4:15pm",
       "end_time": "2025-05-24T17:00:00",
@@ -2868,7 +4098,7 @@
     "hosted_by_camp": "u-3655",
     "imageUrl": "https://data.dust.events/soak-2025/09679912623157749.webp",
     "location": "The man cave",
-    "neighborhood": "Mezzanine",
+    "neighborhood": "Forest Entry",
     "occurrence": {
       "brief": "5pm",
       "end_time": "2025-05-24T18:00:00",
@@ -2892,7 +4122,7 @@
     "hosted_by_camp": "u-3743",
     "imageUrl": "https://data.dust.events/soak-2025/09279559197174142.webp",
     "location": "Camp-Misbehaving",
-    "neighborhood": "North Point Forest",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "6pm",
       "end_time": "2025-05-24T21:00:00",
@@ -2916,7 +4146,7 @@
     "hosted_by_camp": "u-3644",
     "imageUrl": null,
     "location": "Baggage Check",
-    "neighborhood": "Lower Bowl",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "6:30pm",
       "end_time": "2025-05-24T20:30:00",
@@ -2940,7 +4170,7 @@
     "hosted_by_camp": "u-3692",
     "imageUrl": "https://data.dust.events/soak-2025/04332205163431665.webp",
     "location": "Nom Village",
-    "neighborhood": "Main Field",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "7pm",
       "end_time": "2025-05-25T00:00:00",
@@ -2964,7 +4194,7 @@
     "hosted_by_camp": "u-3655",
     "imageUrl": "https://data.dust.events/soak-2025/013441893176842146.webp",
     "location": "The man cave",
-    "neighborhood": "Mezzanine",
+    "neighborhood": "Forest Entry",
     "occurrence": {
       "brief": "9pm",
       "end_time": "2025-05-25T01:00:00",
@@ -2981,14 +4211,14 @@
     "art": "",
     "camp": "Frizz",
     "day": "Saturday",
-    "description": "Hey there cool cats, bring your dancing paws to camp Frizz this Caturday for groovy beats, artisan cocktails, hot catpuccinos, and delicious choripán fresh off the grill. Purr!",
+    "description": "Hey there cool cats, bring your dancing paws to camp Frizz this Caturday for groovy beats, artisan cocktails, hot catpuccinos, and delicious chorip\u00e1n fresh off the grill. Purr!",
     "event_type": {
       "label": "Food & Drink,Gathering/Party"
     },
     "hosted_by_camp": "u-3721",
     "imageUrl": null,
     "location": "Frizz",
-    "neighborhood": "Main Field",
+    "neighborhood": "Mezzanine",
     "occurrence": {
       "brief": "9pm",
       "end_time": "2025-05-25T00:00:00",
@@ -3003,6 +4233,30 @@
   },
   {
     "art": "",
+    "camp": "Haus Anima",
+    "day": "Saturday",
+    "description": "color with blacklight-ractive pigments on a giant hand-drawn coloring sheet",
+    "event_type": {
+      "label": "Arts & Crafts"
+    },
+    "hosted_by_camp": "u-3712",
+    "imageUrl": "https://data.dust.events/soak-2025/0437751337502277.webp",
+    "location": "Haus Anima",
+    "neighborhood": "The Meadow",
+    "occurrence": {
+      "brief": "9pm",
+      "end_time": "2025-05-25T01:00:00",
+      "long": "Saturday 9pm-1am (4hrs)",
+      "short": "9pm (4hrs)",
+      "start_time": "2025-05-24T21:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "collaborative coloring",
+    "uid": "u-10847"
+  },
+  {
+    "art": "",
     "camp": "Hotel Charley",
     "day": "Saturday",
     "description": "Use Strange Magic in the form of wands that react to black light when used to mark our large canvas. Tea and cookies provided to fuel your creativity. This art will become part of the camp for years to come.",
@@ -3012,7 +4266,7 @@
     "hosted_by_camp": "u-3709",
     "imageUrl": "https://data.dust.events/soak-2025/032512800016005583.webp",
     "location": "Hotel Charley",
-    "neighborhood": "Mezzanine",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "10pm",
       "end_time": "2025-05-25T03:00:00",
@@ -3029,14 +4283,14 @@
     "art": "",
     "camp": "Sex Positivity Camp - Fucking Magic",
     "day": "Saturday",
-    "description": "Join us for a showing of erotica, created by amateurs, starring amateurs! The Starfish Sex Beetle videos are sensual, entrancing, and surreal! These videos will be utterly unlike anything you’ve found on PornHub! Come cuddle with your sweetie(s) and let us provide psychedelic erotica that will melt your mind and turn you on at the same time!",
+    "description": "Join us for a showing of erotica, created by amateurs, starring amateurs! The Starfish Sex Beetle videos are sensual, entrancing, and surreal! These videos will be utterly unlike anything you\u2019ve found on PornHub! Come cuddle with your sweetie(s) and let us provide psychedelic erotica that will melt your mind and turn you on at the same time!",
     "event_type": {
       "label": "Performance"
     },
     "hosted_by_camp": "u-3673",
     "imageUrl": null,
     "location": "Sex Positivity Camp - Fucking Magic",
-    "neighborhood": "Lower Bowl",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "10:30pm",
       "end_time": "2025-05-24T23:30:00",
@@ -3053,25 +4307,49 @@
     "art": "",
     "camp": "FireFlow Studios",
     "day": "Saturday",
-    "description": "We’re blending blacklight body painting, UV reactive bubbles, and fire into one surreal photoshoot experience.\nCome get painted, glow under the black lights, dance in a storm of bubbles, and then set the night on fire—literally.\nFull safety setup as always. Body art and bubbles are optional, fire is optional — you make it what you want.",
+    "description": "We\u2019re blending blacklight body painting, UV reactive bubbles, and fire into one surreal photoshoot experience.\nCome get painted, glow under the black lights, dance in a storm of bubbles, and then set the night on fire\u2014literally.\nFull safety setup as always. Body art and bubbles are optional, fire is optional \u2014 you make it what you want.",
     "event_type": {
       "label": "Fire/Spectacle"
     },
     "hosted_by_camp": "u-3726",
     "imageUrl": "https://data.dust.events/soak-2025/0471837214639947.webp",
     "location": "FireFlow Studios",
-    "neighborhood": "Mezzanine",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "10:30pm",
-      "end_time": "2025-05-24T23:30:00",
-      "long": "Saturday 10:30pm-11:30pm (1hr)",
-      "short": "10:30pm (1hr)",
+      "end_time": "2025-05-25T00:30:00",
+      "long": "Saturday 10:30pm-12:30am (2hrs)",
+      "short": "10:30pm (2hrs)",
       "start_time": "2025-05-24T22:30:00"
     },
     "otherLocation": "",
     "other_location": null,
     "title": "Black Light Fire Night",
     "uid": "u-10762"
+  },
+  {
+    "art": "",
+    "camp": "Acid Drip",
+    "day": "Saturday",
+    "description": "Escape into a realm of rich aromas and relaxed vibes at our hookah lounge. Sink into plush seating surrounded by warm lighting and intricate d\u00e9cor, creating the perfect backdrop for unwinding. Choose from a diverse selection of premium shisha flavors; we will also have non-tobacco options.\n\nWhether hanging with friends, chilling alone, or looking for something different, our lounge is the spot. Enjoy the fragrant smoke, relax, and soak in the good vibes. Everything is ready for you to kick back and enjoy. Find your flavor and unwind with us!\n\nWe will be closed for the burn!",
+    "event_type": {
+      "label": "Gathering/Party"
+    },
+    "hosted_by_camp": "u-3757",
+    "imageUrl": null,
+    "location": "Acid Drip",
+    "neighborhood": "Lower Bowl",
+    "occurrence": {
+      "brief": "11pm",
+      "end_time": "2025-05-25T02:00:00",
+      "long": "Saturday 11pm-2am (3hrs)",
+      "short": "11pm (3hrs)",
+      "start_time": "2025-05-24T23:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Hookah Cafe",
+    "uid": "u-10802"
   },
   {
     "art": "",
@@ -3084,7 +4362,7 @@
     "hosted_by_camp": "u-3649",
     "imageUrl": "https://data.dust.events/soak-2025/0567347416402206.webp",
     "location": "Warm Snuggles",
-    "neighborhood": "Upper Bowl",
+    "neighborhood": "Mezzanine",
     "occurrence": {
       "brief": "11:45pm",
       "end_time": "2025-05-25T00:30:00",
@@ -3108,7 +4386,7 @@
     "hosted_by_camp": "u-3649",
     "imageUrl": null,
     "location": "Warm Snuggles",
-    "neighborhood": "Upper Bowl",
+    "neighborhood": "Mezzanine",
     "occurrence": {
       "brief": "Midnight",
       "end_time": "2025-05-25T23:59:59",
@@ -3123,6 +4401,104 @@
   },
   {
     "art": "",
+    "camp": "Acid Drip",
+    "day": "Sunday",
+    "description": "Step into your sonic sanctuary! Our sound booth offers you the ultimate DJ experience. Imagine a space where the decks are yours, the vibe is yours, and the only limit is your musical imagination. Bring your own tracks, plug in your gear, and let the rhythm take over.\n\nWhether you're a seasoned DJ wanting a dedicated practice space, an aspiring artist ready to lay down your first mix, or just someone who loves to curate the perfect playlist for friends, our booth provides the ideal environment. With professional-grade equipment and comfortable acoustics, you can immerse yourself in the music and fine-tune your skills without distractions. It's your stage, your sound \u2013 unleash your inner DJ!",
+    "event_type": {
+      "label": "Gathering/Party"
+    },
+    "hosted_by_camp": "u-3757",
+    "imageUrl": "https://data.dust.events/soak-2025/08702081009492253.webp",
+    "location": "Acid Drip",
+    "neighborhood": "Lower Bowl",
+    "occurrence": {
+      "brief": "Midnight",
+      "end_time": "2025-05-25T23:59:59",
+      "long": "Sunday Midnight-11:59pm (24hrs)",
+      "short": "Midnight (24hrs)",
+      "start_time": "2025-05-25T00:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Open Decks!!!",
+    "uid": "u-10801"
+  },
+  {
+    "art": "The Geode-Home",
+    "camp": "",
+    "canView": false,
+    "day": "Sunday",
+    "description": "An all-day LED lightshow experience\u2014step into a shifting world of color, motion, and illusion as light transforms the space from sunrise to starlight.",
+    "event_type": {
+      "label": "Fire/Spectacle,Performance"
+    },
+    "hosted_by_camp": null,
+    "imageUrl": null,
+    "located_at_art": "u-1619",
+    "location": "The Geode-Home",
+    "neighborhood": "Forest Entry",
+    "occurrence": {
+      "brief": "Midnight",
+      "end_time": "2025-05-25T23:59:59",
+      "long": "Sunday Midnight-11:59pm (24hrs)",
+      "short": "Midnight (24hrs)",
+      "start_time": "2025-05-25T00:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "LED Lightshows at the GeodeHome",
+    "uid": "u-10835"
+  },
+  {
+    "art": "",
+    "camp": "Flower Bower",
+    "day": "Sunday",
+    "description": "Deflower us! ...by accessorizing yourself with fabulous clip-on flowers and other faux floral creations at our 24-hour self-service boutique. Then come back at night and let the magical lights enchant you. Floral fashion consultants available spore-adically.",
+    "event_type": {
+      "label": "Miscellaneous,Self Care"
+    },
+    "hosted_by_camp": "u-3725",
+    "imageUrl": "https://data.dust.events/soak-2025/04996570797863997.webp",
+    "location": "Flower Bower",
+    "neighborhood": "The Meadow",
+    "occurrence": {
+      "brief": "Midnight",
+      "end_time": "2025-05-25T23:59:59",
+      "long": "Sunday Midnight-11:59pm (24hrs)",
+      "short": "Midnight (24hrs)",
+      "start_time": "2025-05-25T00:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Flower Bower Boutique",
+    "uid": "u-10869"
+  },
+  {
+    "art": "",
+    "camp": "Absinthe Minded",
+    "day": "Sunday",
+    "description": "Come meet the green fairy and earn one of her potions by completing a side quest.",
+    "event_type": {
+      "label": "Food & Drink"
+    },
+    "hosted_by_camp": "u-3758",
+    "imageUrl": null,
+    "location": "Absinthe Minded",
+    "neighborhood": "Riverside",
+    "occurrence": {
+      "brief": "Midnight",
+      "end_time": "2025-05-25T02:00:00",
+      "long": "Sunday Midnight-2am (2hrs)",
+      "short": "Midnight (2hrs)",
+      "start_time": "2025-05-25T00:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Green Lantern: Absinthe & Side Quests",
+    "uid": "u-10876"
+  },
+  {
+    "art": "",
     "camp": "Frizz",
     "day": "Sunday",
     "description": "Start your day right with the best drug in the world, caffeine!  Slow crafted cappuccinos, lattes, and espresso drinks from our coffee bar. Enjoy the cozy atmosphere with propane fire pits and comfortable seating, perfect for morning chats and mid-day relaxation.",
@@ -3132,7 +4508,7 @@
     "hosted_by_camp": "u-3721",
     "imageUrl": null,
     "location": "Frizz",
-    "neighborhood": "Main Field",
+    "neighborhood": "Mezzanine",
     "occurrence": {
       "brief": "8am",
       "end_time": "2025-05-25T11:00:00",
@@ -3156,7 +4532,7 @@
     "hosted_by_camp": "u-3743",
     "imageUrl": "https://data.dust.events/soak-2025/03038840836507193.webp",
     "location": "Camp-Misbehaving",
-    "neighborhood": "North Point Forest",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "8am",
       "end_time": "2025-05-25T09:00:00",
@@ -3180,7 +4556,7 @@
     "hosted_by_camp": "u-3692",
     "imageUrl": "https://data.dust.events/soak-2025/06443024909670201.webp",
     "location": "Nom Village",
-    "neighborhood": "Main Field",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "9am",
       "end_time": "2025-05-25T12:00:00",
@@ -3204,7 +4580,7 @@
     "hosted_by_camp": "u-3751",
     "imageUrl": null,
     "location": "Baby Behead & Breakfast",
-    "neighborhood": "Main Field",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "9:30am",
       "end_time": "2025-05-25T11:00:00",
@@ -3221,14 +4597,14 @@
     "art": "",
     "camp": "Krampusberg",
     "day": "Sunday",
-    "description": "There's no shame in drinking on Sunday morning in Krampusberg.   Come and join our congregation for a morning of unusual spirits, and fun vibes at our Alpen Dämonen themed bar.  This event ends at 1:00 pm sharp.\n\nBe prepared to show your ID.",
+    "description": "There's no shame in drinking on Sunday morning in Krampusberg.   Come and join our congregation for a morning of unusual spirits, and fun vibes at our Alpen D\u00e4monen themed bar.  This event ends at 1:00 pm sharp.\n\nBe prepared to show your ID.",
     "event_type": {
       "label": "Food & Drink"
     },
     "hosted_by_camp": "u-3704",
     "imageUrl": null,
     "location": "Krampusberg",
-    "neighborhood": "Upper Bowl",
+    "neighborhood": "Forest Entry",
     "occurrence": {
       "brief": "10am",
       "end_time": "2025-05-25T13:00:00",
@@ -3252,7 +4628,7 @@
     "hosted_by_camp": "u-3729",
     "imageUrl": null,
     "location": "Embassy",
-    "neighborhood": "The Meadow",
+    "neighborhood": "Around",
     "occurrence": {
       "brief": "10am",
       "end_time": "2025-05-25T16:00:00",
@@ -3276,7 +4652,7 @@
     "hosted_by_camp": "u-3657",
     "imageUrl": "https://data.dust.events/soak-2025/09156551255241007.webp",
     "location": "The Teenie Weenie Art Tent",
-    "neighborhood": "The Meadow",
+    "neighborhood": "Riverside",
     "occurrence": {
       "brief": "10:30am",
       "end_time": "2025-05-25T12:30:00",
@@ -3291,16 +4667,16 @@
   },
   {
     "art": "",
-    "camp": "Crêpiphany",
+    "camp": "Cr\u00eapiphany",
     "day": "Sunday",
-    "description": "You are cordially invited to savor the crêpes at the Café Crêpiphany. Choose from a variety of sweet toppings and enjoy our typical French café experience. Engage your mind as well as your taste buds with an assortment of puzzles.",
+    "description": "You are cordially invited to savor the cr\u00eapes at the Caf\u00e9 Cr\u00eapiphany. Choose from a variety of sweet toppings and enjoy our typical French caf\u00e9 experience. Engage your mind as well as your taste buds with an assortment of puzzles.",
     "event_type": {
       "label": "Food & Drink"
     },
     "hosted_by_camp": "u-3735",
     "imageUrl": "https://data.dust.events/soak-2025/07008582032414468.webp",
-    "location": "Crêpiphany",
-    "neighborhood": "Mezzanine",
+    "location": "Cr\u00eapiphany",
+    "neighborhood": "Around",
     "occurrence": {
       "brief": "11am",
       "end_time": "2025-05-25T13:00:00",
@@ -3310,7 +4686,7 @@
     },
     "otherLocation": "",
     "other_location": null,
-    "title": "Crêpes and puzzles!",
+    "title": "Cr\u00eapes and puzzles!",
     "uid": "u-10143"
   },
   {
@@ -3341,7 +4717,7 @@
     "art": "",
     "camp": "Pampered Camper",
     "day": "Sunday",
-    "description": "Fall off a climbable structure? Tweak your neck moshing to some dub step? Allow us to work it out! We have licensed LMTs, Reiki practitioners, and a chiropractor at your service! Arrive early if you’d like to get an appointment!",
+    "description": "Fall off a climbable structure? Tweak your neck moshing to some dub step? Allow us to work it out! We have licensed LMTs, Reiki practitioners, and a chiropractor at your service! Arrive early if you\u2019d like to get an appointment!",
     "event_type": {
       "label": "Self Care"
     },
@@ -3411,6 +4787,54 @@
   },
   {
     "art": "",
+    "camp": "Pampered Camper",
+    "day": "Sunday",
+    "description": "Double double toil and trouble fire burn and cauldron bubble. Come to Pampered for a mix-your-own drinkable potion bar. A non-alcoholic diy station will be ready and available. We will have home made syrups and fanciful accoutrements for all your magical needs!",
+    "event_type": {
+      "label": "Food & Drink"
+    },
+    "hosted_by_camp": "u-3685",
+    "imageUrl": null,
+    "location": "Pampered Camper",
+    "neighborhood": "The Meadow",
+    "occurrence": {
+      "brief": "11am",
+      "end_time": "2025-05-25T15:00:00",
+      "long": "Sunday 11am-3pm (4hrs)",
+      "short": "11am (4hrs)",
+      "start_time": "2025-05-25T11:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "DIY Potion Bar",
+    "uid": "u-10781"
+  },
+  {
+    "art": "",
+    "camp": "The Glory Hole - A Spectacular Boutique",
+    "day": "Sunday",
+    "description": "Bring your booty over here and see what wonders we've saved for the final day of SOAK!",
+    "event_type": {
+      "label": "Food & Drink,Miscellaneous"
+    },
+    "hosted_by_camp": "u-3661",
+    "imageUrl": null,
+    "location": "The Glory Hole - A Spectacular Boutique",
+    "neighborhood": "Upper Bowl",
+    "occurrence": {
+      "brief": "11am",
+      "end_time": "2025-05-25T14:00:00",
+      "long": "Sunday 11am-2pm (3hrs)",
+      "short": "11am (3hrs)",
+      "start_time": "2025-05-25T11:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Get it While it Lasts!",
+    "uid": "u-10825"
+  },
+  {
+    "art": "",
     "camp": "Hang Loose Camp",
     "day": "Sunday",
     "description": "Whenever the hang loose team is available from 12-5 PM each day and you are lounging in a hammock, we will serve you snacks, questions, & tokens. Additionally, fanning and spritz services may be available.",
@@ -3420,7 +4844,7 @@
     "hosted_by_camp": "u-3772",
     "imageUrl": "https://data.dust.events/soak-2025/04000344047000217.webp",
     "location": "Hang Loose Camp",
-    "neighborhood": "Around",
+    "neighborhood": "Lower Bowl",
     "occurrence": {
       "brief": "Noon",
       "end_time": "2025-05-25T17:00:00",
@@ -3461,14 +4885,14 @@
     "art": "",
     "camp": "Over Fuckin' Rated",
     "day": "Sunday",
-    "description": "No brunch just mimosas! Fuck your burn and drink champagne with us 🍾🥂",
+    "description": "No brunch just mimosas! Fuck your burn and drink champagne with us \ud83c\udf7e\ud83e\udd42",
     "event_type": {
       "label": "Food & Drink"
     },
     "hosted_by_camp": "u-3687",
     "imageUrl": null,
     "location": "Over Fuckin' Rated",
-    "neighborhood": "North Point Forest",
+    "neighborhood": "Around",
     "occurrence": {
       "brief": "Noon",
       "end_time": "2025-05-25T13:00:00",
@@ -3492,7 +4916,7 @@
     "hosted_by_camp": "u-3673",
     "imageUrl": null,
     "location": "Sex Positivity Camp - Fucking Magic",
-    "neighborhood": "Lower Bowl",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "Noon",
       "end_time": "2025-05-25T13:00:00",
@@ -3507,6 +4931,30 @@
   },
   {
     "art": "",
+    "camp": "Camp Clusterfuck",
+    "day": "Sunday",
+    "description": "Ecstatic dance is a long-held Sunday morning tradition of embodied movement and play. A container is created at the beginning with a brief opening circle, after which dancers move freely around the floor to a musical arc that explores a variety of genres. While music reaches peak intensity during some parts of the journey, the set starts and ends with slow, grounding tracks. Come reconnect to your body, the dance floor, and other dancers after burn night, moving in whatever ways call to you!\n\nWarm-up: 12:00\nOpening circle: 12:15Closing circle: 2:00\n\nBare feet preferred!",
+    "event_type": {
+      "label": "Yoga/Movement/Fitness"
+    },
+    "hosted_by_camp": "u-3747",
+    "imageUrl": "https://data.dust.events/soak-2025/023174679701861123.webp",
+    "location": "Camp Clusterfuck",
+    "neighborhood": "Mezzanine",
+    "occurrence": {
+      "brief": "Noon",
+      "end_time": "2025-05-25T14:00:00",
+      "long": "Sunday Noon-2pm (2hrs)",
+      "short": "Noon (2hrs)",
+      "start_time": "2025-05-25T12:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Ecstatic Dance",
+    "uid": "u-10845"
+  },
+  {
+    "art": "",
     "camp": "Hotel Charley",
     "day": "Sunday",
     "description": "Serving vegan ice cream rolls.",
@@ -3516,7 +4964,7 @@
     "hosted_by_camp": "u-3709",
     "imageUrl": "https://data.dust.events/soak-2025/04737223124807749.webp",
     "location": "Hotel Charley",
-    "neighborhood": "Mezzanine",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "1pm",
       "end_time": "2025-05-25T15:00:00",
@@ -3540,7 +4988,7 @@
     "hosted_by_camp": "u-3733",
     "imageUrl": null,
     "location": "Dr. Bev's Clinic",
-    "neighborhood": "Main Field",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "1pm",
       "end_time": "2025-05-25T16:00:00",
@@ -3564,7 +5012,7 @@
     "hosted_by_camp": "u-4160",
     "imageUrl": null,
     "location": "Sour Puss",
-    "neighborhood": "Around",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "1pm",
       "end_time": "2025-05-25T14:00:00",
@@ -3581,14 +5029,14 @@
     "art": "",
     "camp": "Baggage Check",
     "day": "Sunday",
-    "description": "Want to learn to play chess? Want to learn basic chess strategy? Want to beat a mediocre chess player? Want to talk while you do any or all of these things? Chess and Chat is for you! Delight will walk you through the basics of chess and chess strategy while chatting about anything that’s on your mind. He’ll also gracefully concede when faced by anyone with over a 1400 rating!  Join Delight at Baggage Check from",
+    "description": "Want to learn to play chess? Want to learn basic chess strategy? Want to beat a mediocre chess player? Want to talk while you do any or all of these things? Chess and Chat is for you! Delight will walk you through the basics of chess and chess strategy while chatting about anything that\u2019s on your mind. He\u2019ll also gracefully concede when faced by anyone with over a 1400 rating!  Join Delight at Baggage Check from",
     "event_type": {
       "label": "For Kids,Games"
     },
     "hosted_by_camp": "u-3644",
     "imageUrl": null,
     "location": "Baggage Check",
-    "neighborhood": "Lower Bowl",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "1pm",
       "end_time": "2025-05-25T15:00:00",
@@ -3603,6 +5051,54 @@
   },
   {
     "art": "",
+    "camp": "HYSS",
+    "day": "Sunday",
+    "description": "Yo these knots are tite!",
+    "event_type": {
+      "label": "Class/Workshop"
+    },
+    "hosted_by_camp": "u-3714",
+    "imageUrl": null,
+    "location": "HYSS",
+    "neighborhood": "Mezzanine",
+    "occurrence": {
+      "brief": "1pm",
+      "end_time": "2025-05-25T14:00:00",
+      "long": "Sunday 1pm-2pm (1hr)",
+      "short": "1pm (1hr)",
+      "start_time": "2025-05-25T13:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Knots",
+    "uid": "u-10830"
+  },
+  {
+    "art": "",
+    "camp": "FryGuy",
+    "day": "Sunday",
+    "description": "The most important mid meal of the day!\nWe'll be starting the day off right.\nWhen we get around to it...\nStop by for a meal made with love.",
+    "event_type": {
+      "label": "Food & Drink"
+    },
+    "hosted_by_camp": "u-3720",
+    "imageUrl": "https://data.dust.events/soak-2025/05542067047243937.webp",
+    "location": "FryGuy",
+    "neighborhood": "Around",
+    "occurrence": {
+      "brief": "1pm",
+      "end_time": "2025-05-25T15:00:00",
+      "long": "Sunday 1pm-3pm (2hrs)",
+      "short": "1pm (2hrs)",
+      "start_time": "2025-05-25T13:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Brunch",
+    "uid": "u-10843"
+  },
+  {
+    "art": "",
     "camp": "The Teenie Weenie Art Tent",
     "day": "Sunday",
     "description": "Decorate A Rubber Duck!! Give it a Hat, some Bling, Something New and Unthought Of!! Be The Duck Decorator You Know You Can Be!!! (While Supplies Last, No Membership Required, All Ducks Registered & Inspected)",
@@ -3612,7 +5108,7 @@
     "hosted_by_camp": "u-3657",
     "imageUrl": "https://data.dust.events/soak-2025/017507539954479.webp",
     "location": "The Teenie Weenie Art Tent",
-    "neighborhood": "The Meadow",
+    "neighborhood": "Riverside",
     "occurrence": {
       "brief": "2pm",
       "end_time": "2025-05-25T15:30:00",
@@ -3636,7 +5132,7 @@
     "hosted_by_camp": "u-3706",
     "imageUrl": "https://data.dust.events/soak-2025/07591087458006683.webp",
     "location": "KID BAR",
-    "neighborhood": "Upper Bowl",
+    "neighborhood": "Main Field",
     "occurrence": {
       "brief": "2pm",
       "end_time": "2025-05-25T16:00:00",
@@ -3660,7 +5156,7 @@
     "hosted_by_camp": "u-3655",
     "imageUrl": "https://data.dust.events/soak-2025/05104601638843727.webp",
     "location": "The man cave",
-    "neighborhood": "Mezzanine",
+    "neighborhood": "Forest Entry",
     "occurrence": {
       "brief": "2pm",
       "end_time": "2025-05-25T15:00:00",
@@ -3675,16 +5171,40 @@
   },
   {
     "art": "",
+    "camp": "HYSS",
+    "day": "Sunday",
+    "description": "Come join Leo and Cina at HYSS to get some delicious steel cut oats with sweet and savory toppings! Bring a cup or bowl!",
+    "event_type": {
+      "label": "Food & Drink"
+    },
+    "hosted_by_camp": "u-3714",
+    "imageUrl": "https://data.dust.events/soak-2025/02992653918565098.webp",
+    "location": "HYSS",
+    "neighborhood": "Mezzanine",
+    "occurrence": {
+      "brief": "2pm",
+      "end_time": "2025-05-25T15:00:00",
+      "long": "Sunday 2pm-3pm (1hr)",
+      "short": "2pm (1hr)",
+      "start_time": "2025-05-25T14:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Steel Cut Oats With Sweet and Savory Toppings!",
+    "uid": "u-10674"
+  },
+  {
+    "art": "",
     "camp": "Over Fuckin' Rated",
     "day": "Sunday",
-    "description": "Come sit under our dome, watch a movie, and do nothing! We’ll be showing a hilarious and unsanctioned re-telling of the first movie in that one franchise about magical British schoolchildren, (Wizard People, Dear Reader) and enjoy a craft cocktail potion that will conjure the OK-est lazy Sunday of your life.",
+    "description": "Come sit under our dome, watch a movie, and do nothing! We\u2019ll be showing a hilarious and unsanctioned re-telling of the first movie in that one franchise about magical British schoolchildren, (Wizard People, Dear Reader) and enjoy a craft cocktail potion that will conjure the OK-est lazy Sunday of your life.",
     "event_type": {
       "label": "Gathering/Party"
     },
     "hosted_by_camp": "u-3687",
     "imageUrl": null,
     "location": "Over Fuckin' Rated",
-    "neighborhood": "North Point Forest",
+    "neighborhood": "Around",
     "occurrence": {
       "brief": "2pm",
       "end_time": "2025-05-25T16:00:00",
@@ -3701,14 +5221,14 @@
     "art": "",
     "camp": "Sex Positivity Camp - Fucking Magic",
     "day": "Sunday",
-    "description": "Intro to Impact Play: “Impact Play” refers to hitting someone, and/or being hit, for fun and gratification of a sexual / kinky variety. If you find yourself intrigued by the idea, but don't know where or how to get started, this is the event for you! Bare hands, floggers, paddles, straps, and canes! Discussion, demonstrations, and practice!",
+    "description": "Intro to Impact Play: \u201cImpact Play\u201d refers to hitting someone, and/or being hit, for fun and gratification of a sexual / kinky variety. If you find yourself intrigued by the idea, but don't know where or how to get started, this is the event for you! Bare hands, floggers, paddles, straps, and canes! Discussion, demonstrations, and practice!",
     "event_type": {
       "label": "Class/Workshop"
     },
     "hosted_by_camp": "u-3673",
     "imageUrl": null,
     "location": "Sex Positivity Camp - Fucking Magic",
-    "neighborhood": "Lower Bowl",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "2pm",
       "end_time": "2025-05-25T16:00:00",
@@ -3723,6 +5243,30 @@
   },
   {
     "art": "",
+    "camp": "Absinthe Minded",
+    "day": "Sunday",
+    "description": "Bring your knitting, crochet, etc... projects and work on them in a group. Some materials can be provided if necessary.",
+    "event_type": {
+      "label": "Arts & Crafts"
+    },
+    "hosted_by_camp": "u-3758",
+    "imageUrl": null,
+    "location": "Absinthe Minded",
+    "neighborhood": "Riverside",
+    "occurrence": {
+      "brief": "2pm",
+      "end_time": "2025-05-25T16:00:00",
+      "long": "Sunday 2pm-4pm (2hrs)",
+      "short": "2pm (2hrs)",
+      "start_time": "2025-05-25T14:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Bitchin' Stitchin'",
+    "uid": "u-10883"
+  },
+  {
+    "art": "",
     "camp": "Warm Snuggles",
     "day": "Sunday",
     "description": "Pillows become weapons of joyful destruction, wielded by warriors with rosy cheeks and sparkling eyes. A playful war will be raged, fueled by silliness and pure, unadulterated fun.",
@@ -3732,7 +5276,7 @@
     "hosted_by_camp": "u-3649",
     "imageUrl": null,
     "location": "Warm Snuggles",
-    "neighborhood": "Upper Bowl",
+    "neighborhood": "Mezzanine",
     "occurrence": {
       "brief": "3pm",
       "end_time": "2025-05-25T15:30:00",
@@ -3756,7 +5300,7 @@
     "hosted_by_camp": "u-3644",
     "imageUrl": null,
     "location": "Baggage Check",
-    "neighborhood": "Lower Bowl",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "3pm",
       "end_time": "2025-05-25T18:00:00",
@@ -3770,11 +5314,35 @@
     "uid": "u-10756"
   },
   {
+    "art": "",
+    "camp": "Camp Clusterfuck",
+    "day": "Sunday",
+    "description": "The playa dust has settled, leaving that familiar \"it's over?\" feeling, but don't let the post-apocalyptic pang fade. Instead, channel that glitter-covered sadness into art at ClusterFuck's Watercolor Postcard Workshop. Bring your metaphorical unicorn tears and banshee wails to transform them into watercolor postcards \u2013 send soggy sentiments to the uninitiated, leave a tear-stained offering at the Temple, or hoard your weepy artwork as a poignant reminder of the playa's ephemeral magic, likely the only tangible magic you'll have until next year",
+    "event_type": {
+      "label": "Arts & Crafts"
+    },
+    "hosted_by_camp": "u-3747",
+    "imageUrl": "https://data.dust.events/soak-2025/0532125056501749.webp",
+    "location": "Camp Clusterfuck",
+    "neighborhood": "Mezzanine",
+    "occurrence": {
+      "brief": "3pm",
+      "end_time": "2025-05-25T16:00:00",
+      "long": "Sunday 3pm-4pm (1hr)",
+      "short": "3pm (1hr)",
+      "start_time": "2025-05-25T15:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Burner Tears: Watercolor Postcard Workshop",
+    "uid": "u-10854"
+  },
+  {
     "art": "Temple of Renewal",
     "camp": "",
     "canView": false,
     "day": "Sunday",
-    "description": "Please be sure to have finished your visit to the Temple by 4 PM Sunday evening — our Fire Perimeter team will be closing the Temple to allow the crew to prepare it for the evening's burn. Don't get turned away because you left it too late!",
+    "description": "Please be sure to have finished your visit to the Temple by 4 PM Sunday evening \u2014 our Fire Perimeter team will be closing the Temple to allow the crew to prepare it for the evening's burn. Don't get turned away because you left it too late!",
     "event_type": {
       "label": "Miscellaneous"
     },
@@ -3806,7 +5374,7 @@
     "hosted_by_camp": "u-3705",
     "imageUrl": null,
     "location": "Kinky Fucking Camp",
-    "neighborhood": "Main Field",
+    "neighborhood": "Riverside",
     "occurrence": {
       "brief": "4pm",
       "end_time": "2025-05-25T17:00:00",
@@ -3821,6 +5389,30 @@
   },
   {
     "art": "",
+    "camp": "Absinthe Minded",
+    "day": "Sunday",
+    "description": "Come meet the green fairy and earn one of her potions by completing a side quest.",
+    "event_type": {
+      "label": "Food & Drink"
+    },
+    "hosted_by_camp": "u-3758",
+    "imageUrl": null,
+    "location": "Absinthe Minded",
+    "neighborhood": "Riverside",
+    "occurrence": {
+      "brief": "4pm",
+      "end_time": "2025-05-25T18:00:00",
+      "long": "Sunday 4pm-6pm (2hrs)",
+      "short": "4pm (2hrs)",
+      "start_time": "2025-05-25T16:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Green Lantern: Absinthe & Side Quests",
+    "uid": "u-10876"
+  },
+  {
+    "art": "",
     "camp": "The Teenie Weenie Art Tent",
     "day": "Sunday",
     "description": "The Spirits Becon!!! Recieve the Gifts!! Summon the Beyond!! Check the Time!!  21+ Older",
@@ -3830,7 +5422,7 @@
     "hosted_by_camp": "u-3657",
     "imageUrl": "https://data.dust.events/soak-2025/04340867801304965.webp",
     "location": "The Teenie Weenie Art Tent",
-    "neighborhood": "The Meadow",
+    "neighborhood": "Riverside",
     "occurrence": {
       "brief": "4:15pm",
       "end_time": "2025-05-25T17:00:00",
@@ -3854,7 +5446,7 @@
     "hosted_by_camp": "u-3644",
     "imageUrl": null,
     "location": "Baggage Check",
-    "neighborhood": "Lower Bowl",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "6pm",
       "end_time": "2025-05-25T19:00:00",
@@ -3878,7 +5470,7 @@
     "hosted_by_camp": "u-3692",
     "imageUrl": "https://data.dust.events/soak-2025/04332205163431665.webp",
     "location": "Nom Village",
-    "neighborhood": "Main Field",
+    "neighborhood": "Upper Bowl",
     "occurrence": {
       "brief": "7pm",
       "end_time": "2025-05-26T00:00:00",
@@ -3893,6 +5485,30 @@
   },
   {
     "art": "",
+    "camp": "Acid Drip",
+    "day": "Sunday",
+    "description": "Escape into a realm of rich aromas and relaxed vibes at our hookah lounge. Sink into plush seating surrounded by warm lighting and intricate d\u00e9cor, creating the perfect backdrop for unwinding. Choose from a diverse selection of premium shisha flavors; we will also have non-tobacco options.\n\nWhether hanging with friends, chilling alone, or looking for something different, our lounge is the spot. Enjoy the fragrant smoke, relax, and soak in the good vibes. Everything is ready for you to kick back and enjoy. Find your flavor and unwind with us!\n\nWe will be closed for the burn!",
+    "event_type": {
+      "label": "Gathering/Party"
+    },
+    "hosted_by_camp": "u-3757",
+    "imageUrl": null,
+    "location": "Acid Drip",
+    "neighborhood": "Lower Bowl",
+    "occurrence": {
+      "brief": "8pm",
+      "end_time": "2025-05-26T02:00:00",
+      "long": "Sunday 8pm-2am (6hrs)",
+      "short": "8pm (6hrs)",
+      "start_time": "2025-05-25T20:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Hookah Cafe",
+    "uid": "u-10802"
+  },
+  {
+    "art": "",
     "camp": "Warm Snuggles",
     "day": "Sunday",
     "description": "Storytelling time is a time honored tradition and holds nostalgic love! Magically comforting and grounds us back to that sense of being HERE & feeling our place here at home! \nJoin us at Dusk as we share a treasured gift- All The Colors!",
@@ -3902,7 +5518,7 @@
     "hosted_by_camp": "u-3649",
     "imageUrl": "https://data.dust.events/soak-2025/04162085519598957.webp",
     "location": "Warm Snuggles",
-    "neighborhood": "Upper Bowl",
+    "neighborhood": "Mezzanine",
     "occurrence": {
       "brief": "8:30pm",
       "end_time": "2025-05-25T21:00:00",
@@ -3917,6 +5533,30 @@
   },
   {
     "art": "",
+    "camp": "Haus Anima",
+    "day": "Sunday",
+    "description": "color with blacklight-ractive pigments on a giant hand-drawn coloring sheet",
+    "event_type": {
+      "label": "Arts & Crafts"
+    },
+    "hosted_by_camp": "u-3712",
+    "imageUrl": "https://data.dust.events/soak-2025/0437751337502277.webp",
+    "location": "Haus Anima",
+    "neighborhood": "The Meadow",
+    "occurrence": {
+      "brief": "9pm",
+      "end_time": "2025-05-26T01:00:00",
+      "long": "Sunday 9pm-1am (4hrs)",
+      "short": "9pm (4hrs)",
+      "start_time": "2025-05-25T21:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "collaborative coloring",
+    "uid": "u-10847"
+  },
+  {
+    "art": "",
     "camp": "Hotel Charley",
     "day": "Sunday",
     "description": "Use Strange Magic in the form of wands that react to black light when used to mark our large canvas. Tea and cookies provided to fuel your creativity. This art will become part of the camp for years to come.",
@@ -3926,7 +5566,7 @@
     "hosted_by_camp": "u-3709",
     "imageUrl": "https://data.dust.events/soak-2025/032512800016005583.webp",
     "location": "Hotel Charley",
-    "neighborhood": "Mezzanine",
+    "neighborhood": "The Meadow",
     "occurrence": {
       "brief": "10pm",
       "end_time": "2025-05-26T03:00:00",
@@ -3941,6 +5581,30 @@
   },
   {
     "art": "",
+    "camp": "FireFlow Studios",
+    "day": "Sunday",
+    "description": "Leather, latex, rope, crops, collars -whatever lights your fire, bring it.\nWe\u2019re heating things up with fire photography that\u2019s all about your wild side.\nCraving a hot fire spanking or fire flogging?\nThis is the shoot for you. Props, toys, costumes, and a little attitude are all welcome.\nEnthusiastic Consent is Everything. Respect is mandatory. Inhibitions are optional.\nBring your toys & fetishes.\nWe\u2019ll bring the fire.\ud83d\ude08\u2764\ufe0f\u200d\ud83d\udd25",
+    "event_type": {
+      "label": "Fire/Spectacle,Mature Audiences"
+    },
+    "hosted_by_camp": "u-3726",
+    "imageUrl": "https://data.dust.events/soak-2025/02633231864946286.webp",
+    "location": "FireFlow Studios",
+    "neighborhood": "Upper Bowl",
+    "occurrence": {
+      "brief": "10pm",
+      "end_time": "2025-05-26T00:00:00",
+      "long": "Sunday 10pm-Midnight (2hrs)",
+      "short": "10pm (2hrs)",
+      "start_time": "2025-05-25T22:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Flames & Fetishes",
+    "uid": "u-10777"
+  },
+  {
+    "art": "",
     "camp": "Warm Snuggles",
     "day": "Monday",
     "description": "All through the day and night, come and snuggle up.\nWe have pillows and soft floors to lay and cuddle.\nAt night, you can watch to dancing fire above your head.",
@@ -3950,7 +5614,7 @@
     "hosted_by_camp": "u-3649",
     "imageUrl": null,
     "location": "Warm Snuggles",
-    "neighborhood": "Upper Bowl",
+    "neighborhood": "Mezzanine",
     "occurrence": {
       "brief": "6am",
       "end_time": "2025-05-26T07:00:00",
@@ -3974,7 +5638,7 @@
     "hosted_by_camp": "u-3729",
     "imageUrl": null,
     "location": "Embassy",
-    "neighborhood": "The Meadow",
+    "neighborhood": "Around",
     "occurrence": {
       "brief": "8am",
       "end_time": "2025-05-26T14:00:00",
@@ -3986,5 +5650,29 @@
     "other_location": null,
     "title": "Embassy is Open!",
     "uid": "u-10482"
+  },
+  {
+    "art": "",
+    "camp": "FryGuy",
+    "day": "Monday",
+    "description": "The most important mid meal of the day!\nWe'll be starting the day off right.\nWhen we get around to it...\nStop by for a meal made with love.",
+    "event_type": {
+      "label": "Food & Drink"
+    },
+    "hosted_by_camp": "u-3720",
+    "imageUrl": "https://data.dust.events/soak-2025/05542067047243937.webp",
+    "location": "FryGuy",
+    "neighborhood": "Around",
+    "occurrence": {
+      "brief": "2pm",
+      "end_time": "2025-05-26T16:00:00",
+      "long": "Monday 2pm-4pm (2hrs)",
+      "short": "2pm (2hrs)",
+      "start_time": "2025-05-26T14:00:00"
+    },
+    "otherLocation": "",
+    "other_location": null,
+    "title": "Brunch",
+    "uid": "u-10843"
   }
 ]

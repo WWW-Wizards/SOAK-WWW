@@ -11,7 +11,7 @@ export const UserContext = createContext();
 const FILTERS = {
   FAVORITES: "FAVORITES",
   ZONE: "ZONE",
-  CAMP: "CAMP",
+  LOCATION: "LOCATION",
   TIME: "TIME",
   CATEGORY: "CATEGORY",
   PAST: "PAST"
@@ -153,7 +153,7 @@ export function StateProvider({ children }) {
 
       // Search Feature
       const filterBySearchQuery = query
-        ? [event.description, event.camp, event.neighborhood].some((attr) =>
+        ? [event.description, event.location, event.neighborhood].some((attr) =>
             attr?.toLowerCase().includes(query.toLowerCase())
           )
         : true;
