@@ -18,7 +18,7 @@ CAMP_LOCATIONS = {
  'u-1616': {'name': 'The Valkyrie and Finley', 'neighborhood': 'Mezzanine'},
  'u-1617': {'name': 'The Twilight Room', 'neighborhood': 'The Meadow'},
  'u-1618': {'name': 'The Rainbow Experiment', 'neighborhood': 'Forest Entry'},
- 'u-1619': {'name': 'The Geode-Home', 'neighborhood': 'Forest Entry'},
+ 'u-1619': {'name': 'The Geode-Home', 'neighborhood': 'Mezzanine'},
  'u-1620': {'name': "The Fool's Journey", 'neighborhood': 'Around'},
  'u-1621': {'name': 'The Curiosity', 'neighborhood': 'Mobile Art'},
  'u-1622': {'name': "The Coven's Cauldron", 'neighborhood': 'The Meadow'},
