@@ -22,9 +22,9 @@ function EventTileFooter({ event }) {
       <button
         className="event-details-footer-button"
         style={{ backgroundColor: area[event.neighborhood] }}
-        onClick={() => handleFilterClick(event.camp)}
+        onClick={() => handleFilterClick(event.location)}
       >
-        {event.camp}
+        {event.location}
       </button>
       <button
         className="event-details-footer-button"
