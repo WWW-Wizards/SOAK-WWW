@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function EventDescription({ event, area }) {
+function EventDescription({ event }) {
   const [showMore, setShowMore] = useState(false);
   const MAX_LENGTH = 175;
   const description = event.description;
@@ -23,7 +23,7 @@ function EventDescription({ event, area }) {
             {`${description.substring(0, MAX_LENGTH)}...`}
             <button
               className="event-details-description-more"
-              style={{ "--area-color": area }}
+              style={{ color: "#6169ff" }}
               onClick={() => setShowMore(true)}
             >
               Read more
@@ -37,6 +37,7 @@ function EventDescription({ event, area }) {
             {description}
             <button
               className="event-details-description-more"
+              style={{ color: "#6169ff" }}
               onClick={() => setShowMore(false)}
             >
               Show less

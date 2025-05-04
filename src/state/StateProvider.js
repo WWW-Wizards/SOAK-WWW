@@ -5,14 +5,13 @@ import React, {
   useEffect,
   useMemo,
 } from "react";
-import data from "../../assets/data/events.json";
 
 export const UserContext = createContext();
 
 const FILTERS = {
   FAVORITES: "FAVORITES",
   ZONE: "ZONE",
-  CAMP: "CAMP",
+  LOCATION: "LOCATION",
   TIME: "TIME",
   CATEGORY: "CATEGORY",
   PAST: "PAST"
@@ -46,10 +45,50 @@ export function StateProvider({ children }) {
     const cachedFavorites = localStorage.getItem("favorites");
     return cachedFavorites ? JSON.parse(cachedFavorites) : [];
   });
-  const [activeTab, setActiveTab] = useState(Date().split(" ")[0].toUpperCase());
+  const [activeTab, setActiveTab] = useState("THU");
   const [query, setQuery] = useState("");
   const [showPast, setShowPast] = useState(false);
   const [showAllDay, setShowAllDay] = useState(true);
+  const [data, setData] = useState(null); // Initialize as null
+  const [error, setError] = useState(null); // Add error state
+
+  useEffect(() => {
+    const fetchData = async () => {
+      setLoading(true);
+      try {
+        const response = await fetch("./schedule.json");
+        if (!response.ok) {
+          throw new Error(`Failed to fetch data: ${response.statusText}`);
+        }
+        const result = await response.json();
+        setData(result); // Update data state with fetched data
+      } catch (err) {
+        setError(err.message); // Handle fetch error
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []); // Fetch data on component mount
+
+  // Set default day
+  useEffect(() => {
+    if (Date().split(" ")[0].toUpperCase() == "FRI") {
+      setActiveTab("FRI")
+      return;
+    }
+    if (Date().split(" ")[0].toUpperCase() == "SAT") {
+      setActiveTab("SAT")
+      return;
+    }
+    if (Date().split(" ")[0].toUpperCase() == "SUN") {
+      setActiveTab("SUN")
+      return;
+    }
+    setActiveTab("THU")
+  }, [])
+  
 
   // Handles toggling the filter view between favorited events and all events
   const handleFilterFavorites = (e) => {
@@ -101,6 +140,7 @@ export function StateProvider({ children }) {
   }
 
   const events = useMemo(() => {
+    if (!data) return []; // Return empty array if data is not yet loaded
     return data.filter((event) => {
       // Favorites Feature
       const filterByFavorites =
@@ -113,7 +153,7 @@ export function StateProvider({ children }) {
 
       // Search Feature
       const filterBySearchQuery = query
-        ? [event.description, event.camp, event.location].some((attr) =>
+        ? [event.description, event.location, event.neighborhood].some((attr) =>
             attr?.toLowerCase().includes(query.toLowerCase())
           )
         : true;
@@ -128,7 +168,7 @@ export function StateProvider({ children }) {
       // Filter those out
       return filterByFavorites && filterByActiveTab && showPastEvents && showAllDayEvents && filterBySearchQuery;
     });
-  }, [favorites, activeTab, filter, query, showPast, showAllDay]);
+  }, [data, favorites, activeTab, filter, query, showPast, showAllDay]);
 
   useEffect(() => {
     localStorage.setItem("favorites", JSON.stringify(favorites));
@@ -154,8 +194,11 @@ export function StateProvider({ children }) {
         query,
         setQuery,
         handleSearch,
-        showPast, setShowPast,
-        showAllDay, setShowAllDay
+        showPast,
+        setShowPast,
+        showAllDay,
+        setShowAllDay,
+        error, // Expose error state
       }}
     >
       {children}

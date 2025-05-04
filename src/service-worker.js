@@ -16,6 +16,20 @@ registerRoute(
   })
 );
 
+// Cache dust api
+registerRoute(
+  ({url}) =>
+    url.origin === self.location.origin,
+  new StaleWhileRevalidate({
+    cacheName: 'api-cache',
+    plugins: [
+      new CacheableResponsePlugin({
+        statuses: [0, 200],
+      }),
+    ],
+  })
+);
+
 // Cache CSS, JS, and web worker requests.
 registerRoute(
   ({ request }) =>
