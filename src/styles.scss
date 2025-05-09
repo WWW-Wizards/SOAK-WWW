@@ -30,3 +30,18 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.map {
+  max-width: 100vw;
+  max-height: 80vh;
+
+  &-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2em;
+    max-height: 80vh;
+    width: 100vw;
+  }
+}

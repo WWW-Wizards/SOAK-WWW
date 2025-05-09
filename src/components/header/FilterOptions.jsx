@@ -23,7 +23,6 @@ function FilterOptions() {
           <span className="menu-filter-slider"></span>
         </div>
       </label>
-      {/* adult only */}
       <label htmlFor="pastEvents" className="menu-filter-label">
         The Past
         <div className="menu-filter-switch">
