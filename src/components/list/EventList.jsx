@@ -1,12 +1,19 @@
 import React from "react";
 import { EventTile } from "../details/EventTile";
 import Install from "./Install";
-import { useEvents, useMenu, useInstall } from "../../state/StateProvider";
+import Map from "../map/Map";
+import {
+  useEvents,
+  useMenu,
+  useInstall,
+  useMap,
+} from "../../state/StateProvider";
 
 export const EventList = () => {
   const events = useEvents();
   const { setMenu } = useMenu();
   const { install, setInstall } = useInstall();
+  const { showMap } = useMap();
 
   let opaque;
   if (install) {
@@ -36,7 +43,7 @@ export const EventList = () => {
   return (
     <div className="event-list">
       {install && <Install />}
-      {eventList}
+      {showMap ? <Map /> : eventList}
     </div>
   );
 };

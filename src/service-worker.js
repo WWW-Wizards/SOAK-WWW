@@ -19,7 +19,7 @@ registerRoute(
 // Cache dust api
 registerRoute(
   ({url}) =>
-    url.origin === self.location.origin,
+    url.origin === self.location.origin && url.pathname.endsWith('.json'),
   new StaleWhileRevalidate({
     cacheName: 'api-cache',
     plugins: [
