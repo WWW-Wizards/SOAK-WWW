@@ -244,7 +244,11 @@ def schedule() -> Response:
     for event in schedule_data:
         camp = CAMP_LOCATIONS.get(event["hosted_by_camp"])
         if camp is None:
-            camp = CAMP_LOCATIONS.get(event["located_at_art"], { "neighborhood": "Around" })
+            art = event.get("located_at_art")
+            if art:
+                camp = CAMP_LOCATIONS.get(art, { "neighborhood": "Around" })
+            else:
+                camp = { "neighborhood": "Around" }
         event["neighborhood"] = camp.get("neighborhood", "Around")
 
     return schedule_data
