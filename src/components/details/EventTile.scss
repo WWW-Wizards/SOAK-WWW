@@ -3,8 +3,6 @@
   grid-template-columns: 100%;
 
   border-radius: 12px;
-
-  text-wrap: wrap;
 }
 
 .event-header {
@@ -27,7 +25,6 @@
 .event-details {
   display: flex;
   flex-direction: row;
-  text-wrap: wrap;
 
   &-container {
     padding: 0.5em 0 0 0.5em;
