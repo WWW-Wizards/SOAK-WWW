@@ -251,6 +251,20 @@ def schedule() -> Response:
                 camp = { "neighborhood": "Around" }
         event["neighborhood"] = camp.get("neighborhood", "Around")
 
+        #Workaround for missing location
+        if event["location"] == "":
+            if event.get("other_location", "") != "":
+                event["location"] = event["other_location"]
+
+            elif event.get("camp", "") != "":
+                event["location"] = event["camp"]
+
+            elif event.get("art", "") != "":
+                event["location"] = event["art"]
+
+            else:
+                event["location"] = "Around"
+
     return schedule_data
 
 if __name__ == "__main__":
