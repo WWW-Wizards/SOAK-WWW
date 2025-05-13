@@ -7,3 +7,32 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+.install {
+  &-wrapper {
+    position: fixed;
+    background-color: lightgray;
+    opacity: 100%;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 2em 0;
+    z-index: 1000;
+    font-size: 1.2em;
+  }
+  &-list-item {
+    display: flex;
+    align-items: center;
+    height: 2em;
+  }
+  &-button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .install-wrapper {
+    width: 70vw;
+  }
+}

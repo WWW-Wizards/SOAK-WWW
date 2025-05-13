@@ -49,6 +49,7 @@ export function StateProvider({ children }) {
   const [query, setQuery] = useState("");
   const [showPast, setShowPast] = useState(false);
   const [showAllDay, setShowAllDay] = useState(true);
+  const [install, setInstall] = useState(false);
   const [data, setData] = useState(null); // Initialize as null
   const [error, setError] = useState(null); // Add error state
 
@@ -191,6 +192,8 @@ export function StateProvider({ children }) {
         FILTERS,
         activeTab,
         handleTabClick,
+        setInstall,
+        install,
         query,
         setQuery,
         handleSearch,
@@ -264,6 +267,11 @@ export const useTabs = () => {
   const { activeTab, handleTabClick } = useContext(UserContext);
   return { activeTab, handleTabClick };
 };
+
+export const useInstall = () => {
+  const {install, setInstall} = useContext(UserContext);
+  return {install, setInstall}
+}
 
 export const useDate = () => {
   const { date } = useContext(UserContext);

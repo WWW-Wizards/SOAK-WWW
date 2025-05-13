@@ -1,5 +1,6 @@
 import React from "react";
-import { useMenu, useFilter } from "../../state/StateProvider";
+import { isMobile } from "react-device-detect";
+import { useMenu, useFilter, useInstall } from "../../state/StateProvider";
 import Saved from "../details/icons/Saved";
 import { Search } from "./Search";
 import FilterOptions from "./FilterOptions";
@@ -8,6 +9,12 @@ import MenuIcon from "../details/icons/MenuIcon";
 export const Menu = () => {
   const { menu, setMenu } = useMenu();
   const { filter, FILTERS, handleFilterFavorites } = useFilter();
+  const { setInstall } = useInstall();
+
+  function handleInstallClick() {
+    setInstall(true);
+    setMenu(false);
+  }
 
   return (
     <div className="menu-header-wrapper">
@@ -33,6 +40,16 @@ export const Menu = () => {
       {menu && (
         <div className="menu-accordian-drawer">
           <FilterOptions />
+
+          {isMobile && (
+            <div
+              className="install-button-wrapper"
+              onClick={() => handleInstallClick()}
+            >
+              <button className="event-details-footer-button">INSTALL</button>
+            </div>
+          )}
+
           <div className="menu-accordian-contact">
             Created by<br></br> ZeroDay + Ahoo <br></br>
             <div className="menu-accordian-links">
