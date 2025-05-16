@@ -53,25 +53,39 @@ export function StateProvider({ children }) {
   const [data, setData] = useState(null); // Initialize as null
   const [error, setError] = useState(null); // Add error state
 
+  const fetchData = async () => {
+    setLoading(true);
+    try {
+      const response = await fetch("./schedule.json");
+      if (!response.ok) {
+        throw new Error(`Failed to fetch data: ${response.statusText}`);
+      }
+      const result = await response.json();
+      setData(result); // Update data state with fetched data
+    } catch (err) {
+      setError(err.message); // Handle fetch error
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // Fetch data on component mount
   useEffect(() => {
-    const fetchData = async () => {
-      setLoading(true);
-      try {
-        const response = await fetch("./schedule.json");
-        if (!response.ok) {
-          throw new Error(`Failed to fetch data: ${response.statusText}`);
-        }
-        const result = await response.json();
-        setData(result); // Update data state with fetched data
-      } catch (err) {
-        setError(err.message); // Handle fetch error
-      } finally {
-        setLoading(false);
+    fetchData();
+  }, []); 
+
+  // Fetch when page becomes visible
+  useEffect(() => {
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === "visible") {
+        fetchData();
       }
     };
-
-    fetchData();
-  }, []); // Fetch data on component mount
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+    return () => {
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+    };
+  }, []);
 
   // Set default day
   useEffect(() => {

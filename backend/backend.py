@@ -3,6 +3,7 @@ Simple backend for routing schedule data from dust app
 """
 from flask import Flask, Response, send_from_directory
 from requests import get
+from uuid import uuid4
 
 app = Flask(__name__)
 
@@ -242,6 +243,7 @@ def schedule() -> Response:
 
     schedule_data = response.json()
     for event in schedule_data:
+        event["uid"] = str(uuid4())
         camp = CAMP_LOCATIONS.get(event["hosted_by_camp"])
         if camp is None:
             art = event.get("located_at_art")
