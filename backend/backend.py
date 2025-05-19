@@ -228,7 +228,7 @@ CAMP_LOCATIONS = {
  }
 
 @app.route('/<path:path>')
-def send_report(path):
+def return_app(path):
     return send_from_directory('dist', path)
 
 @app.route('/')
@@ -241,9 +241,13 @@ def schedule() -> Response:
     if response.status_code != 200:
         return Response("Error fetching schedule data", status=response.status_code)
 
+    uids = {}
+
     schedule_data = response.json()
     for event in schedule_data:
-        event["uid"] = str(uuid4())
+        uid = uids.get(event["uid"], 0) + 1
+        uids[event["uid"]] = uid
+        event["uid"] = f"{event["uid"]}-{uid}"
         camp = CAMP_LOCATIONS.get(event["hosted_by_camp"])
         if camp is None:
             art = event.get("located_at_art")

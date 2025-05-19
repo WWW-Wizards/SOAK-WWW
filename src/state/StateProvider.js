@@ -50,6 +50,7 @@ export function StateProvider({ children }) {
   const [showPast, setShowPast] = useState(false);
   const [showAllDay, setShowAllDay] = useState(true);
   const [install, setInstall] = useState(false);
+  const [showMap, setShowMap] = useState(false);
   const [data, setData] = useState(null); // Initialize as null
   const [error, setError] = useState(null); // Add error state
 
@@ -69,9 +70,23 @@ export function StateProvider({ children }) {
     }
   };
 
+  const fetchMap = async () => {
+    try {
+      const imageUrl = new URL("../components/map/SOAK2025_Map.png", import.meta.url);
+      const response = await fetch(imageUrl);
+      if (!response.ok) {
+        throw new Error(`Failed to fetch data: ${response.statusText}`);
+      }
+      await response.blob();
+    } catch (err) {
+      setError(err.message); // Handle fetch error
+    }
+  };
+
   // Fetch data on component mount
   useEffect(() => {
     fetchData();
+    fetchMap();
   }, []); 
 
   // Fetch when page becomes visible
@@ -168,7 +183,7 @@ export function StateProvider({ children }) {
 
       // Search Feature
       const filterBySearchQuery = query
-        ? [event.description, event.location, event.neighborhood].some((attr) =>
+        ? [event.title, event.description, event.location, event.neighborhood].some((attr) =>
             attr?.toLowerCase().includes(query.toLowerCase())
           )
         : true;
@@ -215,6 +230,7 @@ export function StateProvider({ children }) {
         setShowPast,
         showAllDay,
         setShowAllDay,
+        showMap, setShowMap,
         error, // Expose error state
       }}
     >
@@ -228,6 +244,11 @@ export const useLoading = () => {
   const { loading, setLoading } = useContext(UserContext);
   return { loading, setLoading };
 };
+
+export const useMap = () => {
+  const { showMap, setShowMap } = useContext(UserContext);
+  return { showMap, setShowMap };
+}
 
 export const useFilter = () => {
   const {
