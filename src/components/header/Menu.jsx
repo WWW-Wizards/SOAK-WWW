@@ -17,6 +17,8 @@ export const Menu = () => {
   const { setInstall } = useInstall();
   const { showMap, setShowMap } = useMap();
 
+  const imageUrl = new URL("../map/SOAK2025_Map.png", import.meta.url);
+
   function handleInstallClick() {
     setInstall(true);
     setMenu(false);
@@ -47,6 +49,8 @@ export const Menu = () => {
               onClick={() => setMenu(!menu)}
             />
           </section>
+          {/*Force download of map on app open */}
+          <img hidden="hidden" src={imageUrl} />
         </div>
       ) : (
         <div className="menu-header-map">

@@ -70,23 +70,9 @@ export function StateProvider({ children }) {
     }
   };
 
-  const fetchMap = async () => {
-    try {
-      const imageUrl = new URL("../components/map/SOAK2025_Map.png", import.meta.url);
-      const response = await fetch(imageUrl);
-      if (!response.ok) {
-        throw new Error(`Failed to fetch data: ${response.statusText}`);
-      }
-      await response.blob();
-    } catch (err) {
-      setError(err.message); // Handle fetch error
-    }
-  };
-
   // Fetch data on component mount
   useEffect(() => {
     fetchData();
-    fetchMap();
   }, []); 
 
   // Fetch when page becomes visible
