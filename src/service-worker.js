@@ -16,10 +16,10 @@ registerRoute(
   })
 );
 
-// Cache dust api
+// Cache dust api data
 registerRoute(
-  ({url}) =>
-    url.origin === self.location.origin && url.pathname.endsWith('.json'),
+  ({ request }) =>
+    request.url.endsWith('schedule.json'),
   new StaleWhileRevalidate({
     cacheName: 'api-cache',
     plugins: [
@@ -35,7 +35,8 @@ registerRoute(
   ({ request }) =>
     request.destination === 'style' ||
     request.destination === 'script' ||
-    request.destination === 'worker',
+    request.destination === 'worker' ||
+    request.url.endsWith('.otf'),
   new StaleWhileRevalidate({
     cacheName: 'assets',
     plugins: [
