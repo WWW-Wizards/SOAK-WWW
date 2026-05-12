@@ -1,6 +1,6 @@
 import React from "react";
 
-const imageUrl = new URL("SOAK2025_Map.png", import.meta.url);
+const imageUrl = new URL("SOAK2026_Map.jpg", import.meta.url);
 
 function PDFViewer() {
   return (
