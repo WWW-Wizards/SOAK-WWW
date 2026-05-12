@@ -17,7 +17,7 @@ export const Menu = () => {
   const { setInstall } = useInstall();
   const { showMap, setShowMap } = useMap();
 
-  const imageUrl = new URL("../map/SOAK2025_Map.png", import.meta.url);
+  const imageUrl = new URL("../map/SOAK2026_Map.jpg", import.meta.url);
 
   function handleInstallClick() {
     setInstall(true);
