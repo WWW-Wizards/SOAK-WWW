@@ -2,11 +2,12 @@
 # To test run: docker run -e PORT=5000 -p 5000:5000 --rm soak-www
 # based on tutorials at urls listed below
 # https://cloud.google.com/run/docs/quickstarts/build-and-deploy/python
-FROM node:20-slim AS build
+FROM node:24-slim AS build
 
 WORKDIR /app
 COPY . /app/
 RUN yarn add --dev parcel
+RUN yarn install
 RUN yarn build
 
 # Use the official lightweight Python image.
