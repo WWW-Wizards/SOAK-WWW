@@ -1,0 +1,938 @@
+{
+  "u-22513-1": {
+    "name": "SPK 2.0 at the far back left corner of the Mezzanine",
+    "neighborhood": "Mezzanine"
+  },
+  "u-3405": {
+    "name": "Zen Generator",
+    "neighborhood": "Around"
+  },
+  "u-3406": {
+    "name": "Yellow Bikes",
+    "neighborhood": "Around"
+  },
+  "u-3407": {
+    "name": "YOU ARE LOVED",
+    "neighborhood": "Around"
+  },
+  "u-3408": {
+    "name": "Wolf Pack",
+    "neighborhood": "Around"
+  },
+  "u-3409": {
+    "name": "Wing Offices of Grace, Grace, Magneato, and Magneato",
+    "neighborhood": "Around"
+  },
+  "u-3410": {
+    "name": "Which Way?",
+    "neighborhood": "Around"
+  },
+  "u-3411": {
+    "name": "What's My Name (To Scale)",
+    "neighborhood": "Around"
+  },
+  "u-3412": {
+    "name": "What Haunts You",
+    "neighborhood": "Around"
+  },
+  "u-3413": {
+    "name": "Welcome to SOAK",
+    "neighborhood": "Around"
+  },
+  "u-3416": {
+    "name": "VANITY",
+    "neighborhood": "Around"
+  },
+  "u-3418": {
+    "name": "Topography",
+    "neighborhood": "Around"
+  },
+  "u-3419": {
+    "name": "To New Embiggenings",
+    "neighborhood": "Around"
+  },
+  "u-3420": {
+    "name": "Sunken World of Wonder",
+    "neighborhood": "Around"
+  },
+  "u-3421": {
+    "name": "Tiers of Joy",
+    "neighborhood": "Around"
+  },
+  "u-3422": {
+    "name": "Tied Together",
+    "neighborhood": "Riverside"
+  },
+  "u-3423": {
+    "name": "The Weight of Levity",
+    "neighborhood": "Around"
+  },
+  "u-3424": {
+    "name": "The Wandering Wardrobe",
+    "neighborhood": "Around"
+  },
+  "u-3425": {
+    "name": "The Valkyrie and Finley",
+    "neighborhood": "Around"
+  },
+  "u-3426": {
+    "name": "The Principles Fantastica",
+    "neighborhood": "Around"
+  },
+  "u-3427": {
+    "name": "The Place Where It All Works Out: Ripples",
+    "neighborhood": "Around"
+  },
+  "u-3428": {
+    "name": "The Path",
+    "neighborhood": "Around"
+  },
+  "u-3429": {
+    "name": "The Mind Melter 6000",
+    "neighborhood": "Around"
+  },
+  "u-3430": {
+    "name": "The Listener",
+    "neighborhood": "Around"
+  },
+  "u-3431": {
+    "name": "The Kaleidoscopizer",
+    "neighborhood": "Around"
+  },
+  "u-3433": {
+    "name": "The Curiosity",
+    "neighborhood": "Around"
+  },
+  "u-3435": {
+    "name": "Colossal Cretaceous Compact Cinema",
+    "neighborhood": "Upper Bowl"
+  },
+  "u-3436": {
+    "name": "The Bananiverse",
+    "neighborhood": "Around"
+  },
+  "u-3438": {
+    "name": "Tale Spin",
+    "neighborhood": "Around"
+  },
+  "u-3439": {
+    "name": "Synthia",
+    "neighborhood": "Around"
+  },
+  "u-3440": {
+    "name": "Synferno",
+    "neighborhood": "Around"
+  },
+  "u-3441": {
+    "name": "Submerged Sanctuary",
+    "neighborhood": "Upper Bowl"
+  },
+  "u-3442": {
+    "name": "Strelitzia",
+    "neighborhood": "Around"
+  },
+  "u-3443": {
+    "name": "Stoicheia [ELEMENTS]",
+    "neighborhood": "Around"
+  },
+  "u-3444": {
+    "name": "Stoicheia Predator",
+    "neighborhood": "Around"
+  },
+  "u-3445": {
+    "name": "Steve",
+    "neighborhood": "Around"
+  },
+  "u-3446": {
+    "name": "Sour Puss Lemon Cart",
+    "neighborhood": "Around"
+  },
+  "u-3447": {
+    "name": "Soak Welcome Sign",
+    "neighborhood": "Around"
+  },
+  "u-3448": {
+    "name": "Snack Attack",
+    "neighborhood": "Around"
+  },
+  "u-3449": {
+    "name": "Slow Camera Photobooth",
+    "neighborhood": "Around"
+  },
+  "u-3450": {
+    "name": "She Who Carries the Horizon",
+    "neighborhood": "Around"
+  },
+  "u-3452": {
+    "name": "SOAK POST",
+    "neighborhood": "Around"
+  },
+  "u-3453": {
+    "name": "SMACK! The Butt Activated Jellyfish",
+    "neighborhood": "Around"
+  },
+  "u-3454": {
+    "name": "Resilience",
+    "neighborhood": "Around"
+  },
+  "u-3455": {
+    "name": "Rear Entrance",
+    "neighborhood": "The Meadow"
+  },
+  "u-3456": {
+    "name": "Radiolarian",
+    "neighborhood": "Around"
+  },
+  "u-3457": {
+    "name": "Portal",
+    "neighborhood": "Around"
+  },
+  "u-3458": {
+    "name": "Picodome",
+    "neighborhood": "Around"
+  },
+  "u-3459": {
+    "name": "Pianist Fly Trap",
+    "neighborhood": "Around"
+  },
+  "u-3460": {
+    "name": "Perspective Perception",
+    "neighborhood": "Main Field"
+  },
+  "u-3461": {
+    "name": "Partybot Loves You",
+    "neighborhood": "Around"
+  },
+  "u-3462": {
+    "name": "Nymphaeum: A temple of Avalon; portal to the realm of the Fae",
+    "neighborhood": "Riverside"
+  },
+  "u-3463": {
+    "name": "Not to Scale",
+    "neighborhood": "Around"
+  },
+  "u-3464": {
+    "name": "Noble Gaseous Experience",
+    "neighborhood": "Around"
+  },
+  "u-3465": {
+    "name": "Noah's Snark Ark",
+    "neighborhood": "Around"
+  },
+  "u-3466": {
+    "name": "NoThiNg Is To sCaLe",
+    "neighborhood": "Around"
+  },
+  "u-3468": {
+    "name": "Music for Headbutting",
+    "neighborhood": "Around"
+  },
+  "u-3469": {
+    "name": "Mooshy Way",
+    "neighborhood": "Around"
+  },
+  "u-3470": {
+    "name": "Moon Tent",
+    "neighborhood": "Around"
+  },
+  "u-3471": {
+    "name": "Miniature World Lamps",
+    "neighborhood": "Around"
+  },
+  "u-3472": {
+    "name": "Message in a Bottle",
+    "neighborhood": "Forest Entry"
+  },
+  "u-3473": {
+    "name": "Megaphonic Supersonic Incredible Peanut Gallery",
+    "neighborhood": "Around"
+  },
+  "u-3474": {
+    "name": "Mars Rover",
+    "neighborhood": "Around"
+  },
+  "u-3475": {
+    "name": "Maple the V\u00e9lomoth",
+    "neighborhood": "Around"
+  },
+  "u-3476": {
+    "name": "Love and Light",
+    "neighborhood": "Around"
+  },
+  "u-3478": {
+    "name": "Local//Global",
+    "neighborhood": "Around"
+  },
+  "u-3479": {
+    "name": "Live Led Art",
+    "neighborhood": "Around"
+  },
+  "u-3481": {
+    "name": "Kosmic Bus Stop #5047(Immersive)",
+    "neighborhood": "Around"
+  },
+  "u-3482": {
+    "name": "Knot to Scale",
+    "neighborhood": "Around"
+  },
+  "u-3483": {
+    "name": "Kitty GLitter",
+    "neighborhood": "Around"
+  },
+  "u-3484": {
+    "name": "It's a trap!",
+    "neighborhood": "Around"
+  },
+  "u-3485": {
+    "name": "Infinite Worlds Diorama Tower",
+    "neighborhood": "Around"
+  },
+  "u-3486": {
+    "name": "I Give Up",
+    "neighborhood": "Around"
+  },
+  "u-3488": {
+    "name": "Haus Cats",
+    "neighborhood": "Around"
+  },
+  "u-3489": {
+    "name": "HareBnB",
+    "neighborhood": "Around"
+  },
+  "u-3490": {
+    "name": "Growler Prowler",
+    "neighborhood": "Around"
+  },
+  "u-3491": {
+    "name": "GigaNano",
+    "neighborhood": "Around"
+  },
+  "u-3492": {
+    "name": "Giant Mobile",
+    "neighborhood": "Around"
+  },
+  "u-3493": {
+    "name": "Gaia's Garden",
+    "neighborhood": "Riverside"
+  },
+  "u-3494": {
+    "name": "GLOW WITH THE FLOW",
+    "neighborhood": "Around"
+  },
+  "u-3495": {
+    "name": "Elemental Lamps",
+    "neighborhood": "Around"
+  },
+  "u-3497": {
+    "name": "DrumKit",
+    "neighborhood": "Around"
+  },
+  "u-3498": {
+    "name": "Dome-20",
+    "neighborhood": "Around"
+  },
+  "u-3499": {
+    "name": "Disco Dangle",
+    "neighborhood": "Around"
+  },
+  "u-3500": {
+    "name": "Detri-Jellies",
+    "neighborhood": "Around"
+  },
+  "u-3501": {
+    "name": "Death By Titties",
+    "neighborhood": "Upper Bowl"
+  },
+  "u-3502": {
+    "name": "DA-BA-DEE-DA-BA-DYE",
+    "neighborhood": "Riverside"
+  },
+  "u-3503": {
+    "name": "Crystal Evolution",
+    "neighborhood": "Upper Bowl"
+  },
+  "u-3504": {
+    "name": "Confluence",
+    "neighborhood": "Around"
+  },
+  "u-3505": {
+    "name": "Complaint Department",
+    "neighborhood": "Around"
+  },
+  "u-3506": {
+    "name": "Chapel of Love",
+    "neighborhood": "Forest Entry"
+  },
+  "u-3508": {
+    "name": "Camera Absurda",
+    "neighborhood": "Around"
+  },
+  "u-3509": {
+    "name": "Calico Couch",
+    "neighborhood": "Around"
+  },
+  "u-3510": {
+    "name": "Butterfleet",
+    "neighborhood": "Around"
+  },
+  "u-3511": {
+    "name": "Bus Stop Baby Bell Miniature Wax Museum",
+    "neighborhood": "Around"
+  },
+  "u-3512": {
+    "name": "Burnerphone",
+    "neighborhood": "Around"
+  },
+  "u-3513": {
+    "name": "Burn With Me",
+    "neighborhood": "Around"
+  },
+  "u-3514": {
+    "name": "Booty Beacons",
+    "neighborhood": "Around"
+  },
+  "u-3515": {
+    "name": "Black Rock Observatory",
+    "neighborhood": "Around"
+  },
+  "u-3516": {
+    "name": "Big Tarot",
+    "neighborhood": "Around"
+  },
+  "u-3517": {
+    "name": "Big Cymatics",
+    "neighborhood": "Mezzanine"
+  },
+  "u-3518": {
+    "name": "Biblioth\u0113ca Idi\u014dmatis",
+    "neighborhood": "Around"
+  },
+  "u-3519": {
+    "name": "Beastro's Blade",
+    "neighborhood": "Around"
+  },
+  "u-3520": {
+    "name": "Ballads of Small Worlds",
+    "neighborhood": "Around"
+  },
+  "u-3521": {
+    "name": "Bad Art Gallery Feat.  L\u00c4MP",
+    "neighborhood": "Around"
+  },
+  "u-3522": {
+    "name": "The Oracle of Mouses",
+    "neighborhood": "Forest Entry"
+  },
+  "u-3523": {
+    "name": "An Unspoken Gratitude",
+    "neighborhood": "Around"
+  },
+  "u-3524": {
+    "name": "A Tangle of Light",
+    "neighborhood": "Around"
+  },
+  "u-3525": {
+    "name": "Portal of Perception",
+    "neighborhood": "Around"
+  },
+  "u-3781": {
+    "name": "Celestials: Tiny Worlds",
+    "neighborhood": "Around"
+  },
+  "u-3787": {
+    "name": "Pedal Cab Crew",
+    "neighborhood": "Around"
+  },
+  "u-3957": {
+    "name": "Temple",
+    "neighborhood": "Temple"
+  },
+  "u-3958": {
+    "name": "Fubar, the artwork formerly known as Swinging Cock Pendulum Wave",
+    "neighborhood": "Around"
+  },
+  "u-3959": {
+    "name": "MBS",
+    "neighborhood": "MBS"
+  },
+  "u-6194": {
+    "name": "arrrrrg you kidding me?",
+    "neighborhood": "Riverside"
+  },
+  "u-6196": {
+    "name": "Wild Things",
+    "neighborhood": "Main Field"
+  },
+  "u-6198": {
+    "name": "Watts for Lunch",
+    "neighborhood": "Main Field"
+  },
+  "u-6200": {
+    "name": "Warm Snuggles",
+    "neighborhood": "Main Field"
+  },
+  "u-6202": {
+    "name": "V,S,M (iron powder)",
+    "neighborhood": "Upper Bowl"
+  },
+  "u-6204": {
+    "name": "Universal Eggsperience",
+    "neighborhood": "Upper Bowl"
+  },
+  "u-6205": {
+    "name": "Undisclosed Location",
+    "neighborhood": "Riverside"
+  },
+  "u-6207": {
+    "name": "Twilight Lounge",
+    "neighborhood": "Forest Entry"
+  },
+  "u-6208": {
+    "name": "Tug McOck's Teeny Tiny Leprechaun Pub",
+    "neighborhood": "Forest Entry"
+  },
+  "u-6209": {
+    "name": "Tiny Tramp Espresso-Tinis",
+    "neighborhood": "Forest Entry"
+  },
+  "u-6210": {
+    "name": "There U Glow",
+    "neighborhood": "Main Field"
+  },
+  "u-6211": {
+    "name": "The man cave",
+    "neighborhood": "Riverside"
+  },
+  "u-6212": {
+    "name": "The Wandering Wardrobe Camp",
+    "neighborhood": "Main Field"
+  },
+  "u-6213": {
+    "name": "The Shrubbery",
+    "neighborhood": "Forest Entry"
+  },
+  "u-6214": {
+    "name": "The Sensory Sanctuary",
+    "neighborhood": "The Meadow"
+  },
+  "u-6215": {
+    "name": "The Pussy Perch",
+    "neighborhood": "North Point Forest"
+  },
+  "u-6216": {
+    "name": "The Pampered Pixie",
+    "neighborhood": "Riverside"
+  },
+  "u-6217": {
+    "name": "The Horny Unicorn",
+    "neighborhood": "Riverside"
+  },
+  "u-6218": {
+    "name": "The Holey Pie Co. (short name: Piehole)",
+    "neighborhood": "Main Field"
+  },
+  "u-6219": {
+    "name": "The Haunt",
+    "neighborhood": "Forest Entry"
+  },
+  "u-6220": {
+    "name": "The Glory Hole - A Spectacular Boutique",
+    "neighborhood": "Upper Bowl"
+  },
+  "u-6221": {
+    "name": "The Garden of Otherworldly Delights",
+    "neighborhood": "Forest Entry"
+  },
+  "u-6222": {
+    "name": "The Black Rock Center for Unlearning",
+    "neighborhood": "#N/A"
+  },
+  "u-6223": {
+    "name": "The Adventurer's Respite",
+    "neighborhood": "The Meadow"
+  },
+  "u-6224": {
+    "name": "Synthesthesia",
+    "neighborhood": "Lower Bowl"
+  },
+  "u-6225": {
+    "name": "Summer Camp Wannakiki",
+    "neighborhood": "Riverside"
+  },
+  "u-6226": {
+    "name": "Strip 'N Taters",
+    "neighborhood": "Mezzanine"
+  },
+  "u-6227": {
+    "name": "Spam Camp",
+    "neighborhood": "Riverside"
+  },
+  "u-6228": {
+    "name": "Sour Puss",
+    "neighborhood": "Forest Entry"
+  },
+  "u-6229": {
+    "name": "Snacks N Snuggles",
+    "neighborhood": "Main Field"
+  },
+  "u-6230": {
+    "name": "Snack Shack",
+    "neighborhood": "Upper Bowl"
+  },
+  "u-6231": {
+    "name": "Sex Positivity - SeXy at AnY SiZe",
+    "neighborhood": "Upper Bowl"
+  },
+  "u-6232": {
+    "name": "S*M*A*S*H ( Small Matters And Serious Hearings)",
+    "neighborhood": "North Point Forest"
+  },
+  "u-6233": {
+    "name": "Recess Industrial Complex",
+    "neighborhood": "Main Field"
+  },
+  "u-6234": {
+    "name": "Rear Entrance Support Camp",
+    "neighborhood": "The Meadow"
+  },
+  "u-6235": {
+    "name": "Quest Cult",
+    "neighborhood": "Riverside"
+  },
+  "u-6236": {
+    "name": "Puppet Camp",
+    "neighborhood": "Main Field"
+  },
+  "u-6237": {
+    "name": "Prismatic Forest",
+    "neighborhood": "Upper Bowl"
+  },
+  "u-6238": {
+    "name": "Possitopia",
+    "neighborhood": "Main Field"
+  },
+  "u-6239": {
+    "name": "Polyjamorous",
+    "neighborhood": "The Meadow"
+  },
+  "u-6240": {
+    "name": "Plunderground",
+    "neighborhood": "Main Field"
+  },
+  "u-6241": {
+    "name": "Pickleodeon",
+    "neighborhood": "Forest Entry"
+  },
+  "u-6242": {
+    "name": "Penguins Bubble Bar",
+    "neighborhood": "Mezzanine"
+  },
+  "u-6243": {
+    "name": "Pancake Playhouse",
+    "neighborhood": "Forest Entry"
+  },
+  "u-6244": {
+    "name": "Pampered Camper",
+    "neighborhood": "The Meadow"
+  },
+  "u-6245": {
+    "name": "OverFuckinRated",
+    "neighborhood": "Main Field"
+  },
+  "u-6246": {
+    "name": "Ourburritoroom",
+    "neighborhood": "Upper Bowl"
+  },
+  "u-6247": {
+    "name": "Oregon Snail Trail",
+    "neighborhood": "Riverside"
+  },
+  "u-6248": {
+    "name": "OnlyFeet",
+    "neighborhood": "Forest Entry"
+  },
+  "u-6249": {
+    "name": "Noah's Nuzzle Nook",
+    "neighborhood": "Riverside"
+  },
+  "u-6250": {
+    "name": "Moonrock",
+    "neighborhood": "Upper Bowl"
+  },
+  "u-6251": {
+    "name": "Mad Hatter's HIGH Tea",
+    "neighborhood": "The Meadow"
+  },
+  "u-6252": {
+    "name": "MOIST",
+    "neighborhood": "Upper Bowl"
+  },
+  "u-6253": {
+    "name": "Luna Pavilion",
+    "neighborhood": "Upper Bowl"
+  },
+  "u-6254": {
+    "name": "Lingerie Lounge",
+    "neighborhood": "The Meadow"
+  },
+  "u-6255": {
+    "name": "Lil' HellBake",
+    "neighborhood": "Forest Entry"
+  },
+  "u-6256": {
+    "name": "Krampusberg",
+    "neighborhood": "Forest Entry"
+  },
+  "u-6258": {
+    "name": "KID BAR",
+    "neighborhood": "Main Field"
+  },
+  "u-6259": {
+    "name": "KBUTT 101.3FM",
+    "neighborhood": "Upper Bowl"
+  },
+  "u-6260": {
+    "name": "It's All Downhill From Here",
+    "neighborhood": "Upper Bowl"
+  },
+  "u-6261": {
+    "name": "Interdimensional Snack Station",
+    "neighborhood": "The Meadow"
+  },
+  "u-6262": {
+    "name": "Hypnodrome",
+    "neighborhood": "Mezzanine"
+  },
+  "u-6263": {
+    "name": "Hippocampe",
+    "neighborhood": "Main Field"
+  },
+  "u-6265": {
+    "name": "Hang Loose",
+    "neighborhood": "Upper Bowl"
+  },
+  "u-6266": {
+    "name": "HYSS",
+    "neighborhood": "Mezzanine"
+  },
+  "u-6267": {
+    "name": "Gypsy Nebula Carnival",
+    "neighborhood": "Mezzanine"
+  },
+  "u-6268": {
+    "name": "Grappler's Grotto",
+    "neighborhood": "The Meadow"
+  },
+  "u-6269": {
+    "name": "Glowdeo Drive",
+    "neighborhood": "Main Field"
+  },
+  "u-6270": {
+    "name": "Gated Community",
+    "neighborhood": "The Meadow"
+  },
+  "u-6271": {
+    "name": "G SPOT",
+    "neighborhood": "Upper Bowl"
+  },
+  "u-6272": {
+    "name": "FryGuy Kitchen",
+    "neighborhood": "Mezzanine"
+  },
+  "u-6273": {
+    "name": "Frizz",
+    "neighborhood": "Main Field"
+  },
+  "u-6274": {
+    "name": "Only Fries",
+    "neighborhood": "North Point Forest"
+  },
+  "u-6275": {
+    "name": "Fresh Hot Noods",
+    "neighborhood": "Riverside"
+  },
+  "u-6276": {
+    "name": "Flower Bower",
+    "neighborhood": "The Meadow"
+  },
+  "u-6277": {
+    "name": "Fire Safety camp",
+    "neighborhood": "Main Field"
+  },
+  "u-6278": {
+    "name": "FIRE STARTERS",
+    "neighborhood": "Lower Bowl"
+  },
+  "u-6279": {
+    "name": "Elation Station",
+    "neighborhood": "Mezzanine"
+  },
+  "u-6280": {
+    "name": "EX-FILES",
+    "neighborhood": "Forest Entry"
+  },
+  "u-6281": {
+    "name": "Dusty Bunnies",
+    "neighborhood": "Lower Bowl"
+  },
+  "u-6282": {
+    "name": "Dr. Bev's Clinic",
+    "neighborhood": "Main Field"
+  },
+  "u-6283": {
+    "name": "Disco Jungle (Formerly Neon Jungle)",
+    "neighborhood": "Main Field"
+  },
+  "u-6284": {
+    "name": "Dick Shaped Foods",
+    "neighborhood": "Forest Entry"
+  },
+  "u-6287": {
+    "name": "Cult of the Peach",
+    "neighborhood": "Main Field"
+  },
+  "u-6288": {
+    "name": "Cr\u00eapiphany",
+    "neighborhood": "Main Field"
+  },
+  "u-6289": {
+    "name": "Crop Tops & Croissants",
+    "neighborhood": "The Meadow"
+  },
+  "u-6290": {
+    "name": "Costco Soulmate Trading Outlet",
+    "neighborhood": "Forest Entry"
+  },
+  "u-6291": {
+    "name": "Cosmic Chai",
+    "neighborhood": "Upper Bowl"
+  },
+  "u-6292": {
+    "name": "Citadel of the Eternal Pastry",
+    "neighborhood": "Upper Bowl"
+  },
+  "u-6293": {
+    "name": "Cirque De Licious",
+    "neighborhood": "Upper Bowl"
+  },
+  "u-6294": {
+    "name": "Church of Party",
+    "neighborhood": "Mezzanine"
+  },
+  "u-6295": {
+    "name": "Chameleon Camp",
+    "neighborhood": "Main Field"
+  },
+  "u-6296": {
+    "name": "Central Services (Rangers, Medical, Radios)",
+    "neighborhood": "Main Field"
+  },
+  "u-6297": {
+    "name": "Cats in Space!",
+    "neighborhood": "Mezzanine"
+  },
+  "u-6298": {
+    "name": "Camp of Cool Kids",
+    "neighborhood": "Forest Entry"
+  },
+  "u-6299": {
+    "name": "Camp Monkey Business (CMB)",
+    "neighborhood": "Main Field"
+  },
+  "u-6300": {
+    "name": "Camp Miss-Behaving",
+    "neighborhood": "The Meadow"
+  },
+  "u-6301": {
+    "name": "Camp FYFA",
+    "neighborhood": "Upper Bowl"
+  },
+  "u-6302": {
+    "name": "Camp Clusterfuck",
+    "neighborhood": "Mezzanine"
+  },
+  "u-6303": {
+    "name": "Camp Baggage Check",
+    "neighborhood": "The Meadow"
+  },
+  "u-6304": {
+    "name": "Caffeinated Catalyst",
+    "neighborhood": "Main Field"
+  },
+  "u-6305": {
+    "name": "CBGB Camp Biscuits, Gravy and Bacon",
+    "neighborhood": "The Meadow"
+  },
+  "u-6306": {
+    "name": "Bobablivion",
+    "neighborhood": "Main Field"
+  },
+  "u-6307": {
+    "name": "Blue Waffle",
+    "neighborhood": "Upper Bowl"
+  },
+  "u-6308": {
+    "name": "Black Hole West",
+    "neighborhood": "North Point Forest"
+  },
+  "u-6309": {
+    "name": "Bean Here Now",
+    "neighborhood": "Main Field"
+  },
+  "u-6310": {
+    "name": "Band Camp",
+    "neighborhood": "Forest Entry"
+  },
+  "u-6311": {
+    "name": "Baby Behead & Breakfast",
+    "neighborhood": "Upper Bowl"
+  },
+  "u-6312": {
+    "name": "BILY (Because I Love You) Camp",
+    "neighborhood": "Riverside"
+  },
+  "u-6313": {
+    "name": "Aucupouri Teahouse",
+    "neighborhood": "The Meadow"
+  },
+  "u-6314": {
+    "name": "Absinthe Minded",
+    "neighborhood": "Riverside"
+  },
+  "u-6315": {
+    "name": "ART BAR",
+    "neighborhood": "Upper Bowl"
+  },
+  "u-6317": {
+    "name": "Teenie Weenie Art Tent",
+    "neighborhood": "North Point Forest"
+  },
+  "u-6504": {
+    "name": "Kinky Fucking Camp",
+    "neighborhood": "Riverside"
+  },
+  "u-6707": {
+    "name": "Astro Shack Java JoINt",
+    "neighborhood": "The Meadow"
+  },
+  "u-6708": {
+    "name": "The Self Care Teddy Bear Lair",
+    "neighborhood": "Forest Entry"
+  },
+  "u-6709": {
+    "name": "OTD",
+    "neighborhood": "The Meadow"
+  },
+  "u-6710": {
+    "name": "Black Rock City Retirement Community",
+    "neighborhood": "The Meadow"
+  },
+  "u-6780": {
+    "name": "The Embassy",
+    "neighborhood": "Riverside"
+  },
+  "u-6785": {
+    "name": "Embassy After Dark",
+    "neighborhood": "Riverside"
+  }
+}
